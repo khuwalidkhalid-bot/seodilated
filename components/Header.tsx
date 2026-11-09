@@ -10,6 +10,7 @@ export default function Header() {
         <nav className="main-nav">
           <Link href="/">Home</Link>
           <Link href="/services">Services</Link>
+          <Link href="/managed-link-building">Managed</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/contact" className="nav-cta">

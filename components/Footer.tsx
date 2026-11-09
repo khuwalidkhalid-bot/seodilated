@@ -42,25 +42,57 @@ export default function Footer() {
               SEO<span>Dilated</span>
             </Link>
             <p style={{ marginTop: 14, maxWidth: 340 }}>
-              SEO, guest posting and link building done properly — manual
-              outreach, real websites, and full live-link reporting on every
+              SEO, guest posting and link building done properly: manual
+              outreach, real websites, and a full live-link report on every
               order.
             </p>
+            <div className="social-row">
+              {socialLinks.map((link) => (
+                <a
+                  key={link.id}
+                  href={link.url}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {link.platform}
+                </a>
+              ))}
+            </div>
           </div>
           <div>
-            <h4>Explore</h4>
+            <h4>Services</h4>
             <ul>
               <li>
-                <Link href="/">Home</Link>
+                <Link href="/services">All Services</Link>
               </li>
               <li>
-                <Link href="/services">Services</Link>
+                <Link href="/services">Guest Posts</Link>
               </li>
+              <li>
+                <Link href="/services">Niche Edits</Link>
+              </li>
+              <li>
+                <Link href="/services">Press Releases</Link>
+              </li>
+              <li>
+                <Link href="/managed-link-building">Managed Link Building</Link>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4>Company</h4>
+            <ul>
               <li>
                 <Link href="/about">About</Link>
               </li>
               <li>
+                <Link href="/managed-link-building">Managed Link Building</Link>
+              </li>
+              <li>
                 <Link href="/contact">Contact</Link>
+              </li>
+              <li>
+                <Link href="/">Home</Link>
               </li>
             </ul>
           </div>
@@ -73,13 +105,9 @@ export default function Footer() {
               <li>
                 <a href={phoneHref}>{phone}</a>
               </li>
-              {socialLinks.map((link) => (
-                <li key={link.id}>
-                  <a href={link.url} target="_blank" rel="noreferrer">
-                    {link.platform}
-                  </a>
-                </li>
-              ))}
+              <li>
+                <Link href="/contact">Free site review</Link>
+              </li>
             </ul>
           </div>
         </div>
