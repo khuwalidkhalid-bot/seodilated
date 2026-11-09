@@ -13,21 +13,29 @@ English copy throughout.
 
 | Route       | Description                                                                 |
 | ----------- | --------------------------------------------------------------------------- |
-| `/`         | Home — hero, services preview (live from Supabase), why-us, 4-step process, FAQ, CTA |
+| `/`         | Home — hero, services and projects (all live from Supabase), why-us, 4-step process, FAQ, CTA |
 | `/services` | All active services, read live from the Supabase `services` table            |
-| `/about`    | About Khuwalid Khalid and the SEODilated team                               |
-| `/contact`  | Contact details plus a working enquiry form that inserts into `leads`       |
+| `/about`    | About text and team members, read live from Supabase                         |
+| `/contact`  | Contact details (live from Supabase) plus a working enquiry form that inserts into `leads` |
 | `/kk`       | Admin dashboard (Supabase Auth sign-in required)                            |
 
 ## How data flows
 
 - **Public site** uses the Supabase **anon key**. Row Level Security allows
   anonymous visitors only to:
-  - `INSERT` into `leads` (the contact form), and
-  - `SELECT` services where `active = true`.
+  - `INSERT` into `leads` (the contact form),
+  - `SELECT` services where `active = true`, and
+  - `SELECT` from `site_content`, `team_members`, `projects` and
+    `social_links` — so the hero, about text, contact details, team,
+    projects and social links (footer + contact page) shown on the site
+    all come straight from the database.
 - **Admin dashboard** (`/kk`) uses **Supabase Auth** (email + password).
-  Signed-in (authenticated) users have full access to all four tables —
-  `leads`, `clients`, `orders`, `services` — enforced by RLS policies.
+  Signed-in (authenticated) users have full access to all tables —
+  `leads`, `clients`, `orders`, `services`, `site_content`, `team_members`,
+  `projects`, `social_links` — enforced by RLS policies. The dashboard
+  tabs (Overview, Leads, Clients, Orders, Services, Site Content, Team,
+  Projects, Social Links) edit this data, and every change is reflected
+  on the live website.
 - The **service_role key is never used** in this project. Keep it inside
   Supabase only.
 
