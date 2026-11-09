@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
+import ContactDetails from "@/components/ContactDetails";
 
 export const metadata: Metadata = {
   title: "Contact — SEODilated",
@@ -23,53 +24,7 @@ export default function ContactPage() {
 
       <section className="section">
         <div className="container contact-layout">
-          <div className="card">
-            <h3 style={{ marginBottom: 8 }}>Direct contact</h3>
-            <div className="contact-detail">
-              <div className="icon">✉</div>
-              <div>
-                <h4>Email</h4>
-                <a href="mailto:khuwalid.khalid@gmail.com">
-                  khuwalid.khalid@gmail.com
-                </a>
-              </div>
-            </div>
-            <div className="contact-detail">
-              <div className="icon">☎</div>
-              <div>
-                <h4>Phone / WhatsApp</h4>
-                <a href="tel:+923363308090">+92-336-3308090</a>
-                <br />
-                <a href="tel:+447832367128">+44 7832 367128</a>
-              </div>
-            </div>
-            <div className="contact-detail">
-              <div className="icon">◈</div>
-              <div>
-                <h4>Fiverr</h4>
-                <a
-                  href="https://www.fiverr.com/ventsmagazine"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  fiverr.com/ventsmagazine
-                </a>
-              </div>
-            </div>
-            <div className="contact-detail">
-              <div className="icon">in</div>
-              <div>
-                <h4>LinkedIn</h4>
-                <a
-                  href="https://www.linkedin.com/in/khuwalid-khalid/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  linkedin.com/in/khuwalid-khalid
-                </a>
-              </div>
-            </div>
-          </div>
+          <ContactDetails />
 
           <div className="card">
             <h3 style={{ marginBottom: 6 }}>Send a message</h3>
