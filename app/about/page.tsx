@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import AboutText from "@/components/AboutText";
+import TeamSection from "@/components/TeamSection";
 
 export const metadata: Metadata = {
   title: "About — SEODilated",
@@ -46,27 +48,7 @@ export default function AboutPage() {
               <div className="section-head" style={{ marginBottom: 20 }}>
                 <h2>Meet Khuwalid Khalid</h2>
               </div>
-              <p style={{ color: "var(--muted)", marginBottom: 16 }}>
-                SEODilated is led by <strong style={{ color: "var(--text)" }}>Khuwalid Khalid</strong>,
-                an SEO specialist with 7 years of experience in search engine
-                optimisation, guest posting and link building. Over that time
-                he has run outreach campaigns for agencies and businesses
-                across a wide range of niches, always with the same rule:
-                real websites, real placements, and a full report the client
-                can check.
-              </p>
-              <p style={{ color: "var(--muted)", marginBottom: 16 }}>
-                His approach is deliberately straightforward. Every new enquiry
-                starts with an honest review of your site. If a service will
-                help, you will get a clear plan and a fair price. If it will
-                not, you will be told that too — before you spend anything.
-              </p>
-              <p style={{ color: "var(--muted)" }}>
-                Today, SEODilated delivers through a wider team covering web
-                development, WordPress, design and ecommerce — so the same
-                people who grow your traffic can also build and maintain the
-                site it lands on.
-              </p>
+              <AboutText />
             </div>
             <div className="card">
               <h3 style={{ marginBottom: 14 }}>At a glance</h3>
@@ -124,7 +106,9 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="section">
+      <TeamSection />
+
+      <section className="section alt">
         <div className="container">
           <div className="cta-band">
             <h2>Work with us</h2>
