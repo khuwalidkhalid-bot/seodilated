@@ -1,5 +1,7 @@
 import Link from "next/link";
 import ServicesGrid from "@/components/ServicesGrid";
+import Hero from "@/components/Hero";
+import ProjectsSection from "@/components/ProjectsSection";
 
 const whyUs = [
   {
@@ -69,28 +71,7 @@ const faqs = [
 export default function Home() {
   return (
     <>
-      <section className="hero">
-        <div className="container">
-          <span className="hero-badge">SEO · Guest Posts · Link Building</span>
-          <h1>
-            Grow your search visibility with{" "}
-            <span className="accent">links that actually count.</span>
-          </h1>
-          <p className="lead">
-            SEODilated is a specialist SEO agency for guest posts, manual link
-            building and search visibility. Real websites, honest advice, and a
-            full live-link report on every single order.
-          </p>
-          <div className="hero-actions">
-            <Link href="/contact" className="btn btn-primary">
-              Get a Free Site Review
-            </Link>
-            <Link href="/services" className="btn btn-outline">
-              View Services
-            </Link>
-          </div>
-        </div>
-      </section>
+      <Hero />
 
       <section className="section">
         <div className="container">
@@ -110,6 +91,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <ProjectsSection />
 
       <section className="section alt">
         <div className="container">
