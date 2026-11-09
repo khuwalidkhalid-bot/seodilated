@@ -16,8 +16,8 @@ export default function ServicesPage() {
           <h1>Our Services</h1>
           <p>
             Every service is delivered by our own team and reported in full.
-            Prices shown are exactly as listed — where a service is quoted per
-            project, contact us for an honest assessment first.
+            Pricing depends on your site and your goals — use the Contact for
+            price button on any service and we will send you an honest quote.
           </p>
         </div>
       </section>
