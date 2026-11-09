@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import ContactForm from "@/components/ContactForm";
 import ContactDetails from "@/components/ContactDetails";
 
@@ -32,7 +33,9 @@ export default function ContactPage() {
               Fill in the form and your enquiry will come straight to us. We
               usually reply with an initial review of your site.
             </p>
-            <ContactForm />
+            <Suspense fallback={<p className="empty-note">Loading form…</p>}>
+              <ContactForm />
+            </Suspense>
           </div>
         </div>
       </section>
