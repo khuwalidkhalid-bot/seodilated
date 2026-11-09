@@ -4,103 +4,147 @@ import Hero from "@/components/Hero";
 import ProjectsSection from "@/components/ProjectsSection";
 import TeamSection from "@/components/TeamSection";
 
-const stats = [
-  { num: "7+", lbl: "Years Experience" },
-  { num: "8", lbl: "Specialist Services" },
-  { num: "60-Day", lbl: "Link Replacement" },
-  { num: "100%", lbl: "Manual Outreach" },
-];
+function Glyph({ d, circles }: { d: string[]; circles?: { cx: number; cy: number; r: number }[] }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      {circles?.map((c, i) => (
+        <circle key={i} cx={c.cx} cy={c.cy} r={c.r} />
+      ))}
+      {d.map((p, i) => (
+        <path key={i} d={p} />
+      ))}
+    </svg>
+  );
+}
 
-const whyUs = [
+const platformFeatures = [
   {
-    title: "Real, high-authority websites",
-    text: "Your links are placed on genuine, established websites with real content and real readers, not on networks built purely to sell links. Each site is checked before your content goes anywhere near it.",
+    title: "Vetted Publisher Network",
+    text: "Real, high-authority websites across 15+ niches. Every site is checked before use, then matched to your site by relevance and authority, never picked at random from a list.",
+    icon: (
+      <Glyph
+        circles={[
+          { cx: 5, cy: 12, r: 2.5 },
+          { cx: 19, cy: 6, r: 2.5 },
+          { cx: 19, cy: 18, r: 2.5 },
+        ]}
+        d={["M7.3 10.8 16.7 7.2", "M7.3 13.2l9.4 3.6"]}
+      />
+    ),
   },
   {
-    title: "Manual outreach only",
-    text: "Every placement is earned by contacting real website owners and editors directly. No automation tools, no bulk spam and no shortcuts that could put your site at risk.",
+    title: "A Real Person On Your Campaign",
+    text: "You deal directly with the specialist running your order. Questions go to the person doing the work, not into a ticket queue answered by a bot.",
+    icon: (
+      <Glyph
+        circles={[{ cx: 12, cy: 8, r: 3.5 }]}
+        d={["M5 20c1.2-3.4 3.8-5 7-5s5.8 1.6 7 5"]}
+      />
+    ),
   },
   {
-    title: "Verified link by link",
-    text: "We check every placement ourselves before it reaches your report, so what you are told you received is exactly what is live on the page.",
+    title: "Monitoring & Replacement",
+    text: "Every live link is reported to you and checked after delivery. If a link drops within 60 days, it is replaced free with a comparable placement.",
+    icon: (
+      <Glyph
+        d={[
+          "M12 3l7 3v5c0 4.6-3 7.7-7 9-4-1.3-7-4.4-7-9V6l7-3z",
+          "M9 12l2 2 4-4",
+        ]}
+      />
+    ),
   },
   {
-    title: "An honest review before you pay",
-    text: "We look at your site first and tell you plainly what will help and what will not. If a service is a poor fit for your goals, we say so before you spend anything.",
-  },
-  {
-    title: "Niche-relevant placements",
-    text: "Links come from websites in or close to your niche, placed inside relevant articles, so they read naturally to visitors and make sense to search engines.",
-  },
-  {
-    title: "Free 60-day link replacement",
-    text: "If a placement drops or is removed within 60 days of delivery, we replace it with a comparable one at no cost to you. Your order keeps its value.",
-  },
-];
-
-const deliverables = [
-  {
-    title: "Full live-link report",
-    text: "The exact URL of every placement, delivered in one report you can open and check yourself at any time.",
-  },
-  {
-    title: "Anchor text control",
-    text: "You choose or approve the anchor text for your links, kept natural, varied and relevant to the page it points to.",
-  },
-  {
-    title: "Niche-relevant placement",
-    text: "Every link sits inside relevant content on a website that genuinely fits your subject area.",
-  },
-  {
-    title: "Dofollow where the site allows",
-    text: "We aim for dofollow links on every order. If a site only allows another attribute, you know before it goes live.",
-  },
-  {
-    title: "Progress updates",
-    text: "You hear from us while the order runs, with honest updates on outreach and placements, not just at the end.",
-  },
-  {
-    title: "60-day replacement guarantee",
-    text: "Any link that drops or is removed within 60 days of delivery is replaced free of charge.",
+    title: "Placement, Managed For You",
+    text: "Brief, content, outreach, publisher approval and go-live are handled by our team from start to finish, with honest progress updates while the work runs.",
+    icon: (
+      <Glyph d={["M12 3l9 5-9 5-9-5 9-5z", "M3 13l9 5 9-5"]} />
+    ),
   },
 ];
 
 const steps = [
   {
-    num: "01",
-    title: "Share your site and goals",
-    text: "Send us your website URL, your niche and what you want to achieve, whether that is stronger authority, support for a key page or better visibility overall. A short message is enough to start.",
+    num: "1",
+    title: "Define the target",
+    text: "Share your site, your niche and your goals. We review your current link profile and match publishers to it by relevance and authority, with a clear quote before anything starts.",
   },
   {
-    num: "02",
-    title: "Honest review and site matching",
-    text: "We review your site and its current link profile, tell you plainly what would help, and match your goals to suitable websites from our vetted publisher list, with a clear quote before any work begins.",
+    num: "2",
+    title: "We execute the placement",
+    text: "Our team handles the content, the manual outreach and the publisher approval, then places your link inside a relevant article on the chosen website.",
   },
   {
-    num: "03",
-    title: "Manual outreach and placement",
-    text: "Our team contacts site owners directly, arranges the content and places your links inside relevant articles. Every step is done by hand, the way real editorial links are earned.",
-  },
-  {
-    num: "04",
-    title: "Live-link report and aftercare",
-    text: "You receive a report with the live URL of every placement, ready to verify yourself. After delivery we stay available for questions, and any link that drops within 60 days is replaced free.",
+    num: "3",
+    title: "Track and replace",
+    text: "You receive a full live-link report you can verify yourself. Every link is covered by our free 60-day replacement if it drops or is removed.",
   },
 ];
 
-const pricingPoints = [
+const managedPoints = [
+  "Strategy, site matching and placement handled for you",
+  "Content and manual outreach included",
+  "Live-link report on every batch",
+  "60-day replacement cover on every link",
+];
+
+const singlePoints = [
+  "Guest posts and niche edits on vetted sites",
+  "Pick by niche and authority",
+  "No subscription, no minimum order",
+  "Full live-link report with every placement",
+];
+
+const whyCards = [
   {
-    title: "Priced per placement",
-    text: "You see exactly which websites are suggested and what each placement costs before you commit to anything.",
+    title: "Manual outreach only",
+    text: "Every placement is earned by contacting real website owners and editors directly. No automation tools, no bulk spam, no shortcuts that put your site at risk.",
+    icon: (
+      <Glyph
+        d={["M4 20l1-4L16.5 4.5a2.1 2.1 0 0 1 3 3L8 19l-4 1z"]}
+      />
+    ),
   },
   {
-    title: "Matched to your budget",
-    text: "Tell us what you can spend and we will suggest the strongest suitable sites that fit it, honestly and without padding.",
+    title: "Honest review before you pay",
+    text: "We look at your site first and tell you plainly what will help and what will not. If a service is a poor fit for your goals, we say so before you spend anything.",
+    icon: (
+      <Glyph
+        circles={[{ cx: 12, cy: 12, r: 3 }]}
+        d={["M2 12s3.5-6.5 10-6.5S22 12 22 12s-3.5 6.5-10 6.5S2 12 2 12z"]}
+      />
+    ),
   },
   {
-    title: "Free review, no obligation",
-    text: "The site review and the quote cost nothing. If the plan is not right for you, you are free to walk away.",
+    title: "Verified link by link",
+    text: "We check every placement ourselves before it reaches your report, so what you are told you received is exactly what is live on the page.",
+    icon: (
+      <Glyph
+        circles={[{ cx: 12, cy: 12, r: 9 }]}
+        d={["M8.5 12.5l2.5 2.5 4.5-5"]}
+      />
+    ),
   },
+  {
+    title: "Replacement guarantee",
+    text: "If a placement drops or is removed within 60 days of delivery, we replace it with a comparable one at no cost to you. The risk sits with us, not with you.",
+    icon: <Glyph d={["M20 12a8 8 0 1 1-2.3-5.6", "M20 3v4h-4"]} />,
+  },
+];
+
+const stats = [
+  { num: "7+", lbl: "Years Experience" },
+  { num: "8", lbl: "Specialist Services" },
+  { num: "60-Day", lbl: "Link Replacement" },
+  { num: "100%", lbl: "Manual Outreach" },
 ];
 
 const faqs = [
@@ -135,22 +179,35 @@ export default function Home() {
     <>
       <Hero />
 
-      <section className="section slim alt">
+      {/* 2. Platform */}
+      <section className="section">
         <div className="container">
-          <div className="stat-grid">
-            {stats.map((s) => (
-              <div className="stat-card" key={s.lbl}>
-                <div className="num">{s.num}</div>
-                <div className="lbl">{s.lbl}</div>
+          <div className="section-head">
+            <span className="eyebrow">The Service</span>
+            <h2>Link building, handled end to end.</h2>
+            <p>
+              One service covers the whole job: finding the right websites,
+              producing the content, placing the link and standing behind it
+              after it goes live.
+            </p>
+          </div>
+          <div className="grid grid-2">
+            {platformFeatures.map((f) => (
+              <div className="card" key={f.title}>
+                <div className="icon">{f.icon}</div>
+                <h3>{f.title}</h3>
+                <p>{f.text}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="section">
+      {/* 3. Services */}
+      <section className="section alt">
         <div className="container">
           <div className="section-head">
+            <span className="eyebrow">What We Do</span>
             <h2>Our services</h2>
             <p>
               Eight specialist services covering the work that actually gets a
@@ -168,63 +225,21 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section alt">
-        <div className="container">
-          <div className="section-head">
-            <h2>Why choose SEODilated</h2>
-            <p>
-              Plenty of sellers will sell you links. Here is how we work
-              differently, and why it matters for your site.
-            </p>
-          </div>
-          <div className="grid grid-3">
-            {whyUs.map((item) => (
-              <div className="card" key={item.title}>
-                <div className="icon">✓</div>
-                <h3>{item.title}</h3>
-                <p>{item.text}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      {/* 4. How it works */}
       <section className="section">
         <div className="container">
           <div className="section-head">
-            <h2>What you get with every order</h2>
+            <span className="eyebrow">How It Works</span>
+            <h2>From brief to live link, in three steps.</h2>
             <p>
-              Whichever service you choose, the same standards apply. This is
-              the minimum you can expect from every single order.
+              A simple, transparent process. You always know what stage your
+              order is at.
             </p>
           </div>
-          <ul className="check-list">
-            {deliverables.map((d) => (
-              <li className="check-item" key={d.title}>
-                <span className="check-icon">✓</span>
-                <div>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
-
-      <section className="section alt">
-        <div className="container">
-          <div className="section-head">
-            <h2>How it works</h2>
-            <p>
-              A simple, transparent process from first message to final
-              report. You always know what stage your order is at.
-            </p>
-          </div>
-          <div className="grid grid-4">
+          <div className="grid grid-3">
             {steps.map((s) => (
               <div className="card" key={s.num}>
-                <div className="step-num">{s.num}</div>
+                <div className="step-circle">{s.num}</div>
                 <h3>{s.title}</h3>
                 <p>{s.text}</p>
               </div>
@@ -233,42 +248,99 @@ export default function Home() {
         </div>
       </section>
 
-      <ProjectsSection />
-
-      <TeamSection alt />
-
-      <section className="section">
+      {/* 5. Two ways in */}
+      <section className="section alt">
         <div className="container">
           <div className="section-head">
-            <h2>Straightforward pricing, no fake packages</h2>
+            <span className="eyebrow">Two Ways In</span>
+            <h2>Managed campaigns. Or single placements.</h2>
             <p>
-              We do not sell padded packages with invented discounts. Pricing
-              depends on the websites your links are placed on, your niche
-              and how much work your goals need, so every quote is built
-              around your actual order. Tell us your goals and your budget,
-              and we will come back with real sites and real prices.
+              The same vetted websites and the same team either way. Only the
+              amount of work you hand over changes.
             </p>
           </div>
-          <div className="grid grid-3">
-            {pricingPoints.map((p) => (
-              <div className="card" key={p.title}>
-                <h3>{p.title}</h3>
-                <p>{p.text}</p>
-              </div>
-            ))}
-          </div>
-          <div style={{ marginTop: 34 }}>
-            <Link href="/contact" className="btn btn-primary">
-              Contact for Price
-            </Link>
+          <div className="options-grid">
+            <div className="option-card featured">
+              <div className="opt-kicker">Managed Campaigns</div>
+              <h3>Our team runs it end to end.</h3>
+              <ul className="option-list">
+                {managedPoints.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+              <Link href="/contact" className="btn btn-primary">
+                Start a campaign
+              </Link>
+            </div>
+            <div className="option-card">
+              <div className="opt-kicker">Single Placements</div>
+              <h3>Pay per placement.</h3>
+              <ul className="option-list">
+                {singlePoints.map((p) => (
+                  <li key={p}>{p}</li>
+                ))}
+              </ul>
+              <Link href="/services" className="btn btn-outline">
+                Contact for price
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="section alt">
+      {/* 6. Why SEODilated */}
+      <section className="section">
         <div className="container">
           <div className="section-head">
-            <h2>Frequently asked questions</h2>
+            <span className="eyebrow">Why SEODilated</span>
+            <h2>Built on manual work, not automation.</h2>
+            <p>
+              Plenty of sellers will sell you links. Here is how we work
+              differently, and why it matters for your site.
+            </p>
+          </div>
+          <div className="grid grid-4">
+            {whyCards.map((c) => (
+              <div className="card" key={c.title}>
+                <div className="icon">{c.icon}</div>
+                <h3>{c.title}</h3>
+                <p>{c.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 7. By the numbers */}
+      <section className="section slim alt">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">By The Numbers</span>
+            <h2>The short version.</h2>
+          </div>
+          <div className="stat-grid">
+            {stats.map((s) => (
+              <div className="stat-card" key={s.lbl}>
+                <div className="num">{s.num}</div>
+                <div className="lbl">{s.lbl}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 8. Projects (hidden while empty) */}
+      <ProjectsSection />
+
+      {/* 9. Team */}
+      <TeamSection alt />
+
+      {/* 10. FAQ */}
+      <section className="section">
+        <div className="container">
+          <div className="section-head">
+            <span className="eyebrow">Common Questions</span>
+            <h2>Direct answers, before you ask.</h2>
             <p>
               Straight answers to the questions we hear most often. Anything
               else, just ask.
@@ -285,15 +357,15 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section">
+      {/* 11. Final CTA */}
+      <section className="section slim">
         <div className="container">
           <div className="cta-band">
-            <h2>Get a free, honest review of your site</h2>
+            <h2>Two ways in. One team behind both.</h2>
             <p>
-              Send us your website and tell us where you want it to go. We
-              will look at your link profile, your niche and your goals, then
-              tell you plainly what we would do and what it would cost. No
-              obligation and no pressure.
+              Start with a single placement or hand us the whole campaign.
+              Either way it begins with a free, honest review of your site
+              and a clear quote, with no obligation.
             </p>
             <Link href="/contact" className="btn btn-primary">
               Get My Free Review
