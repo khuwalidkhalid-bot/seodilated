@@ -17,7 +17,7 @@ English copy throughout.
 | `/services` | All active services, read live from the Supabase `services` table            |
 | `/about`    | About Khuwalid Khalid and the SEODilated team                               |
 | `/contact`  | Contact details plus a working enquiry form that inserts into `leads`       |
-| `/admin`    | Admin dashboard (Supabase Auth sign-in required)                            |
+| `/kk`       | Admin dashboard (Supabase Auth sign-in required)                            |
 
 ## How data flows
 
@@ -25,7 +25,7 @@ English copy throughout.
   anonymous visitors only to:
   - `INSERT` into `leads` (the contact form), and
   - `SELECT` services where `active = true`.
-- **Admin dashboard** (`/admin`) uses **Supabase Auth** (email + password).
+- **Admin dashboard** (`/kk`) uses **Supabase Auth** (email + password).
   Signed-in (authenticated) users have full access to all four tables —
   `leads`, `clients`, `orders`, `services` — enforced by RLS policies.
 - The **service_role key is never used** in this project. Keep it inside
@@ -64,7 +64,7 @@ Supabase:
 1. Open the Supabase project → **Authentication** → **Users**.
 2. Click **Add user** → enter the admin email and a strong password
    (tick "Auto Confirm User" if offered).
-3. Sign in with that email and password at `/admin` on the website.
+3. Sign in with that email and password at `/kk` on the website.
 
 To add another admin later, repeat the same steps. Anyone with a Supabase
 Auth account in this project can sign in to the dashboard, so only create
@@ -89,7 +89,7 @@ app/
   services/         Services page
   about/            About page
   contact/          Contact page
-  admin/            Admin dashboard (client component, Supabase Auth)
+  kk/               Admin dashboard (client component, Supabase Auth)
   globals.css       All styling (hand-written, no framework)
 components/
   Header.tsx, Footer.tsx
