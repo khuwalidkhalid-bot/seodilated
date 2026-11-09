@@ -45,6 +45,9 @@ export default function Footer() {
                 <a href="tel:+923363308090">+92-336-3308090</a>
               </li>
               <li>
+                <a href="tel:+447832367128">+44 7832 367128</a>
+              </li>
+              <li>
                 <a
                   href="https://www.fiverr.com/ventsmagazine"
                   target="_blank"
