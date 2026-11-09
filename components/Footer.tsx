@@ -1,7 +1,38 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Year from "@/components/Year";
+import {
+  FALLBACK_SOCIAL_LINKS,
+  FALLBACK_SITE_CONTENT,
+  fetchSiteContent,
+  fetchSocialLinks,
+} from "@/lib/site";
+import type { SiteContent, SocialLink } from "@/lib/types";
 
 export default function Footer() {
+  const [content, setContent] = useState<SiteContent>(FALLBACK_SITE_CONTENT);
+  const [socialLinks, setSocialLinks] =
+    useState<SocialLink[]>(FALLBACK_SOCIAL_LINKS);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchSiteContent().then((c) => {
+      if (!cancelled) setContent(c);
+    });
+    fetchSocialLinks().then((links) => {
+      if (!cancelled) setSocialLinks(links);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const email = content.contact_email ?? FALLBACK_SITE_CONTENT.contact_email!;
+  const phone = content.contact_phone ?? FALLBACK_SITE_CONTENT.contact_phone!;
+  const phoneHref = `tel:${phone.replace(/[^+\d]/g, "")}`;
+
   return (
     <footer className="site-footer">
       <div className="container">
@@ -37,34 +68,18 @@ export default function Footer() {
             <h4>Get in touch</h4>
             <ul>
               <li>
-                <a href="mailto:khuwalid.khalid@gmail.com">
-                  khuwalid.khalid@gmail.com
-                </a>
+                <a href={`mailto:${email}`}>{email}</a>
               </li>
               <li>
-                <a href="tel:+923363308090">+92-336-3308090</a>
+                <a href={phoneHref}>{phone}</a>
               </li>
-              <li>
-                <a href="tel:+447832367128">+44 7832 367128</a>
-              </li>
-              <li>
-                <a
-                  href="https://www.fiverr.com/ventsmagazine"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Fiverr
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/khuwalid-khalid/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
-                </a>
-              </li>
+              {socialLinks.map((link) => (
+                <li key={link.id}>
+                  <a href={link.url} target="_blank" rel="noreferrer">
+                    {link.platform}
+                  </a>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
