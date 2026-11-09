@@ -12,7 +12,6 @@ export default function Header() {
           <Link href="/services">Services</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
-          <Link href="/admin">Admin</Link>
           <Link href="/contact" className="nav-cta">
             Free Site Review
           </Link>
