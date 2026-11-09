@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { fetchTeamMembers } from "@/lib/site";
 import type { TeamMember } from "@/lib/types";
 
-export default function TeamSection() {
+export default function TeamSection({ alt = false }: { alt?: boolean }) {
   const [members, setMembers] = useState<TeamMember[]>([]);
   const [loaded, setLoaded] = useState(false);
 
@@ -23,11 +23,11 @@ export default function TeamSection() {
   if (!loaded || members.length === 0) return null;
 
   return (
-    <section className="section">
+    <section className={alt ? "section alt" : "section"}>
       <div className="container">
         <div className="section-head">
           <h2>Meet the team</h2>
-          <p>The people behind SEODilated — specialists, not account managers.</p>
+          <p>The people behind SEODilated. Specialists, not account managers.</p>
         </div>
         <div className="grid grid-3">
           {members.map((m) => (

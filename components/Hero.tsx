@@ -34,6 +34,12 @@ export default function Hero() {
             View Services
           </Link>
         </div>
+        <div className="hero-trust">
+          <span>7 years of SEO experience</span>
+          <span>100% manual outreach</span>
+          <span>Full live-link report on every order</span>
+          <span>Free 60-day link replacement</span>
+        </div>
       </div>
     </section>
   );

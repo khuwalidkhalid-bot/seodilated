@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import type { Service } from "@/lib/types";
 
@@ -60,9 +61,12 @@ export default function ServicesGrid({ limit }: { limit?: number }) {
           <div className="icon">◆</div>
           <h3>{s.title}</h3>
           {s.description && <p>{s.description}</p>}
-          {s.price != null && (
-            <div className="price">${Number(s.price).toLocaleString()}</div>
-          )}
+          <Link
+            href={`/contact?service=${encodeURIComponent(s.title)}`}
+            className="btn btn-primary btn-small card-cta"
+          >
+            Contact for price
+          </Link>
         </div>
       ))}
     </div>

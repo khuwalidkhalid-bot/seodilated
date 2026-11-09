@@ -1,10 +1,14 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { supabase } from "@/lib/supabase";
 import type { Service } from "@/lib/types";
 
 export default function ContactForm() {
+  const searchParams = useSearchParams();
+  const requestedService = searchParams.get("service");
+  const prefilled = useRef(false);
   const [services, setServices] = useState<Service[]>([]);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -26,6 +30,28 @@ export default function ContactForm() {
       if (data) setServices(data as Service[]);
     })();
   }, []);
+
+  // Prefill from /contact?service=<title> (e.g. a "Contact for price" button):
+  // preselect the matching service and draft the price-enquiry message. Runs
+  // once, as soon as the services list is available; with no (or an unknown)
+  // param the form is left exactly as it was.
+  useEffect(() => {
+    if (prefilled.current || !requestedService || services.length === 0) {
+      return;
+    }
+    const wanted = requestedService.trim().toLowerCase();
+    const match =
+      services.find((s) => s.title === requestedService) ??
+      services.find((s) => s.title.toLowerCase() === wanted);
+    if (!match) return;
+    prefilled.current = true;
+    setService(match.title);
+    setMessage(
+      (current) =>
+        current ||
+        `Hi, I would like to know the price for the ${match.title} service.`,
+    );
+  }, [services, requestedService]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();

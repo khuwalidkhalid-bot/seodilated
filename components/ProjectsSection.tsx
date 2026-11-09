@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { fetchProjects } from "@/lib/site";
 import type { Project } from "@/lib/types";
 
-export default function ProjectsSection() {
+export default function ProjectsSection({ alt = false }: { alt?: boolean }) {
   const [projects, setProjects] = useState<Project[]>([]);
   const [loaded, setLoaded] = useState(false);
 
@@ -24,13 +24,13 @@ export default function ProjectsSection() {
   if (!loaded || projects.length === 0) return null;
 
   return (
-    <section className="section">
+    <section className={alt ? "section alt" : "section"}>
       <div className="container">
         <div className="section-head">
           <h2>Recent projects</h2>
           <p>
-            A selection of websites and campaigns we have worked on — every
-            placement reported with a live link the client can verify.
+            A selection of websites and campaigns we have worked on. Every
+            placement is reported with a live link the client can verify.
           </p>
         </div>
         <div className="grid grid-3">
