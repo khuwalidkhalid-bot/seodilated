@@ -39,6 +39,8 @@ export default function ContactPage() {
               <div>
                 <h4>Phone / WhatsApp</h4>
                 <a href="tel:+923363308090">+92-336-3308090</a>
+                <br />
+                <a href="tel:+447832367128">+44 7832 367128</a>
               </div>
             </div>
             <div className="contact-detail">
