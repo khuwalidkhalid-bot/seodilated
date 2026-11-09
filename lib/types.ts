@@ -39,3 +39,46 @@ export interface Service {
   active: boolean;
   created_at: string;
 }
+
+export interface SiteContent {
+  id: number;
+  hero_badge: string | null;
+  hero_title: string | null;
+  hero_subtitle: string | null;
+  about_text: string | null;
+  contact_email: string | null;
+  contact_phone: string | null;
+  updated_at: string | null;
+}
+
+export interface TeamMember {
+  id: string;
+  name: string;
+  role: string | null;
+  bio: string | null;
+  photo_url: string | null;
+  sort_order: number;
+  active: boolean;
+  created_at: string;
+}
+
+export interface SocialLink {
+  id: string;
+  platform: string;
+  url: string;
+  sort_order: number;
+  active: boolean;
+  created_at: string;
+}
+
+export interface Project {
+  id: string;
+  title: string;
+  description: string | null;
+  category: string | null;
+  site_url: string | null;
+  result_note: string | null;
+  sort_order: number;
+  active: boolean;
+  created_at: string;
+}
