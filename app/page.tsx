@@ -1,5 +1,6 @@
 import Link from "next/link";
 import ServicesGrid from "@/components/ServicesGrid";
+import ServiceDetailsSection from "@/components/ServiceDetailsSection";
 import Hero from "@/components/Hero";
 import ProjectsSection from "@/components/ProjectsSection";
 import TeamSection from "@/components/TeamSection";
@@ -212,6 +213,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* 3b. Services in detail */}
+      <ServiceDetailsSection />
 
       {/* 4. How it works */}
       <section className="section">
