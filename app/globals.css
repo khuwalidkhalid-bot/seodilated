@@ -149,6 +149,15 @@ a {
   box-shadow: 0 12px 32px rgba(0, 179, 65, 0.38);
 }
 
+/* Page-hero link colour must never override button text */
+.page-hero .btn-primary {
+  color: #0a0a0a;
+}
+
+.page-hero .btn-outline {
+  color: var(--accent);
+}
+
 .btn-outline {
   border-color: var(--accent);
   color: var(--accent);
@@ -384,7 +393,7 @@ a {
   font-size: 1.08rem;
 }
 
-.page-hero a {
+.page-hero a:not(.btn) {
   color: var(--accent);
   font-weight: 600;
 }
@@ -917,13 +926,13 @@ a {
 }
 
 .contact-detail p,
-.contact-detail a {
+.contact-detail a:not(.btn) {
   color: var(--muted);
   font-size: 0.95rem;
   word-break: break-word;
 }
 
-.contact-detail a:hover {
+.contact-detail a:not(.btn):hover {
   color: var(--accent);
 }
 
@@ -958,7 +967,7 @@ a {
 }
 
 .footer-grid p,
-.footer-grid a {
+.footer-grid a:not(.btn) {
   color: var(--muted);
   font-size: 0.95rem;
 }
@@ -970,7 +979,7 @@ a {
   gap: 9px;
 }
 
-.footer-grid a:hover {
+.footer-grid a:not(.btn):hover {
   color: var(--accent);
 }
 
@@ -981,7 +990,7 @@ a {
   margin-top: 18px;
 }
 
-.social-row a {
+.social-row a:not(.btn) {
   border: 1px solid var(--border);
   padding: 7px 14px;
   border-radius: 999px;
@@ -990,7 +999,7 @@ a {
   color: var(--body);
 }
 
-.social-row a:hover {
+.social-row a:not(.btn):hover {
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -1836,7 +1845,7 @@ table.data select {
   gap: 6px;
 }
 
-.legal-prose a {
+.legal-prose a:not(.btn) {
   color: var(--accent);
   font-weight: 600;
 }
@@ -1884,11 +1893,11 @@ table.data select {
   margin-bottom: 20px;
 }
 
-.footer-legal a {
+.footer-legal a:not(.btn) {
   color: var(--muted);
   font-size: 0.9rem;
 }
 
-.footer-legal a:hover {
+.footer-legal a:not(.btn):hover {
   color: var(--accent);
 }
