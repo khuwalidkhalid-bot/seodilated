@@ -71,7 +71,7 @@ export default function ContactForm() {
     if (error) {
       setResult({
         kind: "error",
-        text: "Something went wrong while sending your message. Please email us directly at khuwalid.khalid@gmail.com and we will get right back to you.",
+        text: "Something went wrong while sending your message. Please email us directly at contact@seodilated.com and we will get right back to you.",
       });
       return;
     }
