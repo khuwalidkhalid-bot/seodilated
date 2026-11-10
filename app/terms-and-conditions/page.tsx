@@ -152,8 +152,8 @@ export default function TermsPage() {
       <h2>Contact</h2>
       <p>
         Questions about these terms:{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>{" "}
         or +44 7832 367128.
       </p>
