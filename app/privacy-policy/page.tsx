@@ -24,8 +24,8 @@ export default function PrivacyPolicyPage() {
       <p>
         If you have any questions about this policy or how we handle your
         data, contact us at{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>{" "}
         or on +44 7832 367128.
       </p>
@@ -131,8 +131,8 @@ export default function PrivacyPolicyPage() {
       </ul>
       <p>
         To use any of these rights, email{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>
         . We will respond within one month, and in most cases there is no
         charge.
@@ -150,8 +150,8 @@ export default function PrivacyPolicyPage() {
       <p>
         If you are unhappy with how we have handled your data, please
         contact us first at{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>{" "}
         and we will try to put it right. You also have the right to complain
         to the Information Commissioner&apos;s Office (ICO), the UK data
@@ -173,8 +173,8 @@ export default function PrivacyPolicyPage() {
         SEODilated
         <br />
         Email:{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>
         <br />
         Phone: <a href="tel:+447832367128">+44 7832 367128</a>
