@@ -4,6 +4,10 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
 import type { Service } from "@/lib/types";
+import {
+  hasServiceDetail,
+  slugifyServiceTitle,
+} from "@/lib/serviceDetails";
 
 export default function ServicesGrid({ limit }: { limit?: number }) {
   const [services, setServices] = useState<Service[]>([]);
@@ -56,19 +60,31 @@ export default function ServicesGrid({ limit }: { limit?: number }) {
 
   return (
     <div className="grid grid-3">
-      {shown.map((s) => (
-        <div className="card" key={s.id}>
-          <div className="icon">◆</div>
-          <h3>{s.title}</h3>
-          {s.description && <p>{s.description}</p>}
-          <Link
-            href={`/contact?service=${encodeURIComponent(s.title)}`}
-            className="btn btn-primary btn-small card-cta"
-          >
-            Contact for price
-          </Link>
-        </div>
-      ))}
+      {shown.map((s) => {
+        const slug = slugifyServiceTitle(s.title);
+        const hasDetail = hasServiceDetail(slug);
+        return (
+          <div className="card" key={s.id}>
+            <div className="icon">◆</div>
+            <h3>{s.title}</h3>
+            {s.description && <p>{s.description}</p>}
+            <Link
+              href={`/contact?service=${encodeURIComponent(s.title)}`}
+              className="btn btn-primary btn-small card-cta"
+            >
+              Contact for price
+            </Link>
+            {hasDetail && (
+              <>
+                <br />
+                <Link href={`/services/${slug}`} className="learn-more">
+                  Learn more →
+                </Link>
+              </>
+            )}
+          </div>
+        );
+      })}
     </div>
   );
 }
