@@ -310,14 +310,14 @@ export const serviceDetails: ServiceDetail[] = [
     slug: "complete-ecommerce-management",
     title: "Complete Ecommerce Management",
     tagline:
-      "Your whole store handled in one place: SEO, content, links, development and day to day management.",
+      "Your whole store handled in one place: SEO, content, links, development and day to day management across Shopify, WooCommerce, Amazon and eBay.",
     summary:
-      "One team for the whole store: ecommerce SEO, Shopify and WooCommerce work, product descriptions, technical fixes, link building and day to day management, coordinated as a single service with one point of contact.",
+      "One team for the whole store: ecommerce SEO, Shopify and WooCommerce work, Amazon and eBay marketplace management, product descriptions, technical fixes, link building and day to day management, coordinated as a single service with one point of contact.",
     metaDescription:
-      "Complete Ecommerce Management from SEODilated and team: ecommerce SEO for Shopify and WooCommerce, product descriptions, technical SEO for stores, ecommerce link building, store development and management.",
+      "Complete Ecommerce Management from SEODilated and team: ecommerce SEO for Shopify and WooCommerce, Amazon and eBay marketplace management, product descriptions, technical SEO for stores, ecommerce link building, store development and management.",
     intro: [
-      "Running an online store means five jobs at once: getting found, describing products well, keeping the site technically sound, earning links and keeping everything running. Most store owners end up juggling freelancers for each one, and the gaps between them are where growth leaks away.",
-      "This package brings the whole job under one roof. Our team covers ecommerce SEO, Shopify and WooCommerce work, product copy, technical fixes, link building and ongoing store management, coordinated as one service with one point of contact.",
+      "Running an online store means five jobs at once: getting found, describing products well, keeping the site technically sound, earning links and keeping everything running. When you also sell through Amazon and eBay, each marketplace adds its own listings, rules and daily upkeep on top of that.",
+      "This package brings the whole job under one roof. Our team covers ecommerce SEO, Shopify and WooCommerce stores, and Amazon and eBay marketplace stores, including listings, optimisation and the day to day running, coordinated as one service with one point of contact.",
     ],
     included: [
       {
@@ -327,6 +327,10 @@ export const serviceDetails: ServiceDetail[] = [
       {
         title: "Shopify and WooCommerce SEO",
         text: "Platform specific work on collections, product structure, duplicate content and the settings that quietly hold stores back.",
+      },
+      {
+        title: "Amazon and eBay marketplace management",
+        text: "Listings created and optimised on Amazon and eBay, with the day to day running of your marketplace stores handled alongside your own website.",
       },
       {
         title: "Product descriptions",
@@ -387,8 +391,8 @@ export const serviceDetails: ServiceDetail[] = [
     ],
     faqs: [
       {
-        q: "Which platforms do you cover?",
-        a: "Shopify and WooCommerce are the core of this service, covering the large majority of stores we are asked about. If your store runs on something else, tell us what it is and we will be honest about whether we are the right fit.",
+        q: "Do you manage Amazon and eBay stores as well?",
+        a: "Yes. Alongside your Shopify or WooCommerce web store, we manage Amazon and eBay marketplace stores too: listings written and optimised, and the day to day running handled by the same team, so every channel sits with one point of contact.",
       },
       {
         q: "Can I take only part of the package?",
