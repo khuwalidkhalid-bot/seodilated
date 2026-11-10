@@ -111,6 +111,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <div className="footer-legal">
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>
+          <Link href="/cookie-policy">Cookie Policy</Link>
+          <Link href="/refund-policy">Refund &amp; Replacement Policy</Link>
+        </div>
         <div className="footer-bottom">
           <span>
             © <Year /> SEODilated. All rights reserved.
