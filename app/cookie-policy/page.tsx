@@ -93,8 +93,8 @@ export default function CookiePolicyPage() {
       <h2>Contact us</h2>
       <p>
         Questions about cookies:{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>{" "}
         or +44 7832 367128. For how we handle personal data more generally,
         see our Privacy Policy.
