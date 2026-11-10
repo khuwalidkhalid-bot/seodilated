@@ -465,6 +465,18 @@ a {
   margin-top: 18px;
 }
 
+.card .learn-more {
+  display: inline-block;
+  margin-top: 14px;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.card .learn-more:hover {
+  text-decoration: underline;
+}
+
 .card .icon {
   width: 44px;
   height: 44px;
