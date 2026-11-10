@@ -4,6 +4,8 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { FALLBACK_SITE_CONTENT, fetchSiteContent } from "@/lib/site";
 import type { SiteContent } from "@/lib/types";
+import Reveal from "@/components/Reveal";
+import { HeroReportPanel, TriangleMotif } from "@/components/MockPanels";
 
 export default function Hero() {
   const [content, setContent] = useState<SiteContent>(FALLBACK_SITE_CONTENT);
@@ -30,8 +32,8 @@ export default function Hero() {
           <Link href="/contact" className="btn btn-primary">
             Get a Free Site Review
           </Link>
-          <Link href="/services" className="btn btn-outline">
-            View Services
+          <Link href="/managed-link-building" className="btn btn-outline">
+            See Managed Options
           </Link>
         </div>
         <div className="hero-trust">
@@ -40,6 +42,12 @@ export default function Hero() {
           <span>Full live-link report on every order</span>
           <span>Free 60-day link replacement</span>
         </div>
+
+        <Reveal className="hero-panel-zone">
+          <div className="hero-glow" aria-hidden="true" />
+          <TriangleMotif className="hero-tri" />
+          <HeroReportPanel />
+        </Reveal>
       </div>
     </section>
   );
