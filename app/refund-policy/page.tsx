@@ -66,8 +66,8 @@ export default function RefundPolicyPage() {
       <h2>How to request a refund or replacement</h2>
       <p>
         Email{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>{" "}
         with your order details and, for a link issue, the URL of the
         placement concerned. We will check the placement, confirm which
@@ -87,8 +87,8 @@ export default function RefundPolicyPage() {
         SEODilated
         <br />
         Email:{" "}
-        <a href="mailto:khuwalid.khalid@gmail.com">
-          khuwalid.khalid@gmail.com
+        <a href="mailto:contact@seodilated.com">
+          contact@seodilated.com
         </a>
         <br />
         Phone: <a href="tel:+447832367128">+44 7832 367128</a>
