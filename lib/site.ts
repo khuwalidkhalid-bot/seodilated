@@ -16,7 +16,7 @@ export const FALLBACK_SITE_CONTENT: SiteContent = {
     "SEODilated is a specialist SEO agency for guest posts, manual link building and search visibility. Real websites, honest advice, and a full live-link report on every single order.",
   about_text:
     "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience in search engine optimisation, guest posting and link building. Over that time he has run outreach campaigns for agencies and businesses across a wide range of niches, always with the same rule: real websites, real placements, and a full report the client can check.\n\nHis approach is deliberately straightforward. Every new enquiry starts with an honest review of your site. If a service will help, you will get a clear plan and a fair price. If it will not, you will be told that too — before you spend anything.\n\nToday, SEODilated delivers through a wider team covering web development, WordPress, design and ecommerce — so the same people who grow your traffic can also build and maintain the site it lands on.",
-  contact_email: "khuwalid.khalid@gmail.com",
+  contact_email: "contact@seodilated.com",
   contact_phone: "+44 7832 367128",
   updated_at: null,
 };
