@@ -10,6 +10,7 @@ import {
   fetchSocialLinks,
 } from "@/lib/site";
 import type { SiteContent, SocialLink } from "@/lib/types";
+import { serviceDetails } from "@/lib/serviceDetails";
 
 export default function Footer() {
   const [content, setContent] = useState<SiteContent>(FALLBACK_SITE_CONTENT);
@@ -65,15 +66,11 @@ export default function Footer() {
               <li>
                 <Link href="/services">All Services</Link>
               </li>
-              <li>
-                <Link href="/services">Guest Posts</Link>
-              </li>
-              <li>
-                <Link href="/services">Niche Edits</Link>
-              </li>
-              <li>
-                <Link href="/services">Press Releases</Link>
-              </li>
+              {serviceDetails.map((s) => (
+                <li key={s.slug}>
+                  <Link href={`/services/${s.slug}`}>{s.title}</Link>
+                </li>
+              ))}
               <li>
                 <Link href="/managed-link-building">Managed Link Building</Link>
               </li>
