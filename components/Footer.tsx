@@ -66,6 +66,15 @@ export default function Footer() {
               <li>
                 <Link href="/services">All Services</Link>
               </li>
+              <li>
+                <Link href="/link-building">Link Building</Link>
+              </li>
+              <li>
+                <Link href="/guest-posts">Guest Posts</Link>
+              </li>
+              <li>
+                <Link href="/aeo">AEO</Link>
+              </li>
               {serviceDetails.map((s) => (
                 <li key={s.slug}>
                   <Link href={`/services/${s.slug}`}>{s.title}</Link>
@@ -81,6 +90,15 @@ export default function Footer() {
             <ul>
               <li>
                 <Link href="/about">About</Link>
+              </li>
+              <li>
+                <Link href="/link-building">Link Building</Link>
+              </li>
+              <li>
+                <Link href="/guest-posts">Guest Posts</Link>
+              </li>
+              <li>
+                <Link href="/aeo">AEO</Link>
               </li>
               <li>
                 <Link href="/managed-link-building">Managed Link Building</Link>
