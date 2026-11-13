@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { fetchTeamMembers } from "@/lib/site";
 import type { TeamMember } from "@/lib/types";
+import CertBadges from "@/components/CertBadges";
 
 export default function TeamSection({ alt = false }: { alt?: boolean }) {
   const [members, setMembers] = useState<TeamMember[]>([]);
@@ -42,6 +43,7 @@ export default function TeamSection({ alt = false }: { alt?: boolean }) {
             </div>
           ))}
         </div>
+        <CertBadges />
       </div>
     </section>
   );

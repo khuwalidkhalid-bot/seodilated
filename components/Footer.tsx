@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import Year from "@/components/Year";
+import CertBadges from "@/components/CertBadges";
 import {
   FALLBACK_SOCIAL_LINKS,
   FALLBACK_SITE_CONTENT,
@@ -126,6 +127,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        <CertBadges />
         <div className="footer-legal">
           <Link href="/privacy-policy">Privacy Policy</Link>
           <Link href="/terms-and-conditions">Terms &amp; Conditions</Link>

@@ -9,27 +9,25 @@ const STATS = [
   { v: 100, suffix: "%", lbl: "Manual Outreach" },
 ];
 
-/** The four honest stats, counting up the first time they scroll into view. */
+/** The four honest stats. The real values render by default, in the server
+ *  HTML and on first paint, so the section never shows zeros. The count-up
+ *  is only a progressive enhancement that plays when the grid scrolls into
+ *  view; if it never runs, the true numbers stay on screen. */
 export default function StatCounters() {
   const ref = useRef<HTMLDivElement>(null);
   const started = useRef(false);
-  const [vals, setVals] = useState<number[]>(STATS.map(() => 0));
+  const [vals, setVals] = useState<number[]>(STATS.map((s) => s.v));
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const io = new IntersectionObserver(
       (entries) => {
         if (!entries[0].isIntersecting || started.current) return;
         started.current = true;
         io.disconnect();
-        if (
-          window.matchMedia("(prefers-reduced-motion: reduce)").matches
-        ) {
-          setVals(STATS.map((s) => s.v));
-          return;
-        }
-        const duration = 1600;
+        const duration = 1400;
         const t0 = performance.now();
         const tick = (t: number) => {
           const p = Math.min(1, (t - t0) / duration);
@@ -37,9 +35,10 @@ export default function StatCounters() {
           setVals(STATS.map((s) => Math.round(s.v * eased)));
           if (p < 1) requestAnimationFrame(tick);
         };
+        setVals(STATS.map(() => 0));
         requestAnimationFrame(tick);
       },
-      { threshold: 0.35 }
+      { threshold: 0.2, rootMargin: "0px 0px -40px 0px" }
     );
     io.observe(el);
     return () => io.disconnect();
