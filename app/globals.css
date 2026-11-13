@@ -1901,3 +1901,51 @@ table.data select {
 .footer-legal a:not(.btn):hover {
   color: var(--accent);
 }
+
+/* ---------- Certification trust badges ---------- */
+.cert-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.site-footer .cert-row {
+  margin: 6px 0 26px;
+}
+
+.cert-badge {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 22px;
+}
+
+.cert-logo {
+  width: 34px;
+  height: 34px;
+  flex: none;
+}
+
+.cert-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cert-name {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  line-height: 1.25;
+}
+
+.cert-sub {
+  color: var(--muted);
+  font-size: 0.82rem;
+  line-height: 1.35;
+}
