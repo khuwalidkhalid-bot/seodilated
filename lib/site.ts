@@ -57,8 +57,8 @@ export async function fetchTeamMembers(): Promise<TeamMember[]> {
 export const FALLBACK_SOCIAL_LINKS: SocialLink[] = [
   {
     id: "fallback-linkedin",
-    platform: "LinkedIn",
-    url: "https://www.linkedin.com/in/khuwalid-khalid/",
+    platform: "LinkedIn Company",
+    url: "https://www.linkedin.com/company/seodilated",
     sort_order: 1,
     active: true,
     created_at: "",
