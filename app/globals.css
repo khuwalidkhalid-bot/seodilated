@@ -2053,3 +2053,129 @@ table.data select {
   font-size: 0.82rem;
   line-height: 1.35;
 }
+
+/* ---------- Websites marketplace ---------- */
+.chip-btn {
+  cursor: pointer;
+  background: transparent;
+  font: inherit;
+}
+.chip-on {
+  border-color: var(--accent) !important;
+  color: var(--accent) !important;
+}
+.market-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.market-input,
+.market-select {
+  background: var(--bg-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  padding: 11px 14px;
+  font: inherit;
+  font-size: 15px;
+}
+.market-input {
+  flex: 1 1 260px;
+}
+.market-select {
+  flex: 0 1 auto;
+}
+.market-input:focus,
+.market-select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+.market-count {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 12px;
+}
+.market-box {
+  background: var(--card);
+  border: 1px solid var(--border-soft);
+  border-radius: var(--radius);
+  padding: 6px 0;
+}
+.market-scroll {
+  overflow-x: auto;
+}
+.market-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 860px;
+}
+.market-table th {
+  text-align: left;
+  color: var(--muted);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-soft);
+  white-space: nowrap;
+}
+.market-table td {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border-soft);
+  color: var(--body);
+  font-size: 15px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+.market-table tbody tr:last-child td {
+  border-bottom: none;
+}
+.market-site {
+  color: var(--text);
+  font-weight: 600;
+}
+.market-dr {
+  display: inline-block;
+  min-width: 38px;
+  text-align: center;
+  background: rgba(0, 179, 65, 0.14);
+  color: var(--accent);
+  border: 1px solid rgba(0, 179, 65, 0.4);
+  border-radius: 8px;
+  padding: 2px 8px;
+  font-weight: 700;
+}
+.market-price {
+  color: var(--text);
+  font-weight: 700;
+}
+.market-details-btn {
+  display: block;
+  margin-top: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  color: var(--accent);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.market-details-row td {
+  white-space: normal;
+  color: var(--muted);
+  font-size: 14px;
+  background: var(--bg-2);
+}
+.market-pager {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+}
+.market-pageinfo {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 6px;
+}
