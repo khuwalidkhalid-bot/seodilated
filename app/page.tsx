@@ -1,4 +1,7 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
+import { pageMetadata, faqJsonLd, SITE_DESCRIPTION } from "@/lib/seo";
 import ServicesGrid from "@/components/ServicesGrid";
 import ServiceDetailsSection from "@/components/ServiceDetailsSection";
 import Hero from "@/components/Hero";
@@ -155,9 +158,19 @@ const faqs = [
   },
 ];
 
+export const metadata: Metadata = {
+  ...pageMetadata({
+    title: "SEO, Guest Posts & Link Building Agency",
+    description: SITE_DESCRIPTION,
+    path: "/",
+  }),
+  title: { absolute: "SEO, Guest Posts & Link Building Agency | SEODilated" },
+};
+
 export default function Home() {
   return (
     <>
+      <JsonLd data={faqJsonLd(faqs)} />
       <Hero />
 
       {/* 2. The Platform */}
@@ -283,6 +296,61 @@ export default function Home() {
                 </ul>
                 <Link href="/services" className="btn btn-outline">
                   Contact for price
+                </Link>
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* 5b. Link building, guest posts & AEO */}
+      <section className="section">
+        <div className="container">
+          <Reveal>
+            <div className="section-head center">
+              <span className="eyebrow">Link Building, Guest Posts & AEO</span>
+              <h2>The three services clients ask for most.</h2>
+              <p>
+                Guest posts, managed link building and answer engine
+                optimisation, each on real websites with full live-link
+                reporting.
+              </p>
+            </div>
+          </Reveal>
+          <div className="grid grid-3">
+            <Reveal>
+              <div className="card">
+                <h3>Link Building</h3>
+                <p>
+                  Guest posts, niche edits and managed campaigns on vetted,
+                  high-authority sites, matched to your niche.
+                </p>
+                <Link href="/link-building" className="btn btn-outline">
+                  Link building services
+                </Link>
+              </div>
+            </Reveal>
+            <Reveal delay={90}>
+              <div className="card">
+                <h3>Guest Posts</h3>
+                <p>
+                  Real guest posts on real sites across 15+ niches, with
+                  content, outreach and publishing handled for you.
+                </p>
+                <Link href="/guest-posts" className="btn btn-outline">
+                  Guest post service
+                </Link>
+              </div>
+            </Reveal>
+            <Reveal delay={180}>
+              <div className="card">
+                <h3>AEO</h3>
+                <p>
+                  Answer engine optimisation so AI search tools quote your
+                  brand, with audits and structured answers.
+                </p>
+                <Link href="/aeo" className="btn btn-outline">
+                  AEO services
                 </Link>
               </div>
             </Reveal>
