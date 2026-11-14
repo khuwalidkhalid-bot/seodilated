@@ -2,12 +2,15 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import AboutText from "@/components/AboutText";
 import TeamSection from "@/components/TeamSection";
+import JsonLd from "@/components/JsonLd";
+import { pageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "About | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "About",
   description:
     "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience. Manual outreach, honest advice, and link building you can verify link by link.",
-};
+  path: "/about",
+});
 
 const problems = [
   {
@@ -94,6 +97,21 @@ const stats = [
 export default function AboutPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          webPageJsonLd({
+            type: "AboutPage",
+            name: "About SEODilated",
+            description:
+              "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience. Manual outreach, honest advice, and link building you can verify link by link.",
+            path: "/about",
+          }),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "About", path: "/about" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="page-hero">
         <div className="container">
