@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ServicesGrid from "@/components/ServicesGrid";
+import JsonLd from "@/components/JsonLd";
+import { pageMetadata, breadcrumbJsonLd, SITE_URL } from "@/lib/seo";
+import { serviceDetails } from "@/lib/serviceDetails";
 
-export const metadata: Metadata = {
-  title: "Services | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "SEO Services: Guest Posts, Link Building, AEO & GEO",
   description:
     "Guest posts, niche edits, press releases and managed link building from SEODilated. Vetted publishers, manual outreach, pay per placement, full live-link reporting.",
-};
+  path: "/services",
+});
 
 const chips = [
   "Vetted publishers",
@@ -115,6 +119,25 @@ const faqs = [
 export default function ServicesPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Services", path: "/services" },
+          ]),
+          {
+            "@context": "https://schema.org",
+            "@type": "ItemList",
+            name: "SEODilated Services",
+            itemListElement: serviceDetails.map((s, i) => ({
+              "@type": "ListItem",
+              position: i + 1,
+              name: s.title,
+              url: `${SITE_URL}/services/${s.slug}`,
+            })),
+          },
+        ]}
+      />
       {/* Hero */}
       <section className="page-hero">
         <div className="container">
