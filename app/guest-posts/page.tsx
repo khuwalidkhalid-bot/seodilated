@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import {
+  pageMetadata,
+  serviceJsonLd,
+  faqJsonLd,
+  breadcrumbJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Guest Posts Service | Buy Guest Posts on Real Sites | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Buy Guest Posts on Real Sites",
   description:
     "Buy guest posts on real, high-authority websites with SEODilated. Human-written articles, manual outreach, dofollow placements, full live-link report and free 60-day replacement.",
-  alternates: { canonical: "https://www.seodilated.com/guest-posts" },
-};
+  path: "/guest-posts",
+});
 
 const stats = [
   { num: "7+", lbl: "Years Experience" },
@@ -95,6 +102,22 @@ const faqs = [
 export default function GuestPostsPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: "Guest Posting Service",
+            description:
+              "Buy guest posts on real, high-authority websites with SEODilated. Human-written articles, manual outreach, dofollow placements, full live-link report and free 60-day replacement.",
+            path: "/guest-posts",
+            serviceType: "Guest Posting",
+          }),
+          faqJsonLd(faqs),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Guest Posts", path: "/guest-posts" },
+          ]),
+        ]}
+      />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Guest Posting Service</span>
