@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import LegalShell from "@/components/LegalShell";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Privacy Policy",
   description:
     "How SEODilated collects, uses and protects personal data under UK GDPR, what rights you have, and how to contact us or the ICO.",
-};
+  path: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (
