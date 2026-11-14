@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import LegalShell from "@/components/LegalShell";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Terms & Conditions | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Terms & Conditions",
   description:
     "The terms that govern SEODilated's guest post, niche edit, press release and SEO services, including delivery, the 60-day replacement and governing law.",
-};
+  path: "/terms-and-conditions",
+});
 
 export default function TermsPage() {
   return (
