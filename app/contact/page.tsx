@@ -1,15 +1,18 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import JsonLd from "@/components/JsonLd";
+import { pageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 import ContactForm from "@/components/ContactForm";
 import ContactDetails from "@/components/ContactDetails";
 import ContactHero from "@/components/ContactHero";
 import OtherWays from "@/components/OtherWays";
 
-export const metadata: Metadata = {
-  title: "Contact | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Contact Us",
   description:
     "Talk to Khuwalid Khalid, founder of SEODilated, about your link building campaign. Free, honest site review with every enquiry.",
-};
+  path: "/contact",
+});
 
 const nextSteps = [
   {
@@ -37,6 +40,21 @@ const nextSteps = [
 export default function ContactPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          webPageJsonLd({
+            type: "ContactPage",
+            name: "Contact SEODilated",
+            description:
+              "Talk to Khuwalid Khalid, founder of SEODilated, about your link building campaign. Free, honest site review with every enquiry.",
+            path: "/contact",
+          }),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Contact", path: "/contact" },
+          ]),
+        ]}
+      />
       <ContactHero />
 
       {/* What happens next */}
