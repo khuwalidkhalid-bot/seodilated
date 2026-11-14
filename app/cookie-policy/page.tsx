@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import LegalShell from "@/components/LegalShell";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Cookie Policy | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Cookie Policy",
   description:
     "The cookies used on www.seodilated.com: essential admin sign-in cookies only. No analytics, advertising or marketing cookies.",
-};
+  path: "/cookie-policy",
+});
 
 export default function CookiePolicyPage() {
   return (
