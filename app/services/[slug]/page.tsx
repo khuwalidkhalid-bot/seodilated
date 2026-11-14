@@ -5,10 +5,28 @@ import {
   getServiceDetail,
   serviceDetails,
 } from "@/lib/serviceDetails";
+import JsonLd from "@/components/JsonLd";
+import {
+  pageMetadata,
+  serviceJsonLd,
+  faqJsonLd,
+  breadcrumbJsonLd,
+} from "@/lib/seo";
 
 export function generateStaticParams() {
   return serviceDetails.map((s) => ({ slug: s.slug }));
 }
+
+const SERVICE_SEO_TITLES: Record<string, string> = {
+  seo: "SEO Services",
+  aeo: "AEO Services (Answer Engine Optimization)",
+  geo: "GEO Services (Generative Engine Optimization)",
+  "complete-ecommerce-management": "Complete Ecommerce Management Services",
+  "web-development": "Web Development Services",
+  "wordpress-development": "WordPress Development Services",
+  "content-writing": "Content Writing Services",
+  "performance-optimization": "Performance Optimization Services",
+};
 
 export async function generateMetadata({
   params,
@@ -18,10 +36,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const detail = getServiceDetail(slug);
   if (!detail) return {};
-  return {
-    title: `${detail.title} | SEODilated`,
+  return pageMetadata({
+    title: SERVICE_SEO_TITLES[slug] ?? `${detail.title} Services`,
     description: detail.metaDescription,
-  };
+    path: `/services/${slug}`,
+  });
 }
 
 export default async function ServiceDetailPage({
@@ -38,6 +57,21 @@ export default async function ServiceDetailPage({
 
   return (
     <>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: detail.title,
+            description: detail.metaDescription,
+            path: `/services/${detail.slug}`,
+          }),
+          faqJsonLd(detail.faqs),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Services", path: "/services" },
+            { name: detail.title, path: `/services/${detail.slug}` },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="page-hero">
         <div className="container">
