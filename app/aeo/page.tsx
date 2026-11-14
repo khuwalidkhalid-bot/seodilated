@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import {
+  pageMetadata,
+  serviceJsonLd,
+  faqJsonLd,
+  breadcrumbJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "AEO Services | Answer Engine Optimization | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "AEO Services: Answer Engine Optimization",
   description:
     "AEO (Answer Engine Optimization) services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT, AI Overviews and answer engines surface and cite your business.",
-  alternates: { canonical: "https://www.seodilated.com/aeo" },
-};
+  path: "/aeo",
+});
 
 const stats = [
   { num: "7+", lbl: "Years in SEO" },
@@ -99,6 +106,22 @@ const faqs = [
 export default function AeoPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: "AEO Services (Answer Engine Optimization)",
+            description:
+              "AEO (Answer Engine Optimization) services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT, AI Overviews and answer engines surface and cite your business.",
+            path: "/aeo",
+            serviceType: "Answer Engine Optimization",
+          }),
+          faqJsonLd(faqs),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "AEO Services", path: "/aeo" },
+          ]),
+        ]}
+      />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">AEO: Answer Engine Optimization</span>
