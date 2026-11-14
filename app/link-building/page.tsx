@@ -1,12 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import {
+  pageMetadata,
+  serviceJsonLd,
+  faqJsonLd,
+  breadcrumbJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Link Building Services | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Link Building Services",
   description:
     "Manual link building services from SEODilated: guest posts, niche edits and authority links on real, vetted websites. Full live-link report and free 60-day replacement on every placement.",
-  alternates: { canonical: "https://www.seodilated.com/link-building" },
-};
+  path: "/link-building",
+});
 
 const stats = [
   { num: "7+", lbl: "Years Experience" },
@@ -109,6 +116,22 @@ const faqs = [
 export default function LinkBuildingPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: "Link Building Services",
+            description:
+              "Manual link building services from SEODilated: guest posts, niche edits and authority links on real, vetted websites. Full live-link report and free 60-day replacement on every placement.",
+            path: "/link-building",
+            serviceType: "Link Building",
+          }),
+          faqJsonLd(faqs),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Link Building", path: "/link-building" },
+          ]),
+        ]}
+      />
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Link Building Services</span>
