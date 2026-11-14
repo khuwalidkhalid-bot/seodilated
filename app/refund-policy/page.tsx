@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import LegalShell from "@/components/LegalShell";
+import { pageMetadata } from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Refund & Replacement Policy | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Refund & Replacement Policy",
   description:
     "How refunds and replacements work at SEODilated: your choice if a placement cannot be delivered, and free 60-day replacement for delivered links.",
-};
+  path: "/refund-policy",
+});
 
 export default function RefundPolicyPage() {
   return (
