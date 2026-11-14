@@ -1,11 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
+import {
+  pageMetadata,
+  serviceJsonLd,
+  faqJsonLd,
+  breadcrumbJsonLd,
+} from "@/lib/seo";
 
-export const metadata: Metadata = {
-  title: "Managed Link Building | SEODilated",
+export const metadata: Metadata = pageMetadata({
+  title: "Managed Link Building",
   description:
     "A dedicated team runs your link building end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement. Pay per placement, no retainer.",
-};
+  path: "/managed-link-building",
+});
 
 function Glyph({
   d,
@@ -268,6 +276,22 @@ const faqs = [
 export default function ManagedPage() {
   return (
     <>
+      <JsonLd
+        data={[
+          serviceJsonLd({
+            name: "Managed Link Building",
+            description:
+              "A dedicated team runs your link building end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement. Pay per placement, no retainer.",
+            path: "/managed-link-building",
+            serviceType: "Managed Link Building",
+          }),
+          faqJsonLd(faqs),
+          breadcrumbJsonLd([
+            { name: "Home", path: "/" },
+            { name: "Managed Link Building", path: "/managed-link-building" },
+          ]),
+        ]}
+      />
       {/* Hero */}
       <section className="page-hero">
         <div className="container">
