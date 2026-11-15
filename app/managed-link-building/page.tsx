@@ -44,7 +44,7 @@ function Glyph({
 
 const stats = [
   { num: "7+", lbl: "Years Experience" },
-  { num: "8", lbl: "Specialist Services" },
+  { num: "12", lbl: "Specialist Services" },
   { num: "60-Day", lbl: "Link Replacement" },
   { num: "100%", lbl: "Manual Outreach" },
 ];
