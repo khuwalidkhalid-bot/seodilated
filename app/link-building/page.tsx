@@ -9,9 +9,9 @@ import {
 } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Link Building Services",
+  title: "Manual Link Building Service on Real Websites",
   description:
-    "Manual link building services from SEODilated: guest posts, niche edits and authority links on real, vetted websites. Full live-link report and free 60-day replacement on every placement.",
+    "Manual link building service: guest posts, niche edits and backlinks on real, vetted websites. Live-link report and free 60-day replacement on every order.",
   path: "/link-building",
 });
 
@@ -121,7 +121,7 @@ export default function LinkBuildingPage() {
           serviceJsonLd({
             name: "Link Building Services",
             description:
-              "Manual link building services from SEODilated: guest posts, niche edits and authority links on real, vetted websites. Full live-link report and free 60-day replacement on every placement.",
+              "Manual link building service: guest posts, niche edits and backlinks on real, vetted websites. Live-link report and free 60-day replacement on every order.",
             path: "/link-building",
             serviceType: "Link Building",
           }),
