@@ -9,9 +9,9 @@ import {
 } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Managed Link Building",
+  title: "Managed & White Label Link Building Services",
   description:
-    "A dedicated team runs your link building end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement. Pay per placement, no retainer.",
+    "Managed and white label link building services, run end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement.",
   path: "/managed-link-building",
 });
 
@@ -281,7 +281,7 @@ export default function ManagedPage() {
           serviceJsonLd({
             name: "Managed Link Building",
             description:
-              "A dedicated team runs your link building end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement. Pay per placement, no retainer.",
+              "Managed and white label link building services, run end to end: strategy, publisher sourcing, content, placement, monitoring and free 60-day replacement.",
             path: "/managed-link-building",
             serviceType: "Managed Link Building",
           }),
