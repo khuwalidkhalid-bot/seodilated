@@ -20,6 +20,8 @@ export function generateStaticParams() {
 const SERVICE_SEO_TITLES: Record<string, string> = {
   seo: "SEO Services",
   "advance-seo": "Advance SEO Services (AEO & GEO)",
+  aeo: "AEO Services (Answer Engine Optimization)",
+  geo: "GEO Services (Generative Engine Optimization)",
   "complete-ecommerce-management": "Complete Ecommerce Management Services",
   "web-development": "Web Development Services",
   "wordpress-development": "WordPress Development Services",
