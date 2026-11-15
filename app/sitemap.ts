@@ -18,6 +18,7 @@ const staticPages: { path: string; lastModified: string; priority: number }[] = 
   { path: "/services", lastModified: "2026-11-14", priority: 0.9 },
   { path: "/link-building", lastModified: "2026-11-14", priority: 0.9 },
   { path: "/guest-posts", lastModified: "2026-11-14", priority: 0.9 },
+  { path: "/websites", lastModified: "2026-11-15", priority: 0.9 },
   { path: "/aeo", lastModified: "2026-11-14", priority: 0.9 },
   { path: "/managed-link-building", lastModified: "2026-11-14", priority: 0.8 },
   { path: "/about", lastModified: "2026-11-14", priority: 0.7 },
