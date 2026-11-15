@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { connection } from "next/server";
+
+export const instant = false;
 import {
   blogPosts,
   getPublishedPost,
@@ -15,18 +18,14 @@ import {
   breadcrumbJsonLd,
 } from "@/lib/seo";
 
-export const revalidate = 3600;
-export const dynamicParams = true;
 
-export function generateStaticParams() {
-  return blogPosts.map((p) => ({ slug: p.slug }));
-}
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
+  await connection();
   const { slug } = await params;
   const post = getPublishedPost(slug);
   if (!post) return {};
@@ -49,6 +48,7 @@ export default async function BlogPostPage({
 }: {
   params: Promise<{ slug: string }>;
 }) {
+  await connection();
   const { slug } = await params;
   const post = getPublishedPost(slug);
   if (!post) notFound();
