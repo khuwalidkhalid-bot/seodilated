@@ -22,6 +22,7 @@ const SERVICE_SEO_TITLES: Record<string, string> = {
   "advance-seo": "Advance SEO Services (AEO & GEO)",
   aeo: "AEO Services (Answer Engine Optimization)",
   geo: "GEO Services (Generative Engine Optimization)",
+  "social-media-marketing": "Social Media Marketing Services",
   "complete-ecommerce-management": "Complete Ecommerce Management Services",
   "web-development": "Web Development Services",
   "wordpress-development": "WordPress Development Services",
