@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
+import { connection } from "next/server";
 import { publishedPosts } from "@/lib/blog";
 
-export const revalidate = 3600;
 
 const base = "https://www.seodilated.com";
 
@@ -37,7 +37,8 @@ const staticPages: { path: string; lastModified: string; priority: number }[] = 
   { path: "/refund-policy", lastModified: "2026-11-10", priority: 0.3 },
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  await connection();
   const servicePages = serviceSlugs.map((slug) => ({
     url: `${base}/services/${slug}`,
     lastModified: new Date("2026-11-14"),
