@@ -11,6 +11,7 @@ const serviceSlugs = [
   "web-development",
   "wordpress-development",
   "content-writing",
+  "social-media-marketing",
   "performance-optimization",
   "application-development",
   "advance-ai-software-development",
