@@ -199,3 +199,41 @@ export function webPageJsonLd({
     inLanguage: "en-GB",
   };
 }
+
+export function blogPostingJsonLd({
+  title,
+  description,
+  path,
+  datePublished,
+  dateModified,
+  category,
+}: {
+  title: string;
+  description: string;
+  path: string;
+  datePublished: string;
+  dateModified?: string;
+  category: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${SITE_URL}${path}#article`,
+    headline: title,
+    description,
+    url: `${SITE_URL}${path}`,
+    mainEntityOfPage: `${SITE_URL}${path}`,
+    datePublished,
+    dateModified: dateModified ?? datePublished,
+    articleSection: category,
+    inLanguage: "en-GB",
+    image: `${SITE_URL}${OG_IMAGE_PATH}`,
+    author: {
+      "@type": "Person",
+      name: "Khuwalid Khalid",
+      jobTitle: "SEO Specialist",
+      url: `${SITE_URL}/about`,
+    },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+  };
+}
