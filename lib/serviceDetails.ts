@@ -6,6 +6,7 @@ export interface ServiceFaq {
 export interface ServiceDetail {
   slug: string;
   title: string;
+  headline: string;
   tagline: string;
   summary: string;
   metaDescription: string;
@@ -33,12 +34,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "seo",
     title: "SEO",
+    headline: "SEO Services That Start With an Honest Audit",
     tagline:
       "Full search engine optimisation for your whole site, not just one page of it.",
     summary:
       "The complete search picture in one service: keyword research, on-page and technical fixes, and the guest posts and link building that build authority. Led by a specialist with 7 years of experience, starting with an honest review of your site and reported in full.",
     metaDescription:
-      "SEO services from SEODilated: on-page, technical and off-page SEO backed by 7 years of experience, an honest site review first, and full reporting on every piece of work.",
+      "SEO services from SEODilated: on-page, technical and off-page SEO backed by 7 years of experience, an honest site review first and full reporting.",
     intro: [
       "SEO is the umbrella everything else sits under. It covers how your pages are built and written, how search engines crawl and understand your site, and how the rest of the web links to you. When one of those three is weak, the other two cannot carry the site on their own.",
       "This service is led by a specialist with 7 years of hands-on SEO experience across on-page, off-page and technical work. Every engagement starts with an honest review of your site, so the plan is built on what your site actually needs, not on a fixed package we sell to everyone.",
@@ -125,12 +127,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "advance-seo",
     title: "Advance SEO",
+    headline: "Advance SEO Services: Rank in Google, Get Cited by AI",
     tagline:
       "SEO for how search works now: Google, AI Overviews, ChatGPT, and every answer engine your buyers ask.",
     summary:
       "Advance SEO is our full search visibility service for the AI era. It combines advanced technical and content SEO with AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization), so your brand ranks in Google and gets cited in AI answers.",
     metaDescription:
-      "Advance SEO services from SEODilated: advanced SEO plus AEO and GEO, so your brand ranks in Google and is cited by AI Overviews, ChatGPT, Gemini and Perplexity. Honest review first, full reporting.",
+      "Advance SEO services from SEODilated: technical depth with AEO and GEO built in, so your site ranks in Google and gets cited in AI answers.",
     intro: [
       "Search has changed. Your buyers still use Google, but they also ask ChatGPT, Gemini and Perplexity, and they read the AI Overview at the top of the results before any blue link. A site can rank well and still be invisible in the answers that are actually being read. Classic SEO on its own no longer covers the whole picture.",
       "Advance SEO is the service we built for that reality. It brings three disciplines into one plan: advanced SEO for rankings, AEO (Answer Engine Optimization) so answer engines can quote your business accurately, and GEO (Generative Engine Optimization) so AI systems recognise your brand as an entity worth citing. The work is led by a Semrush certified specialist, including AI Search Essentials, and our own agency site runs on exactly this setup.",
@@ -217,12 +220,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "aeo",
     title: "AEO",
+    headline: "AEO Services for Brands That Want to Be the Answer",
     tagline:
       "Answer Engine Optimization as a standalone service: be the answer AI assistants give, even if your SEO is already handled.",
     summary:
       "Already have SEO running, with us or with someone else? AEO adds the answer layer on its own: your content structured so AI Overviews, ChatGPT, Gemini and voice assistants can quote your business accurately, with your AI answer presence tracked and reported.",
     metaDescription:
-      "Standalone AEO services from SEODilated: Answer Engine Optimization for sites that already have SEO. Answer-first content, schema and entity work, and honest AI visibility tracking.",
+      "AEO services from SEODilated: answer engine optimization that structures your content so ChatGPT and AI Overviews surface and cite your business.",
     intro: [
       "Plenty of sites have their SEO handled, by an in-house team, another agency, or a project that is already running, and still have a gap: when a buyer asks an AI assistant instead of reading ten blue links, the business never appears in the answer. That gap is exactly what AEO closes, and it does not require you to move your whole SEO programme to get it.",
       "This standalone service audits how answer engines currently treat your brand, restructures your key content so it can be quoted, and tracks your presence in AI answers over time. It runs cleanly alongside an existing SEO setup, and we are happy to coordinate with whoever runs yours.",
@@ -309,12 +313,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "geo",
     title: "GEO",
+    headline: "GEO Services: Get Your Brand Cited in AI Answers",
     tagline:
       "Generative Engine Optimization as a standalone service: get your brand recognised and cited in AI-generated answers.",
     summary:
       "Already have SEO running, with us or with someone else? GEO adds the generative layer on its own: entity work, consistent brand facts and citations on the sites AI models read, so systems like ChatGPT, Gemini and Perplexity know your brand and cite it.",
     metaDescription:
-      "Standalone GEO services from SEODilated: Generative Engine Optimization for sites that already have SEO. Entity clarity, brand citations and AI answer tracking, honestly reported.",
+      "GEO services from SEODilated: generative engine optimization that builds the citations and entity clarity AI engines use to cite brands.",
     intro: [
       "AI systems do not just read your website. They build a picture of your brand from everything published about you: directories, articles, reviews, mentions and the sites in your niche that carry authority. If that picture is thin or inconsistent, generative answers leave you out or describe you wrongly, no matter how good your own pages are.",
       "This standalone service builds that picture deliberately: your entity clarified, your facts made consistent everywhere they appear, and citations earned on the websites AI models actually read. It is designed to bolt onto a running SEO project, whoever runs it, without disturbing what already works.",
@@ -401,12 +406,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "complete-ecommerce-management",
     title: "Complete Ecommerce Management",
+    headline: "Ecommerce SEO Services With Complete Store Management",
     tagline:
       "Your whole store handled in one place: SEO, content, links, development and day to day management across Shopify, WooCommerce, Amazon and eBay.",
     summary:
       "One team for the whole store: ecommerce SEO, Shopify and WooCommerce work, Amazon and eBay marketplace management, product descriptions, technical fixes, link building and day to day management, coordinated as a single service with one point of contact.",
     metaDescription:
-      "Complete Ecommerce Management from SEODilated and team: ecommerce SEO for Shopify and WooCommerce, Amazon and eBay marketplace management, product descriptions, technical SEO for stores, ecommerce link building, store development and management.",
+      "Ecommerce SEO services from SEODilated: Shopify and WooCommerce SEO, marketplace management, product descriptions and complete store management.",
     intro: [
       "Running an online store means five jobs at once: getting found, describing products well, keeping the site technically sound, earning links and keeping everything running. When you also sell through Amazon and eBay, each marketplace adds its own listings, rules and daily upkeep on top of that.",
       "This package brings the whole job under one roof. Our team covers ecommerce SEO, Shopify and WooCommerce stores, and Amazon and eBay marketplace stores, including listings, optimisation and the day to day running, coordinated as one service with one point of contact.",
@@ -501,6 +507,7 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "web-development",
     title: "Web Development",
+    headline: "Web Development Services Built With SEO in Place",
     tagline:
       "Business websites and landing pages built properly by our team, with the SEO basics in place from day one.",
     summary:
@@ -593,6 +600,7 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "wordpress-development",
     title: "WordPress Development",
+    headline: "WordPress Development Services, Built and Secured Properly",
     tagline:
       "WordPress sites built, customised and looked after by our team, including WooCommerce stores.",
     summary:
@@ -685,12 +693,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "content-writing",
     title: "Content Writing",
+    headline: "Content Writing Services by Writers Who Understand SEO",
     tagline:
       "Human written content for guest posts, websites and blogs, matched to the publisher and to your brand voice.",
     summary:
       "Human written guest post articles, website copy, blog content and product descriptions. Every piece is matched to the publisher's guidelines and your brand voice, and checked editorially before it is submitted anywhere.",
     metaDescription:
-      "Content Writing from SEODilated: human written guest post articles, website content, blog content and product descriptions, matched to publisher guidelines and checked before submission.",
+      "Content writing services from SEODilated: human-written guest post articles, website content, blogs and product descriptions, checked before submission.",
     intro: [
       "Content is where link building campaigns quietly succeed or fail. Good publishers reject weak articles, and readers ignore them even when they slip through. Every article we place or publish is written by a human, for the specific site it is going to.",
       "The writing follows the rules that matter: the publisher's own editorial guidelines, your brand voice, and the reader the page is actually for. Everything is checked editorially before it is submitted anywhere, so your brand is never attached to copy you would not put your name to.",
@@ -777,12 +786,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "social-media-marketing",
     title: "Social Media Marketing",
+    headline: "Social Media Marketing Services for Consistent, Professional Pages",
     tagline:
       "Social media handled properly: strategy, content and consistent posting that builds a brand people recognise and trust.",
     summary:
       "Our team plans and runs your social media end to end: platform strategy, a monthly content calendar, posts written and designed in your voice, pages kept active and professional, and paid social campaigns planned alongside the organic work, all reported honestly every month.",
     metaDescription:
-      "Social media marketing services from SEODilated: strategy, content calendars, posting and page management for LinkedIn, Facebook, Instagram and X, plus paid social, reported honestly every month.",
+      "Social media marketing services from SEODilated: strategy, content calendars and page management for LinkedIn, Facebook, Instagram and X.",
     intro: [
       "Most businesses know they should be active on social media and most are not, because posting well takes a plan, a writer, a designer and consistency week after week. So the pages sit quiet, and quiet pages quietly cost trust: a prospect who checks your LinkedIn or Facebook and finds nothing recent assumes the business itself is inactive.",
       "Our team runs social media the way we run our own. SEODilated's LinkedIn and Facebook pages publish planned content every day, built from a written calendar, not from whatever someone remembered that morning. This service gives your business the same system: a strategy tied to your goals, content made in advance, and reporting that shows exactly what went out and what it did.",
@@ -869,12 +879,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "performance-optimization",
     title: "Performance Optimization",
+    headline: "Performance Optimization Services for Core Web Vitals",
     tagline:
       "Page speed and Core Web Vitals work by our team, measured before and after so you can see exactly what changed.",
     summary:
       "Speed and Core Web Vitals work measured before and after with standard tools. Image and script weight, caching and mobile performance are fixed in order of impact, and the improvement is shown in a comparison report.",
     metaDescription:
-      "Performance Optimization from SEODilated's team: page speed and Core Web Vitals improvements covering image and script weight, caching and mobile performance, measured before and after.",
+      "Performance optimization services from SEODilated: page speed and Core Web Vitals improvements, measured before and after on every change.",
     intro: [
       "Slow pages cost you twice: visitors leave before the page finishes loading, and search engines treat speed and stability as part of quality. The causes are usually mundane: heavy images, bloated scripts, no caching and layouts built for desktop and squeezed onto phones.",
       "Our team works through those causes in order of impact. Everything is measured before we touch it and measured again afterwards with standard tools, so the improvement is a fact in a report, not a claim in a sales pitch. We will never promise a perfect score; we promise real, measured improvement.",
@@ -961,12 +972,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "application-development",
     title: "Application Development",
+    headline: "Application Development Services, Scoped Before We Build",
     tagline:
       "Web and mobile applications planned, built and shipped by the same team that grows your traffic.",
     summary:
       "From internal tools to customer-facing products, we scope and build applications around what your business actually needs: a clear specification, clean code, milestone reporting, and a proper handover at launch.",
     metaDescription:
-      "Application development from SEODilated: custom web and mobile apps scoped honestly, built by our in-house team, delivered in clear milestones with full handover and documentation.",
+      "Application development services from SEODilated: web, mobile and custom apps, scoped honestly, built in stages and handed over with documentation.",
     intro: [
       "Plenty of businesses outgrow spreadsheets, off-the-shelf tools and patched-together plugins. When that happens, a purpose-built application stops being a luxury and becomes the thing that lets the business run properly: one system that does exactly what your team needs, in the way your team actually works.",
       "Our development team builds web and mobile applications end to end, from the first scoping conversation to launch and handover. You deal with one team throughout, the scope is agreed in writing before building starts, and progress is reported at every milestone, the same discipline we bring to our SEO work.",
@@ -1053,12 +1065,13 @@ export const serviceDetails: ServiceDetail[] = [
   {
     slug: "advance-ai-software-development",
     title: "Advance AI Software Development",
+    headline: "AI Software Development Services Built Around Your Workflows",
     tagline:
       "Practical AI software built around your workflows: assistants, automation and tools your team will actually use.",
     summary:
       "We build AI-powered software for real business use: chatbots and assistants trained on your own material, workflow automation, content and data tools, and AI features integrated into the systems you already run.",
     metaDescription:
-      "Advance AI software development from SEODilated: AI chatbots, workflow automation and AI tools built around your business, integrated with your existing systems, with honest scoping and full handover.",
+      "AI software development services from SEODilated: custom AI tools, chatbots and automation planned around your real workflows, scoped honestly first.",
     intro: [
       "AI is genuinely useful when it is pointed at a specific job: answering customer questions from your own documentation, drafting and sorting the work your team repeats every day, or pulling answers out of data nobody has time to read. It is a waste of money when it is bought as a buzzword. We build the first kind.",
       "Our team designs and builds AI software around your workflows, using leading AI models through their official APIs and connecting them to your website, your data and your existing tools. Every project starts with an honest scoping conversation about what AI can and cannot do well in your case, before you spend anything on a build.",
