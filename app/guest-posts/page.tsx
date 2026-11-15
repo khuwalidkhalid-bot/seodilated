@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = pageMetadata({
   title: "Buy Guest Posts on Real Sites",
   description:
-    "Buy guest posts on real, high-authority websites with SEODilated. Human-written articles, manual outreach, dofollow placements, full live-link report and free 60-day replacement.",
+    "Buy guest posts on real, high-authority websites: human-written articles, manual outreach, dofollow links, live-link report and free 60-day replacement.",
   path: "/guest-posts",
 });
 
@@ -107,7 +107,7 @@ export default function GuestPostsPage() {
           serviceJsonLd({
             name: "Guest Posting Service",
             description:
-              "Buy guest posts on real, high-authority websites with SEODilated. Human-written articles, manual outreach, dofollow placements, full live-link report and free 60-day replacement.",
+              "Buy guest posts on real, high-authority websites: human-written articles, manual outreach, dofollow links, live-link report and free 60-day replacement.",
             path: "/guest-posts",
             serviceType: "Guest Posting",
           }),
