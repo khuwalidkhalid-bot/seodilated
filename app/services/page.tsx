@@ -165,7 +165,7 @@ export default function ServicesPage() {
             <span className="eyebrow">What We Do</span>
             <h2>Our services</h2>
             <p>
-              Eight specialist services, from guest posts and link building to
+              Twelve specialist services, from guest posts and link building to
               the website itself. Prices are quoted per placement, so use the
               Contact for price button on any service and we will come back
               with an honest quote.
