@@ -7,7 +7,7 @@ import { pageMetadata, faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Guest Post Websites Marketplace: 14,000+ Sites With Prices",
   description:
-    "Browse 14,000+ real websites open to guest posts, with live DR, traffic and per-site prices. Search by domain or niche, order in one click, and get a human-written article, dofollow placement and a full live-link report.",
+    "Browse 14,000+ real websites that accept guest posts, with DR, traffic and per-site prices shown upfront. Human-written article and live-link report included.",
   path: "/websites",
 });
 
