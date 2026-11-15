@@ -775,6 +775,98 @@ export const serviceDetails: ServiceDetail[] = [
       "Send us a page that sounds like your business, or just tell us the topics. We will quote the writing per piece, with no surprises.",
   },
   {
+    slug: "social-media-marketing",
+    title: "Social Media Marketing",
+    tagline:
+      "Social media handled properly: strategy, content and consistent posting that builds a brand people recognise and trust.",
+    summary:
+      "Our team plans and runs your social media end to end: platform strategy, a monthly content calendar, posts written and designed in your voice, pages kept active and professional, and paid social campaigns planned alongside the organic work, all reported honestly every month.",
+    metaDescription:
+      "Social media marketing services from SEODilated: strategy, content calendars, posting and page management for LinkedIn, Facebook, Instagram and X, plus paid social, reported honestly every month.",
+    intro: [
+      "Most businesses know they should be active on social media and most are not, because posting well takes a plan, a writer, a designer and consistency week after week. So the pages sit quiet, and quiet pages quietly cost trust: a prospect who checks your LinkedIn or Facebook and finds nothing recent assumes the business itself is inactive.",
+      "Our team runs social media the way we run our own. SEODilated's LinkedIn and Facebook pages publish planned content every day, built from a written calendar, not from whatever someone remembered that morning. This service gives your business the same system: a strategy tied to your goals, content made in advance, and reporting that shows exactly what went out and what it did.",
+    ],
+    included: [
+      {
+        title: "Platform strategy",
+        text: "Which platforms deserve your effort, LinkedIn, Facebook, Instagram, X or a focused subset, decided from where your buyers actually spend attention, not from habit.",
+      },
+      {
+        title: "Monthly content calendar",
+        text: "A written calendar of posts planned a month ahead, mixing expertise, proof of work, offers and conversation starters, approved by you before anything is scheduled.",
+      },
+      {
+        title: "Post writing and design",
+        text: "Captions written in your voice and clean branded visuals for every post, in the formats each platform rewards, including carousels and short-form copy.",
+      },
+      {
+        title: "Scheduling and page management",
+        text: "Posts scheduled and published on rhythm, profiles and pages kept complete and current, and the basics of comments and messages handled to an agreed standard.",
+      },
+      {
+        title: "Paid social campaigns",
+        text: "Paid campaigns on the social platforms planned and managed alongside the organic work by our paid ads specialist, with budgets agreed in writing before any spend.",
+      },
+      {
+        title: "Monthly reporting",
+        text: "A plain report of what was published, how it performed, and what we are changing next month. No vanity screenshots, no inflated claims.",
+      },
+    ],
+    steps: [
+      {
+        title: "Audit and strategy",
+        text: "We review your current profiles and your competitors' presence, then agree the platforms, the voice and the content pillars.",
+      },
+      {
+        title: "Calendar and approval",
+        text: "The first month of content is written, designed and sent to you for approval before a single post is scheduled.",
+      },
+      {
+        title: "Publish and manage",
+        text: "Approved content goes out on schedule, pages are kept active, and paid campaigns run to the agreed budgets.",
+      },
+      {
+        title: "Report and refine",
+        text: "Each month closes with an honest performance report and a refined calendar based on what your audience actually responded to.",
+      },
+    ],
+    deliverables: [
+      {
+        title: "Social media strategy document",
+        text: "Platforms, audience, voice and content pillars, agreed in writing before content work begins.",
+      },
+      {
+        title: "Monthly content calendar",
+        text: "Every post for the month, written and designed in advance, in one document you approve.",
+      },
+      {
+        title: "Published, managed pages",
+        text: "Your profiles active and professional, posting on the agreed rhythm without you having to chase anyone.",
+      },
+      {
+        title: "Monthly performance report",
+        text: "Reach, engagement and growth reported plainly, with the next month's adjustments explained.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Which platforms do you manage?",
+        a: "LinkedIn, Facebook, Instagram and X are the platforms our team works on daily, including our own agency pages. We will recommend the subset that fits your buyers rather than spreading you thinly across all of them, and if a platform does not suit your market we will say so.",
+      },
+      {
+        q: "Can you guarantee follower growth or sales from social media?",
+        a: "No, and nobody honestly can. What we guarantee is the system: a real strategy, content produced and published consistently, paid spend only to agreed budgets, and honest monthly reporting. Consistent, professional presence is what turns social profiles into trust, and trust is what turns into enquiries over time.",
+      },
+      {
+        q: "Do I approve the posts before they go out?",
+        a: "Yes. Content is prepared a month ahead and nothing is scheduled until you have approved the calendar. Once a rhythm is established and you are comfortable, many clients approve in batches, but the approval step stays yours for as long as you want it.",
+      },
+    ],
+    ctaLine:
+      "Send us your current social profiles and we will tell you honestly what we would fix first, and whether a managed service is worth it for you yet.",
+  },
+  {
     slug: "performance-optimization",
     title: "Performance Optimization",
     tagline:
