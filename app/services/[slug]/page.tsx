@@ -26,6 +26,8 @@ const SERVICE_SEO_TITLES: Record<string, string> = {
   "wordpress-development": "WordPress Development Services",
   "content-writing": "Content Writing Services",
   "performance-optimization": "Performance Optimization Services",
+  "application-development": "Application Development Services",
+  "advance-ai-software-development": "Advance AI Software Development Services",
 };
 
 export async function generateMetadata({
