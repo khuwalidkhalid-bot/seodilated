@@ -23,13 +23,14 @@
 ## Services
 
 - [SEO](https://www.seodilated.com/services/seo): Full search engine optimisation: keyword research, on-page and technical fixes, and the guest posts and link building that build authority.
-- [AEO](https://www.seodilated.com/services/aeo): Answer Engine Optimization: structured answer content, entity clarity and brand mentions so AI assistants and answer engines surface and cite the business.
-- [GEO](https://www.seodilated.com/services/geo): Generative Engine Optimization: visibility work for AI-generated answers and overviews.
+- [Advance SEO](https://www.seodilated.com/services/advance-seo): Advanced SEO combined with AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization): rank in Google and get cited in AI Overviews, ChatGPT, Gemini and Perplexity answers.
 - [Complete Ecommerce Management](https://www.seodilated.com/services/complete-ecommerce-management): End-to-end management for ecommerce stores, including Amazon and eBay, with SEO built in.
 - [Web Development](https://www.seodilated.com/services/web-development): Website development delivered by the same team that grows the traffic.
 - [WordPress Development](https://www.seodilated.com/services/wordpress-development): WordPress builds, fixes and ongoing development.
 - [Content Writing](https://www.seodilated.com/services/content-writing): Human-written content for guest posts, pages and campaigns.
 - [Performance Optimization](https://www.seodilated.com/services/performance-optimization): Speed and performance work so pages load fast and hold their rankings.
+- [Application Development](https://www.seodilated.com/services/application-development): Custom web and mobile application development, scoped in writing and built by our in-house team.
+- [Advance AI Software Development](https://www.seodilated.com/services/advance-ai-software-development): AI chatbots, workflow automation and AI tools built around your business and integrated with your existing systems.
 
 ## Key pages
 
