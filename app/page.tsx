@@ -209,7 +209,7 @@ export default function Home() {
               <span className="eyebrow">What We Do</span>
               <h2>Our services</h2>
               <p>
-                Eight specialist services covering the work that actually gets
+                Twelve specialist services covering the work that actually gets
                 a site found and trusted: guest posts, link building, search
                 optimisation, content and the website itself. Every engagement
                 starts with a free, honest review of your site.
