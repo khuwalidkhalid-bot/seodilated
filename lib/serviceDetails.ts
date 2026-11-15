@@ -215,6 +215,190 @@ export const serviceDetails: ServiceDetail[] = [
       "Start with an honest review of your site and your current AI visibility. We will show you where you appear, where you are missing, and what to fix first.",
   },
   {
+    slug: "aeo",
+    title: "AEO",
+    tagline:
+      "Answer Engine Optimization as a standalone service: be the answer AI assistants give, even if your SEO is already handled.",
+    summary:
+      "Already have SEO running, with us or with someone else? AEO adds the answer layer on its own: your content structured so AI Overviews, ChatGPT, Gemini and voice assistants can quote your business accurately, with your AI answer presence tracked and reported.",
+    metaDescription:
+      "Standalone AEO services from SEODilated: Answer Engine Optimization for sites that already have SEO. Answer-first content, schema and entity work, and honest AI visibility tracking.",
+    intro: [
+      "Plenty of sites have their SEO handled, by an in-house team, another agency, or a project that is already running, and still have a gap: when a buyer asks an AI assistant instead of reading ten blue links, the business never appears in the answer. That gap is exactly what AEO closes, and it does not require you to move your whole SEO programme to get it.",
+      "This standalone service audits how answer engines currently treat your brand, restructures your key content so it can be quoted, and tracks your presence in AI answers over time. It runs cleanly alongside an existing SEO setup, and we are happy to coordinate with whoever runs yours.",
+    ],
+    included: [
+      {
+        title: "AI answer baseline audit",
+        text: "We record where your brand stands today in AI Overviews, ChatGPT, Gemini and Perplexity for the questions your buyers actually ask.",
+      },
+      {
+        title: "Answer-first content restructuring",
+        text: "Your key pages restructured so answers come first, in clear, quotable sections an engine can lift without mangling your meaning.",
+      },
+      {
+        title: "FAQ and schema work",
+        text: "Question-led sections and the structured data that helps answer engines understand and attribute your content correctly.",
+      },
+      {
+        title: "Entity and fact consistency",
+        text: "Your business facts, name, services, locations and contact details, made consistent across your site and profiles so engines repeat them correctly.",
+      },
+      {
+        title: "Citations and mentions",
+        text: "Guest posts and brand mentions on real websites in your niche, the sources AI answers are built from, with a full live-link report.",
+      },
+      {
+        title: "AI presence tracking",
+        text: "Your presence in AI answers re-checked and reported on a rhythm, showing plainly where you appear, where competitors appear instead, and what changed.",
+      },
+    ],
+    steps: [
+      {
+        title: "Baseline",
+        text: "We audit your current AI answer presence and your content's quotability, and agree the questions and topics that matter most.",
+      },
+      {
+        title: "Plan",
+        text: "A focused plan for the pages, facts and citations to fix first, sized to sit alongside your existing SEO work without clashing with it.",
+      },
+      {
+        title: "Restructure and publish",
+        text: "Content and schema changes are implemented, or supplied as detailed briefs your own team or developer can apply.",
+      },
+      {
+        title: "Track and report",
+        text: "AI answer presence is re-checked and reported, and the next round of improvements is agreed from the evidence.",
+      },
+    ],
+    deliverables: [
+      {
+        title: "AEO baseline report",
+        text: "Where your brand appears in AI answers today, topic by topic, with the gaps worth closing first.",
+      },
+      {
+        title: "Answer-content plan",
+        text: "The pages and questions to restructure, in priority order, with the reasoning for each.",
+      },
+      {
+        title: "Implemented changes or briefs",
+        text: "The restructuring, FAQ and schema work done on your site, or written up precisely for your existing team.",
+      },
+      {
+        title: "AI presence reports",
+        text: "Repeat checks of your AI answer presence, reported plainly alongside every link and mention placed.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I buy AEO without moving my SEO to you?",
+        a: "Yes, that is exactly who this standalone service is for. If your SEO is already running and working, AEO sits on top of it. We will coordinate with your in-house team or your current agency wherever that helps, and if you later want everything under one roof, Advance SEO combines SEO, AEO and GEO in one plan.",
+      },
+      {
+        q: "Which answer engines do you cover?",
+        a: "Google AI Overviews and featured answers, ChatGPT, Gemini and Perplexity are the main ones buyers use today. The baseline and tracking focus on those, and the content and entity work itself improves how any answer engine can treat your brand.",
+      },
+      {
+        q: "Can you guarantee my brand will appear in AI answers?",
+        a: "No, and nobody honestly can. The platforms control their answers and change them constantly. What we guarantee is the work: the audit, the restructuring, the citations, and tracking that shows you exactly where you stand at each check.",
+      },
+    ],
+    ctaLine:
+      "Ask us for an AI answer baseline on your site. It shows where you appear in AI answers today, and whether standalone AEO is worth it for you.",
+  },
+  {
+    slug: "geo",
+    title: "GEO",
+    tagline:
+      "Generative Engine Optimization as a standalone service: get your brand recognised and cited in AI-generated answers.",
+    summary:
+      "Already have SEO running, with us or with someone else? GEO adds the generative layer on its own: entity work, consistent brand facts and citations on the sites AI models read, so systems like ChatGPT, Gemini and Perplexity know your brand and cite it.",
+    metaDescription:
+      "Standalone GEO services from SEODilated: Generative Engine Optimization for sites that already have SEO. Entity clarity, brand citations and AI answer tracking, honestly reported.",
+    intro: [
+      "AI systems do not just read your website. They build a picture of your brand from everything published about you: directories, articles, reviews, mentions and the sites in your niche that carry authority. If that picture is thin or inconsistent, generative answers leave you out or describe you wrongly, no matter how good your own pages are.",
+      "This standalone service builds that picture deliberately: your entity clarified, your facts made consistent everywhere they appear, and citations earned on the websites AI models actually read. It is designed to bolt onto a running SEO project, whoever runs it, without disturbing what already works.",
+    ],
+    included: [
+      {
+        title: "Entity audit",
+        text: "How AI systems currently understand your brand: what they say about you, what they get wrong, and which sources they appear to trust.",
+      },
+      {
+        title: "Brand fact consistency",
+        text: "Your name, services, locations and key facts aligned across your site, profiles and major directories, so every source tells the same story.",
+      },
+      {
+        title: "Citation building",
+        text: "Guest posts, mentions and digital PR on real, vetted websites in your niche, placed where AI models read, with a full live-link report.",
+      },
+      {
+        title: "Content AI can extract",
+        text: "Definitions, comparisons and quotable passages on your key pages, written so a generative system can lift them accurately with your brand attached.",
+      },
+      {
+        title: "Structured data and llms.txt",
+        text: "Organization schema, sameAs connections and an llms.txt file that presents your business to AI crawlers in a clean, factual form.",
+      },
+      {
+        title: "Generative answer tracking",
+        text: "Your brand's presence and accuracy in ChatGPT, Gemini and Perplexity answers re-checked and reported on a rhythm.",
+      },
+    ],
+    steps: [
+      {
+        title: "Entity baseline",
+        text: "We record how AI systems describe and cite your brand today, and which competitors they prefer for your topics.",
+      },
+      {
+        title: "Fix the facts",
+        text: "Inconsistencies in your brand facts across the web are corrected first, because citations built on wrong facts do harm.",
+      },
+      {
+        title: "Build citations",
+        text: "Outreach and placement work earns mentions on authoritative sites in your niche, reported link by link.",
+      },
+      {
+        title: "Track and refine",
+        text: "Generative answers are re-checked, accuracy is corrected where it drifts, and the citation plan is refined from the evidence.",
+      },
+    ],
+    deliverables: [
+      {
+        title: "GEO entity report",
+        text: "How AI systems understand your brand today, what they get wrong, and the sources shaping that picture.",
+      },
+      {
+        title: "Corrected fact base",
+        text: "Your brand facts aligned across your site, profiles and directories, with a record of what was fixed.",
+      },
+      {
+        title: "Full citation report",
+        text: "The exact URL of every mention and link placed for you, ready for you to verify yourself.",
+      },
+      {
+        title: "Generative presence reports",
+        text: "Repeat checks of how AI answers describe and cite your brand, reported plainly at each check.",
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I buy GEO without moving my SEO to you?",
+        a: "Yes. GEO is offered standalone precisely for running projects: your existing SEO keeps doing its job, and this service builds the entity and citation layer AI systems rely on. If you would rather have one team run everything, Advance SEO combines SEO, AEO and GEO in a single plan.",
+      },
+      {
+        q: "How is GEO different from AEO?",
+        a: "AEO works mainly on your own content, structuring it so answer engines can quote it. GEO works mainly on the wider web's picture of your brand: entity clarity, consistent facts and citations on other sites, so generative systems know you and cite you. They overlap, and many clients take both, but each can be bought on its own.",
+      },
+      {
+        q: "How long before AI answers change?",
+        a: "Honestly, it varies and anyone promising a date is guessing. AI systems update their sources on their own schedules. What you will see from us is the work itself, delivered and reported, and tracking that shows movement as it happens rather than a promise made in advance.",
+      },
+    ],
+    ctaLine:
+      "Ask us how AI systems describe your brand today. The entity report costs you nothing to request, and it tells us both whether standalone GEO is worth your money.",
+  },
+  {
     slug: "complete-ecommerce-management",
     title: "Complete Ecommerce Management",
     tagline:
