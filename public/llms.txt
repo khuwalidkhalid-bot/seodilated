@@ -24,6 +24,8 @@
 
 - [SEO](https://www.seodilated.com/services/seo): Full search engine optimisation: keyword research, on-page and technical fixes, and the guest posts and link building that build authority.
 - [Advance SEO](https://www.seodilated.com/services/advance-seo): Advanced SEO combined with AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization): rank in Google and get cited in AI Overviews, ChatGPT, Gemini and Perplexity answers.
+- [AEO](https://www.seodilated.com/services/aeo): Answer Engine Optimization as a standalone service for sites that already have SEO: structured answer content, entity clarity and brand mentions so AI assistants and answer engines surface and cite the business.
+- [GEO](https://www.seodilated.com/services/geo): Generative Engine Optimization as a standalone service for sites that already have SEO: entity work, consistent brand facts and citations on the sites AI models read.
 - [Complete Ecommerce Management](https://www.seodilated.com/services/complete-ecommerce-management): End-to-end management for ecommerce stores, including Amazon and eBay, with SEO built in.
 - [Web Development](https://www.seodilated.com/services/web-development): Website development delivered by the same team that grows the traffic.
 - [WordPress Development](https://www.seodilated.com/services/wordpress-development): WordPress builds, fixes and ongoing development.
