@@ -12,6 +12,7 @@ export default function Header() {
           <Link href="/services">Services</Link>
           <Link href="/link-building">Link Building</Link>
           <Link href="/guest-posts">Guest Posts</Link>
+          <Link href="/websites">Websites</Link>
           <Link href="/aeo">AEO</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
