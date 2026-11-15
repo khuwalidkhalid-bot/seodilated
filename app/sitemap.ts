@@ -11,6 +11,8 @@ const serviceSlugs = [
   "wordpress-development",
   "content-writing",
   "performance-optimization",
+  "application-development",
+  "advance-ai-software-development",
 ];
 
 const staticPages: { path: string; lastModified: string; priority: number }[] = [
