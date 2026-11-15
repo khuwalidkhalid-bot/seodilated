@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = pageMetadata({
   title: "AEO Services: Answer Engine Optimization",
   description:
-    "AEO (Answer Engine Optimization) services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT, AI Overviews and answer engines surface and cite your business.",
+    "AEO services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT and AI Overviews surface and cite your business.",
   path: "/aeo",
 });
 
@@ -111,7 +111,7 @@ export default function AeoPage() {
           serviceJsonLd({
             name: "AEO Services (Answer Engine Optimization)",
             description:
-              "AEO (Answer Engine Optimization) services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT, AI Overviews and answer engines surface and cite your business.",
+              "AEO services from SEODilated: structured answers, entity clarity and brand mentions that help ChatGPT and AI Overviews surface and cite your business.",
             path: "/aeo",
             serviceType: "Answer Engine Optimization",
           }),
