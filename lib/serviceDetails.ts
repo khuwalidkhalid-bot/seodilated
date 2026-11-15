@@ -774,6 +774,190 @@ export const serviceDetails: ServiceDetail[] = [
     ctaLine:
       "Send us your URL and we will measure it first. The baseline costs you nothing, and it tells us both whether this service is worth your money.",
   },
+  {
+    slug: "application-development",
+    title: "Application Development",
+    tagline:
+      "Web and mobile applications planned, built and shipped by the same team that grows your traffic.",
+    summary:
+      "From internal tools to customer-facing products, we scope and build applications around what your business actually needs: a clear specification, clean code, milestone reporting, and a proper handover at launch.",
+    metaDescription:
+      "Application development from SEODilated: custom web and mobile apps scoped honestly, built by our in-house team, delivered in clear milestones with full handover and documentation.",
+    intro: [
+      "Plenty of businesses outgrow spreadsheets, off-the-shelf tools and patched-together plugins. When that happens, a purpose-built application stops being a luxury and becomes the thing that lets the business run properly: one system that does exactly what your team needs, in the way your team actually works.",
+      "Our development team builds web and mobile applications end to end, from the first scoping conversation to launch and handover. You deal with one team throughout, the scope is agreed in writing before building starts, and progress is reported at every milestone, the same discipline we bring to our SEO work.",
+    ],
+    included: [
+      {
+        title: "Discovery and written scope",
+        text: "We map what the application must do, who uses it and what it connects to, then agree a written scope before any building starts. No vague briefs, no surprise extras.",
+      },
+      {
+        title: "UX and interface design",
+        text: "Screens designed around the people who will use the app every day, so the finished product is simple to learn and hard to misuse.",
+      },
+      {
+        title: "Web application development",
+        text: "Dashboards, portals, booking systems, internal tools and customer platforms, built on modern, maintainable technology.",
+      },
+      {
+        title: "Mobile application development",
+        text: "Mobile apps for your customers or your team, built from the same specification as your web platform so everything stays in sync.",
+      },
+      {
+        title: "Testing and launch",
+        text: "The application is tested against the agreed scope before launch, and launch itself is planned with you so there are no surprises on the day.",
+      },
+      {
+        title: "Handover and documentation",
+        text: "You receive the working application, full access, and clear documentation of how it is built and how to run it. Your product stays yours.",
+      },
+    ],
+    steps: [
+      {
+        title: "Discovery",
+        text: "We learn your process, your users and the problem the application has to solve, and flag anything in the idea that would be expensive or risky before it costs you anything.",
+      },
+      {
+        title: "Scope and design",
+        text: "You receive a written scope, a fixed structure for the build, and designs for the main screens to approve before development begins.",
+      },
+      {
+        title: "Build in milestones",
+        text: "Development runs in agreed milestones. You see working software at each stage and can comment while changes are still cheap to make.",
+      },
+      {
+        title: "Test, launch and hand over",
+        text: "Final testing against the scope, a planned launch, and a full handover with documentation and access to everything.",
+      },
+    ],
+    deliverables: [
+      {
+        title: "The working application",
+        text: "Your application, live and tested against the agreed scope, ready for your team or your customers.",
+      },
+      {
+        title: "Full access and source code",
+        text: "Admin access, accounts and the source code handed over to you. You are never locked in to us to keep your own product running.",
+      },
+      {
+        title: "Documentation",
+        text: "A clear record of how the application is structured, how it is deployed, and how routine tasks are done.",
+      },
+      {
+        title: "Launch support",
+        text: "We stay close through launch and the first bedding-in period, fixing anything that does not match the agreed scope.",
+      },
+    ],
+    faqs: [
+      {
+        q: "What kinds of applications do you build?",
+        a: "Web applications such as dashboards, client portals, booking and management systems, internal business tools, and mobile apps for customers or staff. If your idea sits outside that, tell us about it and you will get a straight answer on whether we are the right team for it.",
+      },
+      {
+        q: "How is the price worked out?",
+        a: "Every application is different, so pricing follows the written scope: features, integrations and platforms all change the build. You receive a clear quote against that scope before work starts, and the price only changes if the scope changes, with your agreement first.",
+      },
+      {
+        q: "Do you look after the app after launch?",
+        a: "Yes, ongoing maintenance and further development are available after handover, and many clients keep building in phases. Equally, because you receive the source code and documentation, you are free to take the product elsewhere. It is yours.",
+      },
+    ],
+    ctaLine:
+      "Tell us what you want to build. We will scope it honestly, quote it clearly, and tell you plainly if something in the plan will not work.",
+  },
+  {
+    slug: "advance-ai-software-development",
+    title: "Advance AI Software Development",
+    tagline:
+      "Practical AI software built around your workflows: assistants, automation and tools your team will actually use.",
+    summary:
+      "We build AI-powered software for real business use: chatbots and assistants trained on your own material, workflow automation, content and data tools, and AI features integrated into the systems you already run.",
+    metaDescription:
+      "Advance AI software development from SEODilated: AI chatbots, workflow automation and AI tools built around your business, integrated with your existing systems, with honest scoping and full handover.",
+    intro: [
+      "AI is genuinely useful when it is pointed at a specific job: answering customer questions from your own documentation, drafting and sorting the work your team repeats every day, or pulling answers out of data nobody has time to read. It is a waste of money when it is bought as a buzzword. We build the first kind.",
+      "Our team designs and builds AI software around your workflows, using leading AI models through their official APIs and connecting them to your website, your data and your existing tools. Every project starts with an honest scoping conversation about what AI can and cannot do well in your case, before you spend anything on a build.",
+    ],
+    included: [
+      {
+        title: "AI chatbots and assistants",
+        text: "Assistants for your website or your team, answering from your own content and documentation, with clear limits on what they should and should not answer.",
+      },
+      {
+        title: "Workflow automation",
+        text: "The repetitive steps in your operation, drafting, sorting, summarising, routing and data entry, automated with AI where it is reliable and kept human where it is not.",
+      },
+      {
+        title: "Content and data tools",
+        text: "Internal tools that generate, check and organise content and data at a scale your team cannot do by hand, with human review built into the process.",
+      },
+      {
+        title: "Integration with your systems",
+        text: "AI features connected to the software you already use, your website, CRM, store or internal dashboards, through official APIs.",
+      },
+      {
+        title: "Testing against real cases",
+        text: "Before launch, the system is tested on your real questions and real data, including the awkward cases, so you know where it is strong and where it needs a human.",
+      },
+      {
+        title: "Training and handover",
+        text: "Your team is shown how the system works, what it costs to run, and how to manage it, with documentation handed over at launch.",
+      },
+    ],
+    steps: [
+      {
+        title: "Use-case scoping",
+        text: "We identify the specific jobs AI could do in your business and judge each one honestly: value, reliability and running cost, before recommending what to build first.",
+      },
+      {
+        title: "Prototype",
+        text: "A small working version is built against your real content or data, so you can judge the quality yourself before committing to the full build.",
+      },
+      {
+        title: "Build and integrate",
+        text: "The full system is built and connected to your website, data and tools, in agreed milestones with progress reported as we go.",
+      },
+      {
+        title: "Test, launch and hand over",
+        text: "Testing on real cases, a planned launch, and a handover with documentation, access and training for your team.",
+      },
+    ],
+    deliverables: [
+      {
+        title: "The working AI software",
+        text: "Your AI system, live, integrated and tested against the agreed scope and your real use cases.",
+      },
+      {
+        title: "Full access and documentation",
+        text: "Accounts, API connections and code handed over, with documentation covering how the system works and how to run it.",
+      },
+      {
+        title: "Running-cost breakdown",
+        text: "A plain summary of what the system costs to run, including model API usage, so there are no surprises after launch.",
+      },
+      {
+        title: "Team training session",
+        text: "A walkthrough for the people who will use and manage the system day to day, including its limits.",
+      },
+    ],
+    faqs: [
+      {
+        q: "What can AI software actually do for my business?",
+        a: "The reliable wins today are assistants that answer from your own material, automation of repetitive drafting, sorting and summarising work, and tools that search and summarise your data. In the scoping step we will tell you honestly which of your ideas fall into that category and which are not ready yet.",
+      },
+      {
+        q: "Which AI models do you build on?",
+        a: "Leading models from providers such as OpenAI and Anthropic, accessed through their official APIs and chosen per use case, based on quality, cost and the type of task. If a model changes or a better option appears, the integration is built so the model can be swapped without rebuilding the product.",
+      },
+      {
+        q: "Will the AI ever make things up?",
+        a: "It can, and any builder who promises otherwise is not being straight with you. We reduce the risk by grounding answers in your own content, restricting what the system may answer, and testing on your real cases, and we will show you exactly where human review stays in the loop.",
+      },
+    ],
+    ctaLine:
+      "Tell us the job you want AI to do. We will tell you honestly whether it is ready to build, what it would cost to run, and where a human still needs to stay in charge.",
+  },
 ];
 
 export function getServiceDetail(slug: string): ServiceDetail | undefined {
