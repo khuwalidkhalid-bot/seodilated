@@ -13,6 +13,7 @@ export default function Header() {
           <Link href="/link-building">Link Building</Link>
           <Link href="/guest-posts">Guest Posts</Link>
           <Link href="/websites">Websites</Link>
+          <Link href="/blog">Blog</Link>
           <Link href="/aeo">AEO</Link>
           <Link href="/about">About</Link>
           <Link href="/contact">Contact</Link>
