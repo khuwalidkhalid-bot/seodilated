@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { pageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "About",
+  title: "About Khuwalid Khalid, SEO Specialist",
   description:
     "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience. Manual outreach, honest advice, and link building you can verify link by link.",
   path: "/about",
