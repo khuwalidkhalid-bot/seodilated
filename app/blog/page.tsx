@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { connection } from "next/server";
+
+export const instant = false;
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { pageMetadata, breadcrumbJsonLd } from "@/lib/seo";
@@ -8,8 +11,6 @@ import {
   formatBlogDate,
   type BlogPost,
 } from "@/lib/blog";
-
-export const revalidate = 3600;
 
 export const metadata: Metadata = pageMetadata({
   title: "Blog: SEO, Link Building, Guest Posting & AI Search Guides",
@@ -40,7 +41,8 @@ function PostCard({ post }: { post: BlogPost }) {
   );
 }
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
+  await connection();
   const posts = publishedPosts();
   const byCategory = BLOG_CATEGORIES.map((cat) => ({
     cat,
