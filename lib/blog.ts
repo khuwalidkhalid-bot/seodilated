@@ -48,9 +48,9 @@ export interface BlogPost {
 }
 
 /** Today's date in Pakistan time as YYYY-MM-DD. */
-export function todayPKT(): string {
+export function todayLondon(): string {
   return new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Asia/Karachi",
+    timeZone: "Europe/London",
     year: "numeric",
     month: "2-digit",
     day: "2-digit",
@@ -800,14 +800,14 @@ export const blogPosts: BlogPost[] = [
 ];
 
 export function publishedPosts(): BlogPost[] {
-  const today = todayPKT();
+  const today = todayLondon();
   return blogPosts
     .filter((p) => p.publishDate <= today)
     .sort((a, b) => (a.publishDate < b.publishDate ? 1 : -1));
 }
 
 export function getPublishedPost(slug: string): BlogPost | undefined {
-  const today = todayPKT();
+  const today = todayLondon();
   return blogPosts.find((p) => p.slug === slug && p.publishDate <= today);
 }
 
