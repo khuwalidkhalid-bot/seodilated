@@ -80,7 +80,7 @@ export default async function ServiceDetailPage({
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow">Service</span>
-          <h1>{detail.title}</h1>
+          <h1>{detail.headline ?? detail.title}</h1>
           <p>{detail.tagline}</p>
           <div style={{ marginTop: 26, display: "flex", gap: 14, flexWrap: "wrap" }}>
             <Link href={contactHref} className="btn btn-primary">
