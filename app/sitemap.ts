@@ -5,6 +5,8 @@ const base = "https://www.seodilated.com";
 const serviceSlugs = [
   "seo",
   "advance-seo",
+  "aeo",
+  "geo",
   "complete-ecommerce-management",
   "web-development",
   "wordpress-development",
