@@ -160,11 +160,11 @@ const faqs = [
 
 export const metadata: Metadata = {
   ...pageMetadata({
-    title: "SEO, Guest Posts & Link Building Agency",
+    title: "Full-Service Digital Agency: SEO, Web Development & Ecommerce",
     description: SITE_DESCRIPTION,
     path: "/",
   }),
-  title: { absolute: "SEO, Guest Posts & Link Building Agency | SEODilated" },
+  title: { absolute: "Full-Service Digital Agency: SEO, Web Development & Ecommerce | SEODilated" },
 };
 
 export default function Home() {
