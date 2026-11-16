@@ -76,11 +76,13 @@ export default function ContactForm() {
       return;
     }
 
-    // Also email the enquiry to contact@seodilated.com (via FormSubmit).
-    // The Supabase insert above stays the record of truth: a failed email
-    // must never lose the lead or change the visitor's success message.
+    // Also email the enquiry to contact@seodilated.com. The email is sent
+    // server-side by /api/contact-email through the site's own mailbox, so
+    // it does not depend on the visitor's network reaching a third-party
+    // form service. The Supabase insert above stays the record of truth:
+    // a failed email must never lose the lead or change the success message.
     try {
-      await fetch("https://formsubmit.co/ajax/contact@seodilated.com", {
+      await fetch("/api/contact-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -92,9 +94,6 @@ export default function ContactForm() {
           website: website.trim() || "-",
           service: service || "Not specified",
           message: message.trim() || "-",
-          _subject: `New enquiry from seodilated.com: ${service || "General"}`,
-          _replyto: email.trim(),
-          _template: "table",
         }),
       });
     } catch {
