@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 export const SITE_URL = "https://www.seodilated.com";
 export const SITE_NAME = "SEODilated";
 export const SITE_DESCRIPTION =
-  "SEODilated is an SEO agency specialising in guest posts, manual link building and search visibility. Real websites, honest reviews, full live-link reporting.";
+  "SEODilated is a full-service digital agency offering SEO, AI search optimization (AEO and GEO), guest posting and link building, web and software development, ecommerce management, content writing, social media marketing and performance optimization.";
 export const CONTACT_EMAIL = "contact@seodilated.com";
 export const CONTACT_PHONE = "+44 7832 367128";
 export const OG_IMAGE_PATH = "/seodilated-cover.png";
@@ -62,7 +62,7 @@ export function pageMetadata({
           url: OG_IMAGE_PATH,
           width: 1944,
           height: 960,
-          alt: "SEODilated: SEO, guest posts and link building agency",
+          alt: "SEODilated: full-service digital agency for SEO, web development and ecommerce",
         },
       ],
     },
@@ -88,7 +88,7 @@ export const organizationJsonLd = {
   description: SITE_DESCRIPTION,
   email: CONTACT_EMAIL,
   telephone: CONTACT_PHONE,
-  slogan: "Guest posts and link building done properly.",
+  slogan: "SEO, websites and growth, done properly.",
   founder: {
     "@type": "Person",
     name: "Khuwalid Khalid",

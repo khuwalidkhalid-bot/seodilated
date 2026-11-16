@@ -10,12 +10,12 @@ import type {
 // Used if the database query fails, so the public site never looks broken.
 export const FALLBACK_SITE_CONTENT: SiteContent = {
   id: 1,
-  hero_badge: "SEO · Guest Posts · Link Building",
-  hero_title: "Grow your search visibility with links that actually count.",
+  hero_badge: "SEO · AI Search · Web Development · Ecommerce",
+  hero_title: "One team for your search rankings, website and online growth.",
   hero_subtitle:
-    "SEODilated is a specialist SEO agency for guest posts, manual link building and search visibility. Real websites, honest advice, and a full live-link report on every single order.",
+    "SEODilated is a full-service digital agency: SEO and AI search optimization, guest posting and link building, web and software development, ecommerce management, content writing and social media marketing. Real websites, honest advice, and a full live-link report on every link building order.",
   about_text:
-    "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience in search engine optimisation, guest posting and link building. Over that time he has run outreach campaigns for agencies and businesses across a wide range of niches, always with the same rule: real websites, real placements, and a full report the client can check.\n\nHis approach is deliberately straightforward. Every new enquiry starts with an honest review of your site. If a service will help, you will get a clear plan and a fair price. If it will not, you will be told that too — before you spend anything.\n\nToday, SEODilated delivers through a wider team covering web development, WordPress, design and ecommerce — so the same people who grow your traffic can also build and maintain the site it lands on.",
+    "SEODilated is a full-service digital agency led by Khuwalid Khalid, an SEO specialist with 7 years of experience. The agency covers SEO and AI search optimization (AEO and GEO), guest posting and link building, web development, WordPress development, application development, complete ecommerce management, content writing, social media marketing and performance optimization, all delivered by one in-house team.\n\nHis approach is deliberately straightforward. Every new enquiry starts with an honest review of your site. If a service will help, you will get a clear plan and a fair price. If it will not, you will be told that too, before you spend anything.\n\nBecause the same team grows your traffic and builds the website it lands on, strategy, development and marketing stay joined up: one plan, one team, and reporting you can check.",
   contact_email: "contact@seodilated.com",
   contact_phone: "+44 7832 367128",
   updated_at: null,
