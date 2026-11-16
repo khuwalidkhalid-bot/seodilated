@@ -67,6 +67,7 @@ export const blogPosts: BlogPost[] = [
     "category": "AI Search",
     "keyword": "how to appear in chatgpt",
     "publishDate": "2026-11-15",
+    "updatedDate": "2026-11-16",
     "readingMinutes": 7,
     "intro": [
       "To appear in ChatGPT answers, your business needs to be easy to find, easy to understand and worth citing. In practice, that means your key pages must be crawlable and indexed, your facts must be stated plainly, and other trusted websites should mention your brand in the right context. There is no submission form and no paid switch that places you inside an answer.",
@@ -142,7 +143,7 @@ export const blogPosts: BlogPost[] = [
         "q": "How long does it take to appear in ChatGPT answers?"
       },
       {
-        "a": "They overlap but they are not identical. Good indexing, clear content and trusted references help in both places. The difference is that an AI answer may cite directories, articles and review sources alongside business websites, so your wider web presence matters as much as any single page.",
+        "a": "They overlap but they are not identical. Good indexing, clear content and trusted references help in both places. The difference is that an AI answer may cite directories, articles and review sources alongside business websites, so your wider web presence matters as much as any single page. We compare the two approaches directly in our guide to answer engine optimisation versus SEO, which covers where the work overlaps and where it parts ways.",
         "q": "Is this the same as ranking on Google?"
       }
     ],
@@ -795,6 +796,553 @@ export const blogPosts: BlogPost[] = [
     "relatedService": {
       "href": "/link-building",
       "label": "See our link building service"
+    }
+  },
+  {
+    "slug": "what-is-aeo-vs-seo",
+    "title": "What Is Answer Engine Optimisation (AEO) vs SEO? The Real Difference",
+    "seoTitle": "What Is AEO vs SEO? The Real Difference Explained",
+    "metaDescription": "AEO and SEO share the same foundations but serve different results. Learn how answer engine optimisation differs from SEO, what overlaps, and where to focus.",
+    "excerpt": "AEO optimises for direct answers in AI tools and voice assistants. SEO optimises for search results. Most of the work is the same, so here is where the two actually part ways.",
+    "category": "AI Search",
+    "keyword": "what is answer engine optimization aeo vs seo",
+    "publishDate": "2026-11-22",
+    "readingMinutes": 7,
+    "intro": [
+      "Answer engine optimisation, or AEO, is the work of making your content easy for AI systems and voice assistants to quote as a direct answer. SEO is the wider work of making your pages visible and credible in search results. The two overlap heavily: crawlable pages, clear facts and trusted mentions help both. The real difference is the result you are optimising for, a cited answer versus a ranked listing, and that difference changes how you structure a page.",
+      "I have spent seven years doing SEO for clients, and AEO is best understood as a layer on top of that work rather than a replacement for it. A page that ranks well but states nothing plainly is rarely quoted. A page that states everything plainly but is never crawled is never seen at all. This guide explains where AEO and SEO agree, where they part, and what to do first if you only have time for one of them."
+    ],
+    "keyTakeaways": [
+      "AEO optimises content so AI systems can quote it as a direct answer; SEO optimises pages to rank in search results.",
+      "Both depend on crawlable pages, clear facts and trusted mentions, so most AEO work is good SEO work.",
+      "AEO rewards short, direct answers near the top of the page, structured clearly under question headings.",
+      "SEO also covers technical health, site structure, internal links and the wider link profile.",
+      "Start with SEO foundations, then shape your best pages into answer-ready content."
+    ],
+    "sections": [
+      {
+        "heading": "What AEO actually means",
+        "paragraphs": [
+          "AEO means shaping content so that an AI system can lift a short, accurate statement from it and present it as the answer to a question. The systems that do this include chatbots such as ChatGPT, Google AI Overviews, and voice assistants that read out a single answer rather than a list of links. None of them offers a submission form or a paid switch. They draw on the same indexed web that search engines use, which is why AEO starts with the same foundations as SEO.",
+          "The practical test is simple. Ask a question your customers actually ask, in the words they would use. If an AI system answers it and names your business, your content is doing the job. If it answers with a competitor, read the source it cites. Usually the competitor has a clearer page, a better structured answer, or a stronger mention on a third party site. That gap is the work."
+        ]
+      },
+      {
+        "heading": "What SEO covers that AEO does not",
+        "paragraphs": [
+          "SEO covers the whole job of making a website visible in search: technical health, crawlability, site structure, internal links, page speed, mobile experience, local profiles and the link profile that supports authority. AEO does not fix any of that. A page that search engines cannot crawl will not be quoted by an AI system either, because the system cannot read what it cannot reach.",
+          "SEO also covers intent beyond direct questions. A service page must convince a visitor to enquire, a category page must help a shopper compare options, and a local page must show where a business operates. Those pages need depth, proof and calls to action that a short quoted answer never shows. AEO is a slice of the work, not the whole job."
+        ]
+      },
+      {
+        "bullets": [
+          "Crawlable, indexed pages with the main facts in readable text.",
+          "Clear headings that match the questions people actually ask.",
+          "Accurate, consistent business details across your site and profiles.",
+          "Mentions and links on relevant third party sites that build trust.",
+          "Content written for readers first, with direct answers near the top."
+        ],
+        "heading": "Where the two overlap",
+        "paragraphs": [
+          "Most of what helps AEO is ordinary good SEO. A page that is easy to crawl, states its facts plainly, uses headings that match real questions, and is supported by mentions on trusted sites will perform better in both places. Google's own guidance on helpful content applies to both: write for people, answer the question properly, and show genuine experience where it matters.",
+          "Structured data sits in this shared ground too. Organisation or LocalBusiness schema, and FAQ schema where the questions are genuine, help systems interpret the facts on a page. Schema does not force a citation or a ranking, but it removes ambiguity about names, services and contact details, which helps any system that tries to summarise your business."
+        ]
+      },
+      {
+        "heading": "Where they part ways in practice",
+        "paragraphs": [
+          "The split shows up in how a page is written. For AEO, the direct answer belongs near the top, in a short paragraph or a short list, under a heading that mirrors the question. A definition should come first, then the detail. For SEO, depth and coverage matter more: the page must also serve the visitor who wants to compare, check prices, read reviews and decide, which means longer content, supporting sections and internal links.",
+          "They also split in measurement. SEO is measured in rankings, impressions, clicks and conversions. AEO is measured by asking real questions in AI tools and recording whether your business is named and which sources are cited. A page can rank first and still never be quoted if the answer is buried under marketing language. Equally, a page can be quoted for one question and never rank for it. Treat them as two scoreboards for the same website."
+        ]
+      },
+      {
+        "heading": "What to do first",
+        "paragraphs": [
+          "Start with the SEO foundations, because AEO cannot rescue a site that search engines struggle to read. Check that your key pages are crawlable and indexed, fix broken pages and duplicate versions, and make sure the main facts appear in plain text rather than inside images or scripts. Then pick the pages that already rank or nearly rank, and shape them into answer-ready pages: a direct answer near the top, question headings, short paragraphs, and the detail that supports the answer.",
+          "After that, build the wider trust signals. Correct inconsistent listings, earn mentions on relevant sites, and keep the facts on your pages current. Then test monthly. Ask a fixed list of buyer questions in ChatGPT and in Google's AI results, note who is named and which sources are cited, and improve one gap at a time. Anyone promising a guaranteed place in AI answers is selling certainty the systems themselves do not offer."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "a": "No. Search results still drive most traffic, and AI answers draw on the same indexed web that search engines use. AEO is a layer on top of SEO, not a replacement for it. A site with weak SEO foundations will struggle at AEO too, because the systems cannot cite pages they cannot find or understand.",
+        "q": "Is AEO replacing SEO?"
+      },
+      {
+        "a": "Usually not. Shape the strong pages you already have into answer-ready pages, with a direct answer near the top and question headings. Separate thin pages written only to chase AI citations rarely help, and they split your authority across more URLs than you need.",
+        "q": "Do I need separate pages for AEO?"
+      },
+      {
+        "a": "No. Structured data can make your business details easier to interpret, especially names, contact information and official profiles, but it does not force a citation. It works best as support for accurate visible content, not as a substitute for it.",
+        "q": "Does structured data guarantee a citation?"
+      },
+      {
+        "a": "Ask the same list of real buyer questions in ChatGPT and in Google's AI results on a regular schedule, and record whether your business is named and which sources are cited. Look for more frequent and more accurate mentions over weeks, not for a single appearance. Answers vary by wording, location and timing, so judge progress over several checks.",
+        "q": "How do I know if AEO is working?"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: AI features and your website",
+        "url": "https://developers.google.com/search/docs/appearance/ai-features"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: Introduction to structured data",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      },
+      {
+        "label": "Google Search Central: SEO Starter Guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/aeo",
+      "label": "See our AEO service"
+    }
+  },
+  {
+    "slug": "link-building-services-for-ecommerce-website",
+    "title": "Link Building Services for an Ecommerce Website: How to Choose the Right One",
+    "seoTitle": "Choosing a Link Building Service for Ecommerce",
+    "metaDescription": "Choosing a link building service for an ecommerce website? Learn the checks that matter: site quality, content standards, reporting and replacement cover.",
+    "excerpt": "Choosing a link building service for a store is mostly about process, not price. Here is the checklist I would use before signing anything.",
+    "category": "Ecommerce SEO",
+    "keyword": "link building services for ecommerce website",
+    "publishDate": "2026-11-23",
+    "readingMinutes": 7,
+    "intro": [
+      "The right link building service for an ecommerce website is one that understands your products, your margins and which pages make the money, then buys few, relevant links to the category pages that matter, and reports every placement with a live URL you can check yourself. Price alone tells you almost nothing. The questions you ask before signing tell you far more.",
+      "I have placed links for stores for seven years, and the pattern is consistent. Stores that choose on price alone end up with links their customers would never see, on sites their market would never read. Stores that choose on process, site criteria, content quality and honest reporting get links that still work a year later. This guide is the checklist I would use if I were hiring for my own store."
+    ],
+    "keyTakeaways": [
+      "Choose a service by its process and site criteria, not by its price per link.",
+      "Category pages usually deserve links first, because they match how shoppers search.",
+      "Ask to see example sites, content samples and a real report before you sign anything.",
+      "Relevance and a real audience matter more than a single authority score.",
+      "A small, well targeted first order tests a provider better than a large blind commitment."
+    ],
+    "sections": [
+      {
+        "heading": "Start with what your store actually needs",
+        "paragraphs": [
+          "Before talking to any provider, work out which pages deserve links. For most stores that means category pages first, because shoppers search for product types rather than single products. Check which categories sit just off page one, which have useful content but few links, and which carry the best margins. A provider that never asks about your products, your competitors or your margins is selling a standard package, not a service for your store.",
+          "Timing matters too. A store heading into its peak season needs links live before the season, not during it, because placements take weeks to be found and assessed. Be honest about budget as well. A good provider will tell you when a small budget is better spent on fewer, better placements than on a long list of weak ones."
+        ]
+      },
+      {
+        "bullets": [
+          "Real organic traffic from your market, not traffic bought or borrowed.",
+          "Topical relevance: a site your customers would recognise and trust.",
+          "Editorial standards: an editor who says no to weak pitches.",
+          "A real audience: comments, shares, or a visible community around the content."
+        ],
+        "heading": "Judge the sites, not the sales pitch",
+        "paragraphs": [
+          "The sites matter more than anything else in the quote. Ask how sites are chosen and what checks are run before outreach. A serious provider can describe the criteria plainly: genuine traffic, topical relevance, editorial standards, and a real audience. If the answer is a secret list, a single authority score, or a promise of a set number of links for a set price with no mention of quality, walk away.",
+          "Authority scores from SEO tools are a starting point, not a verdict. A site can carry a strong score and still publish thin articles on every topic for anyone who pays. A smaller, genuinely relevant site in your niche, read by the people who buy what you sell, is often the better placement. Ask to see example placements, and read the pages yourself before you judge."
+        ]
+      },
+      {
+        "heading": "How the content should work",
+        "paragraphs": [
+          "Guest posts for a store should read like articles for the host site's readers, not adverts for your products. The best topics come from your own customers: care guides, buying advice, honest comparisons, and the mistakes people make before they buy. A writer who understands the niche can produce that. A writer handed a keyword and a link target cannot, and the result reads like filler around a sales link.",
+          "Anchor text deserves the same care. Branded and natural anchors, pointing at the most useful page for the reader, look like a genuine recommendation. Exact match commercial anchors repeated across many placements look like a campaign, because they are one. Agree the anchor approach before work starts, and insist on approving content before it goes live."
+        ]
+      },
+      {
+        "heading": "Pricing models and what they hide",
+        "paragraphs": [
+          "Per placement pricing is easy to understand: you pay for each agreed link that goes live. It suits a defined test, but it can reward volume over judgement, so the agreement should cover site criteria, content standards and what happens if a link is removed. A monthly retainer buys a programme: strategy, outreach, content and reporting over time. It suits competitive markets where steady growth matters more than a one off batch.",
+          "Very cheap per link pricing usually saves money in one of three places: site vetting, content quality, or outreach effort. Those savings show up later as weak results, lost placements, or a profile you would not want inspected closely. Expensive work should also explain itself. A higher price should buy visible things: stricter site selection, better writing, clearer reporting and replacements when something goes wrong."
+        ]
+      },
+      {
+        "bullets": [
+          "Will you see every live URL, anchor text and placement context in a report?",
+          "Can you approve content and anchor text before anything goes live?",
+          "What happens if a link is removed or a page is taken down?",
+          "Does the provider promise rankings? A guarantee is a warning sign.",
+          "Can you start with a small test order before a larger commitment?"
+        ],
+        "heading": "The checks before you sign",
+        "paragraphs": [
+          "Ask every provider the same questions and compare the answers side by side. Which sites will be targeted, and what checks are run before outreach? Who writes the content, and can you approve it? Will you see the live URLs in a report? What happens if a placement is lost? The answers reveal the real scope far better than a headline price.",
+          "Start small, whatever the sales pitch says. A sensible first order tests quality, communication and reporting before a larger commitment. If the first placements are relevant, well written and properly reported, scale up. If they are not, you have learned that cheaply, and your store has not been tied to a long contract built on weak links."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "a": "Mostly category pages. They match how people search, they can carry a broader range of links naturally, and they pass value down to the products beneath them. Individual product pages earn links best through roundups, reviews and buying guides, where the product itself is the subject of the page.",
+        "q": "Should links point to product pages or category pages?"
+      },
+      {
+        "a": "There is no fixed number. Start with a small test batch on the categories that matter most, watch how your pages respond over the following weeks, and scale the placements that worked. A steady pace that matches your traffic and content growth looks natural because it is natural.",
+        "q": "How many links does a new store need to start?"
+      },
+      {
+        "a": "Placements usually take weeks to appear in rankings, because Google has to find the link, understand the page and re-evaluate the result. The effect on sales takes longer still. Judge a campaign over a quarter rather than a fortnight, and watch category rankings and organic revenue instead of counting links.",
+        "q": "What is a realistic timeline for results?"
+      },
+      {
+        "a": "No, and a guarantee should make you cautious. Rankings depend on your site, your content, your competitors and the search itself, not only on links. An honest provider promises a clear process, agreed site criteria and verifiable reporting, not a position.",
+        "q": "Can a service guarantee first page rankings?"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Qualify your outbound links to Google",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: Introduction to structured data",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/complete-ecommerce-management",
+      "label": "See our ecommerce service"
+    }
+  },
+  {
+    "slug": "what-are-niche-edits",
+    "title": "What Are Niche Edits? How Link Insertions Work in Practice",
+    "seoTitle": "What Are Niche Edits? Link Insertions Explained",
+    "metaDescription": "A niche edit places your link inside an article already published and ranking. Learn how link insertions work, what makes a good one, and the risks to avoid.",
+    "excerpt": "A niche edit inserts your link into an article that already exists and already ranks. Here is how it works, when it beats a guest post, and what to check first.",
+    "category": "Link Building",
+    "keyword": "what are niche edits",
+    "publishDate": "2026-11-24",
+    "readingMinutes": 7,
+    "intro": [
+      "A niche edit, also called a link insertion, is a link placed inside an article that is already published, already indexed and often already ranking. Instead of commissioning a new article, the site owner edits an existing page, usually by adjusting a sentence or adding one, so your link joins content that search engines have already assessed.",
+      "After seven years placing both guest posts and niche edits, I use niche edits when a client has a strong page sitting just short of the positions it wants. They are faster than guest posts and often cheaper, because there is nothing new to write. The trade off is control: you inherit someone else's context, so checking the page matters more than checking the price."
+    ],
+    "keyTakeaways": [
+      "A niche edit inserts your link into an existing article rather than creating a new one.",
+      "They work best for pushing a specific page that is already close to ranking.",
+      "The value comes from the page itself: its relevance, history and real readers.",
+      "You control less of the surrounding text, so inspect the page before paying.",
+      "Both niche edits and guest posts are paid links, so relevance and quality decide the risk."
+    ],
+    "sections": [
+      {
+        "heading": "How a niche edit is arranged",
+        "paragraphs": [
+          "The process starts with finding pages, not sites. The outreach targets articles that already cover your topic: a guide, a comparison, a roundup or a resource page that is already indexed and, ideally, already ranking for searches your customers make. The pitch is simple: your page adds something genuinely useful to their article, and a link would help their readers.",
+          "If the owner agrees, they adjust a relevant sentence or add one, and your link goes live inside the existing content. You then check the live page yourself: the link works, the anchor text is natural, and the sentence reads properly in context. Record the URL, the anchor text and the date, because every placement you buy should be traceable later."
+        ]
+      },
+      {
+        "heading": "Why existing pages carry value",
+        "paragraphs": [
+          "A new guest post starts from nothing. It must be written, published, crawled and assessed before it can support your page, and that takes time. An existing article already has history behind it. It has been crawled, it may already rank, and it may already receive readers who trust the site. Your link joins that existing value instead of waiting for a new page to earn it.",
+          "That is also why the page itself matters so much. A niche edit on a genuine, well maintained guide is a strong placement. The same link on a forgotten page that nobody reads, or a page stuffed with unrelated outbound links, carries little value and adds risk. The format is not the asset. The page is."
+        ]
+      },
+      {
+        "bullets": [
+          "The page is genuinely relevant to your product or service.",
+          "The article is real, well written and still maintained by its owner.",
+          "Your link fits a sentence a reader would find useful, not a forced insertion.",
+          "The anchor text is branded or natural, not a commercial keyword repeated everywhere.",
+          "The page links out sparingly, to sources a reader would expect."
+        ],
+        "heading": "What makes a good niche edit",
+        "paragraphs": [
+          "Judge the page the way a reader would. Would someone landing on it find it useful? Does the article read like it was written for a person, or assembled around outbound links? Is your link placed where a reader would naturally want more detail, or dropped into a paragraph that has nothing to do with your page? Those checks reveal more than any single metric.",
+          "Also check that the page is still alive. A guide last updated years ago, on a site that no longer publishes, is a weaker home than a page its owner still looks after. Freshness is not the deciding factor, but a maintained page is more likely to keep its rankings, its readers and your link."
+        ]
+      },
+      {
+        "heading": "The risks, stated plainly",
+        "paragraphs": [
+          "Niche edits are paid links, and Google's spam policies are clear that buying links to manipulate rankings counts as link spam. Anyone who tells you the format is completely safe is selling you something. The practical question is whether the placement would still make editorial sense if rankings did not exist: a relevant link, on a genuine page, that helps the reader.",
+          "The worst placements share the same signs. Insertions into hacked sites, irrelevant articles, or pages already stuffed with unrelated outbound links are the ones that cause trouble. So are sudden bursts of identical anchor text across many pages. Keep anchor text mostly branded or natural, link to pages that genuinely help the reader of the host article, and build at a pace that matches the growth of your site."
+        ]
+      },
+      {
+        "heading": "Niche edits vs guest posts",
+        "paragraphs": [
+          "Neither format wins outright. A guest post gives you a new article, control over the context, and a fresh referring domain, but it costs more and takes weeks. A niche edit is faster and usually cheaper, and it places your link inside a page with history, but you control far less of the text around it. The choice depends on what your site needs next.",
+          "If your site is new, or the page you want to rank has thin content and no links yet, guest posts build the base. If you already have solid pages sitting just outside the positions you want, niche edits are often the smarter spend. Most mature campaigns end up using both: guest posts to widen the base, niche edits to push the specific pages that are close."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "a": "No. An older page that is indexed, relevant and still maintained can be an excellent home for a link, because it has history and often rankings behind it. What matters is whether the page is real, whether it fits your topic, and whether its owner still looks after it.",
+        "q": "Do niche edits pass less value because the page is older?"
+      },
+      {
+        "a": "There is no standard price. It depends on the authority of the site, whether it has genuine traffic, how commercial your niche is, and how selective the editor is. Judge each placement on the page itself, and be cautious of bulk offers that promise many insertions for very little money.",
+        "q": "How much should a niche edit cost?"
+      },
+      {
+        "a": "Yes. The site owner controls the page, so they can edit or remove the link at any time. That is why you should check the placement is live after payment, keep a record of it, and agree in advance what happens if it disappears. A provider that replaces lost placements is worth more than one that does not.",
+        "q": "Can a niche edit link be removed later?"
+      },
+      {
+        "a": "Google's spam policies cover paid links bought to manipulate rankings, whatever the format. A relevant link on a genuine page, placed where it helps the reader, is a very different proposition from a bulk insertion into unrelated pages. Relevance, editorial quality and honest disclosure are what separate the two.",
+        "q": "Are niche edits allowed by Google?"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Qualify your outbound links to Google",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+      },
+      {
+        "label": "Google Search Central: How to make your links crawlable",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      }
+    ],
+    "relatedService": {
+      "href": "/link-building",
+      "label": "See our link building service"
+    }
+  },
+  {
+    "slug": "link-building-for-ecommerce",
+    "title": "Link Building for Ecommerce: A Step-by-Step Plan for a New Store",
+    "seoTitle": "Link Building for Ecommerce: Step-by-Step Plan",
+    "metaDescription": "Link building for ecommerce works best as a sequence: free supplier links first, then niche edits, guest posts and content worth citing. Here is the plan.",
+    "excerpt": "A new store should build links in a set order: free supplier links, niche edits, guest posts, then content that earns links. Here is the plan, step by step.",
+    "category": "Ecommerce SEO",
+    "keyword": "link building for ecommerce",
+    "publishDate": "2026-11-25",
+    "readingMinutes": 7,
+    "intro": [
+      "Link building for ecommerce works best as a sequence: first claim the free links from suppliers, brands and partners, then place niche edits inside the buying guides your customers already read, then add guest posts on niche blogs, and finally publish content on your own store that earns links by itself. Done in that order, a modest budget reaches the pages that make the money. Done out of order, the same budget disappears.",
+      "I have run this sequence for stores of every size over seven years, and the order matters more than the spend. A new store that buys guest posts before claiming its supplier links is paying for links it could have had for the price of a polite email. A store that skips content and buys only placements has nothing for other sites to cite. This is the plan I would follow for a new store, step by step."
+    ],
+    "keyTakeaways": [
+      "Claim free supplier, brand and partner links before spending anything.",
+      "Point most links at category pages, because they match how shoppers search.",
+      "Niche edits in buying guides give the fastest return for a specific page.",
+      "Guest posts belong on niche blogs your customers read, not on general sites.",
+      "Publish useful content on your own store so links can be earned, not only bought."
+    ],
+    "sections": [
+      {
+        "bullets": [
+          "Ask every brand you stock for a link from its stockist or where-to-buy page.",
+          "Complete the partner, supplier and directory profiles that are missing your website link.",
+          "Turn offline relationships, sponsorships and local events into online mentions where it feels natural."
+        ],
+        "heading": "Step 1: claim the links you have already earned",
+        "paragraphs": [
+          "Before spending anything, list every business relationship your store already has. The brands and manufacturers whose products you stock usually maintain stockist or where-to-buy pages, and many will add your link if you simply ask and make it easy for them. Suppliers, distributors, fulfilment partners, local business groups and even the software your store runs on all belong on the same list.",
+          "These links are rarely glamorous, but they are relevant, they are free, and they come from real businesses with real websites. They also tend to be the links competitors forget to claim. One morning of polite emails here can produce more durable value than a month of cold outreach to strangers."
+        ]
+      },
+      {
+        "heading": "Step 2: fix the pages your links will point to",
+        "paragraphs": [
+          "A link is only as useful as the page it lands on. Before buying placements, make sure your category pages deserve them: clear titles, useful introductory content, filters that work, genuine reviews, and internal links that connect categories to the products beneath them. A thin category page with no content gives Google little reason to rank it, however many links point at it.",
+          "Check the basics as well. Every category page should load quickly, work properly on a phone, and answer the questions shoppers ask before they buy. If a page would not convince a visitor, it will not convince a search engine either. Fixing the page first means every link you build afterwards lands on something worth ranking."
+        ]
+      },
+      {
+        "heading": "Step 3: buy niche edits in the guides shoppers read",
+        "paragraphs": [
+          "Every niche has buying guides, comparison pages and roundups that already rank for the searches your customers make before they spend money. If your product or store is a genuine fit for one of those pages, a niche edit, where the owner inserts your link into the existing content, is often the most cost-effective paid placement a small store can buy.",
+          "The page already exists, it already ranks, and it is already read by people comparing options, which is precisely the audience you want. Keep the bar strict: the guide must be genuine, your product must honestly belong in it, and the link should point to the most useful page on your store, usually the category or product page the guide is actually discussing."
+        ]
+      },
+      {
+        "heading": "Step 4: add guest posts on niche blogs",
+        "paragraphs": [
+          "Guest posts still work for ecommerce when the host site is right. A well written article on a respected blog in your niche, read by the people who buy what you sell, is worth more than a pile of posts on general sites that publish any topic for a fee. You are buying relevance and audience, not just a link.",
+          "Pitch topics that genuinely help the blog's readers and suit your experience: care guides, buying advice, honest comparisons, common mistakes to avoid. Write the article properly, link naturally to a helpful page on your store rather than forcing a product link into every paragraph, and treat each placement as a small piece of publishing rather than a transaction to rush through. One or two a month, done well, beats a burst of weak posts."
+        ]
+      },
+      {
+        "heading": "Step 5: publish content worth citing",
+        "paragraphs": [
+          "Links become far easier to earn when your store contains something linkable beyond product pages. Buying guides built on the questions your customers genuinely ask, sizing and care resources, comparison pages and original observations drawn from your own sales and returns all give bloggers, journalists and guide writers a reason to cite you instead of a bigger competitor.",
+          "This route is slower than buying placements, so it should run alongside them rather than instead of them. The payoff compounds: the same content that earns links also answers pre-purchase questions, which helps conversion when the traffic arrives. Keep those pages clear and well structured, with sensible structured data, so search engines can understand them and surface them properly. Then measure quarterly, and let the results decide where the next links go."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "a": "Links influence rankings first and sales second, so expect a lag between the two. New placements typically take weeks to show up in rankings, and those rankings then have to meet real search demand. Judge a campaign over a quarter rather than a fortnight, and watch category rankings and organic revenue instead of counting links.",
+        "q": "How long before link building affects sales?"
+      },
+      {
+        "a": "There is no fixed number, and anyone who gives you one is guessing. A steady, small number of relevant placements each month, matched to your content and traffic growth, looks natural because it is natural. Relevance and consistency matter far more than hitting a monthly quota.",
+        "q": "How many links should a new store build each month?"
+      },
+      {
+        "a": "Mostly, no. Category pages and guides match how shoppers search, and they pass value down to the products beneath them. The homepage earns brand links naturally through directories, partnerships and press. Point deliberate link building at the pages that need to rank.",
+        "q": "Should I build links to the homepage?"
+      },
+      {
+        "a": "Look wider. Supplier and manufacturer links, trade press, local press, product roundups, resource pages and comparison sites all work. A store in a quiet niche can also earn links by publishing the guide its market is missing, then letting other sites find it. Fewer options means stricter quality, not a reason to buy weak placements.",
+        "q": "What if my niche has very few blogs?"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Introduction to structured data",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data"
+      },
+      {
+        "label": "Google Search Central: How to make your links crawlable",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/complete-ecommerce-management",
+      "label": "See our ecommerce service"
+    }
+  },
+  {
+    "slug": "guest-post-outreach-email-template",
+    "title": "Guest Post Outreach Email Template: One That Gets Replies",
+    "seoTitle": "Guest Post Outreach Email Template That Gets Replies",
+    "metaDescription": "A guest post outreach email that gets replies is short, specific and written for one editor. Copy the template and learn the mistakes that kill replies.",
+    "excerpt": "Most outreach fails because it is generic. This template is short, specific and written for one editor, with the mistakes that send pitches to the bin.",
+    "category": "Guest Posting",
+    "keyword": "guest post outreach email template",
+    "publishDate": "2026-11-26",
+    "readingMinutes": 7,
+    "intro": [
+      "A guest post outreach email that gets replies is short, specific and written for one editor. It names the site, names a topic their readers would actually want, shows you have read the site, and asks for one clear next step. Most outreach fails because it does the opposite: a generic subject line, a template body, and a pitch that could have been sent to a thousand sites.",
+      "I have sent and received outreach for seven years, and the emails I answer share the same shape. They respect the editor's time, they prove the sender knows the site, and they make the next step easy. This guide gives you that shape as a template you can copy, plus the mistakes that send most pitches straight to the bin."
+    ],
+    "keyTakeaways": [
+      "Personalise the first two lines: the site, a recent article, and why your topic fits their readers.",
+      "Pitch a topic, not a link: editors accept ideas, not requests for placement.",
+      "Keep it under 150 words and ask for one clear next step.",
+      "Follow up once, a week later, with something new to add.",
+      "Track every reply so you never pitch the same editor twice with the same idea."
+    ],
+    "sections": [
+      {
+        "bullets": [
+          "Subject: Guest post idea for [Site Name]: [Your Topic]",
+          "Hi [Name], I enjoyed your recent article on [Article Topic], especially [One Specific Point].",
+          "I write about [Your Niche] and I would like to contribute a piece on [Your Topic], covering [Two or Three Points] for your readers.",
+          "I have written for [One Relevant Site, if true] and I can send a draft by [Date].",
+          "Would you like me to send a short outline first? Thanks, [Your Name]"
+        ],
+        "heading": "The template",
+        "paragraphs": [
+          "Copy this shape and fill in the brackets for each site. Do not send it unchanged to a list. The personalisation is the point, and an editor can tell within two lines whether you have read their site or only their contact page.",
+          "That is the whole email. It names the site, proves you read it, pitches one clear topic, shows a little credibility without boasting, and asks for one small next step. An editor can answer it in a minute, which is exactly why it gets answered."
+        ]
+      },
+      {
+        "heading": "Why each part works",
+        "paragraphs": [
+          "The subject line does two jobs: it says guest post, so the editor knows what the email is, and it names a topic, so they can judge it without opening anything else. The opening line proves you have read the site, which separates you from the bulk pitches that open with praise for a site the sender has never visited. One specific detail from a real article is worth more than a paragraph of flattery.",
+          "The pitch itself is a topic, not a link. Editors accept ideas for their readers, not requests for placement on their site. The credibility line is short and honest: one relevant publication if you have one, and nothing invented if you do not. The close asks for an outline, not a yes to the whole article, because a small step is easier to agree to than a large one."
+        ]
+      },
+      {
+        "bullets": [
+          "Guest post idea for [Site Name]: [Your Topic]",
+          "A [Topic] guide your readers asked about?",
+          "Contribution idea: [Specific Angle] for [Site Name]",
+          "Quick question about a guest post on [Topic]"
+        ],
+        "heading": "Subject lines that get opened",
+        "paragraphs": [
+          "Good subject lines are specific, honest and short. They name the site or the topic, and they say what the email is. Avoid anything that hides the purpose, such as a vague question or a subject line that pretends to be a reply to an earlier thread. Editors deal with enough misleading email already, and a trick subject line is a fast way to lose trust before the email is even read.",
+          "Test subject lines in small batches and keep a note of what earns replies. A change of a few words can make a real difference, but the subject line cannot rescue a generic body. The two work together: the subject earns the open, and the first two lines earn the reply."
+        ]
+      },
+      {
+        "bullets": [
+          "A generic greeting with no mention of the site or its content.",
+          "Pitching a link instead of a topic, in the first email.",
+          "An email so long the editor has to scroll to find the point.",
+          "Several asks at once: a link, a rate, a deadline and a call.",
+          "Following up the next day, or following up four times."
+        ],
+        "heading": "The mistakes that kill replies",
+        "paragraphs": [
+          "Most outreach fails for simple reasons. The sender never names the site, so the editor assumes the email went to hundreds of people. The pitch is a link request dressed as a topic. The email is long enough to need scrolling. Or the sender follows up too soon, too often, or with nothing new to say. Each of those is easy to fix, and each fix raises the reply rate more than any clever trick.",
+          "The other common mistake is pitching the wrong site entirely. A topic that fits your business does not always fit their readers. Read the site's recent articles, check who they write for, and only pitch where your topic genuinely belongs. A polite no from the right site is better than a placement on a site nobody in your market reads."
+        ]
+      },
+      {
+        "heading": "Follow up once, and track everything",
+        "paragraphs": [
+          "If there is no reply after a week, send one short follow up. Add something new: a different angle, a recent article of theirs you liked, or a note that the outline is ready. Keep it to three or four lines and make it easy to answer. Then stop. Repeated follow ups do not wear an editor down. They teach the editor to ignore you.",
+          "Track every email in a simple sheet: the site, the editor, the topic pitched, the date sent, the reply, and the outcome. That record stops you pitching the same editor twice with the same idea, which is one of the fastest ways to burn a relationship. It also shows you, over time, which topics and subject lines actually earn replies, so each batch gets a little better than the last."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "a": "Under 150 words is a good target. An editor should be able to read it in under a minute and answer it in the same time. If your pitch needs more space, the topic is probably too broad, or you are explaining too much before the editor has shown interest.",
+        "q": "How long should an outreach email be?"
+      },
+      {
+        "a": "No. Pitch the topic first and discuss the link once the idea is accepted. Editors accept ideas for their readers, not requests for placement. Raising the link too early changes the conversation from publishing to selling, and most editors will end it there.",
+        "q": "Should I mention the link in the first email?"
+      },
+      {
+        "a": "Small batches, properly personalised, beat large blasts. Twenty thoughtful emails will usually earn more replies than two hundred generic ones, and they will not damage your reputation with editors you may want to work with again. Personalisation takes time, so treat outreach as a weekly habit, not a one day campaign.",
+        "q": "How many sites should I email at once?"
+      },
+      {
+        "a": "Check the pitch before blaming the inbox. Read the sites again: does your topic genuinely fit their readers? Is the subject line specific? Does the first line prove you read the site? A low reply rate usually means the pitch, the targeting or both. Fix those first, then test a new subject line on the next batch.",
+        "q": "What if nobody replies?"
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Qualify your outbound links to Google",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links"
+      },
+      {
+        "label": "Google Search Central: How to make your links crawlable",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      }
+    ],
+    "relatedService": {
+      "href": "/guest-posts",
+      "label": "See our guest post service"
     }
   }
 ];
