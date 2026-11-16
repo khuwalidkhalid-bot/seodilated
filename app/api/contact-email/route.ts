@@ -53,7 +53,7 @@ export async function POST(req: Request) {
       from: '"SEODilated Website" <contact@seodilated.com>',
       to: "contact@seodilated.com",
       replyTo: email,
-      subject: `New enquiry from seodilated.com: ${service}`,
+      subject: `New enquiry: ${service} from ${name}`,
       text,
     });
   } catch {
