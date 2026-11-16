@@ -1,7 +1,7 @@
 /**
  * SEODilated blog: purely informational content inside the SEO and
  * link building niche. One post publishes per day (posts carry a
- * publishDate and only appear once that date arrives, Pakistan time).
+ * publishDate and only appear once that date arrives, Europe/London time).
  * Every post must include: an answer-first intro (AEO), key takeaways,
  * structured sections, FAQs (schema), and a Sources list of external
  * references, plus one related service for the internal link.
@@ -36,7 +36,7 @@ export interface BlogPost {
   excerpt: string;
   category: BlogCategory;
   keyword: string;
-  publishDate: string; // YYYY-MM-DD, Pakistan time
+  publishDate: string; // YYYY-MM-DD, Europe/London time
   updatedDate?: string; // YYYY-MM-DD
   readingMinutes: number;
   intro: string[];
@@ -1360,8 +1360,10 @@ export function getPublishedPost(slug: string): BlogPost | undefined {
 }
 
 export function formatBlogDate(iso: string): string {
-  const d = new Date(`${iso}T00:00:00+05:00`);
+  // Parse at midday UTC so the London date never shifts a day either way.
+  const d = new Date(`${iso}T12:00:00Z`);
   return new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/London",
     day: "numeric",
     month: "long",
     year: "numeric",
