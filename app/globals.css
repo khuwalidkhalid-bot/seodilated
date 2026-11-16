@@ -788,6 +788,17 @@ a {
   margin: -4px 0 8px;
 }
 
+.team-link {
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.team-link:hover {
+  text-decoration: underline;
+}
+
 /* ---------- CTA band ---------- */
 .cta-band {
   position: relative;

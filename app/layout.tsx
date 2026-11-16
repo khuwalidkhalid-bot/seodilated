@@ -12,7 +12,7 @@ import {
   webSiteJsonLd,
 } from "@/lib/seo";
 
-const DEFAULT_TITLE = "SEO, Guest Posts & Link Building Agency | SEODilated";
+const DEFAULT_TITLE = "Full-Service Digital Agency: SEO, Web Development & Ecommerce | SEODilated";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         url: OG_IMAGE_PATH,
         width: 1944,
         height: 960,
-        alt: "SEODilated: SEO, guest posts and link building agency",
+        alt: "SEODilated: full-service digital agency for SEO, web development and ecommerce",
       },
     ],
   },
