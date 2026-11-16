@@ -40,6 +40,18 @@ export default function TeamSection({ alt = false }: { alt?: boolean }) {
               <h3>{m.name}</h3>
               {m.role && <div className="team-role">{m.role}</div>}
               {m.bio && <p>{m.bio}</p>}
+              {m.linkedin_url && (
+                <p>
+                  <a
+                    className="team-link"
+                    href={m.linkedin_url}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn profile
+                  </a>
+                </p>
+              )}
             </div>
           ))}
         </div>
