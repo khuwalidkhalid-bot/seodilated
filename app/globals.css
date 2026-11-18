@@ -2190,3 +2190,21 @@ table.data select {
   font-size: 14px;
   margin: 0 6px;
 }
+
+/* Blog images (added 2026-11-19) */
+.blog-hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+}
+.blog-card-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  margin-bottom: 14px;
+}
