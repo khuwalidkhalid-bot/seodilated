@@ -22,6 +22,14 @@ export const metadata: Metadata = pageMetadata({
 function PostCard({ post }: { post: BlogPost }) {
   return (
     <div className="card">
+      <img
+        src={post.image}
+        alt={post.title}
+        className="blog-card-img"
+        width={2048}
+        height={1152}
+        loading="lazy"
+      />
       <span className="eyebrow">{post.category}</span>
       <h3 style={{ marginTop: 10 }}>
         <Link href={`/blog/${post.slug}`}>{post.title}</Link>
