@@ -33,6 +33,7 @@ export async function generateMetadata({
     title: post.seoTitle,
     description: post.metaDescription,
     path: `/blog/${slug}`,
+    image: post.image,
   });
 }
 
@@ -68,6 +69,7 @@ export default async function BlogPostPage({
             datePublished: post.publishDate,
             dateModified: post.updatedDate,
             category: post.category,
+            image: post.image,
           }),
           faqJsonLd(post.faqs),
           breadcrumbJsonLd([
@@ -92,6 +94,19 @@ export default async function BlogPostPage({
               : ""}{" "}
             · {post.readingMinutes} min read
           </p>
+        </div>
+      </section>
+
+      {/* Hero image */}
+      <section className="section" style={{ paddingTop: 36, paddingBottom: 0 }}>
+        <div className="container">
+          <img
+            src={post.image}
+            alt={post.title}
+            className="blog-hero-img"
+            width={2048}
+            height={1152}
+          />
         </div>
       </section>
 
@@ -233,6 +248,14 @@ export default async function BlogPostPage({
             <div className="grid grid-3">
               {more.map((p) => (
                 <div className="card" key={p.slug}>
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    className="blog-card-img"
+                    width={2048}
+                    height={1152}
+                    loading="lazy"
+                  />
                   <span className="eyebrow">{p.category}</span>
                   <h3 style={{ marginTop: 10 }}>
                     <Link href={`/blog/${p.slug}`}>{p.title}</Link>
