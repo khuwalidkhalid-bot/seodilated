@@ -39,13 +39,23 @@ export function pageMetadata({
   title,
   description,
   path,
+  image,
 }: {
   title: string;
   description: string;
   path: string;
+  image?: string;
 }): Metadata {
   const url = `${SITE_URL}${path}`;
   const fullTitle = `${title} | ${SITE_NAME}`;
+  const ogImage = image
+    ? { url: image, width: 2048, height: 1152, alt: title }
+    : {
+        url: OG_IMAGE_PATH,
+        width: 1944,
+        height: 960,
+        alt: "SEODilated: full-service digital agency for SEO, web development and ecommerce",
+      };
   return {
     title,
     description,
@@ -57,20 +67,13 @@ export function pageMetadata({
       url,
       title: fullTitle,
       description,
-      images: [
-        {
-          url: OG_IMAGE_PATH,
-          width: 1944,
-          height: 960,
-          alt: "SEODilated: full-service digital agency for SEO, web development and ecommerce",
-        },
-      ],
+      images: [ogImage],
     },
     twitter: {
       card: "summary_large_image",
       title: fullTitle,
       description,
-      images: [OG_IMAGE_PATH],
+      images: [ogImage.url],
     },
   };
 }
@@ -207,6 +210,7 @@ export function blogPostingJsonLd({
   datePublished,
   dateModified,
   category,
+  image,
 }: {
   title: string;
   description: string;
@@ -214,6 +218,7 @@ export function blogPostingJsonLd({
   datePublished: string;
   dateModified?: string;
   category: string;
+  image?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -227,7 +232,7 @@ export function blogPostingJsonLd({
     dateModified: dateModified ?? datePublished,
     articleSection: category,
     inLanguage: "en-GB",
-    image: `${SITE_URL}${OG_IMAGE_PATH}`,
+    image: `${SITE_URL}${image ?? OG_IMAGE_PATH}`,
     author: {
       "@type": "Person",
       name: "Khuwalid Khalid",
