@@ -13,9 +13,9 @@ import {
 } from "@/lib/blog";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Blog: SEO, Link Building, Guest Posting & AI Search Guides",
+  title: "Blog: SEO, Link Building & AI Search Guides",
   description:
-    "Practical, honest guides on SEO, link building, guest posting and AI search from SEODilated. Written from daily client work, checked against the sources, one new guide every day.",
+    "SEO, link building, guest posting and AI search guides from SEODilated: practical, honest articles on rankings, backlinks, AEO and GEO, published daily.",
   path: "/blog",
 });
 
