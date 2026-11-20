@@ -5,7 +5,7 @@ import WebsitesMarketplace from "@/components/WebsitesMarketplace";
 import { pageMetadata, faqJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Guest Post Websites Marketplace: 14,000+ Sites With Prices",
+  title: "Guest Post Websites Marketplace: 14,000+ Sites",
   description:
     "Browse 14,000+ real websites that accept guest posts, with DR, traffic and per-site prices shown upfront. Human-written article and live-link report included.",
   path: "/websites",
