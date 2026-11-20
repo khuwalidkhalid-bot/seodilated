@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 export const SITE_URL = "https://www.seodilated.com";
 export const SITE_NAME = "SEODilated";
 export const SITE_DESCRIPTION =
-  "SEODilated is a full-service digital agency offering SEO, AI search optimization (AEO and GEO), guest posting and link building, web and software development, ecommerce management, content writing, social media marketing and performance optimization.";
+  "SEODilated is a full-service digital agency: SEO, AEO and GEO, guest posting, link building, web development, ecommerce, content and social media.";
 export const CONTACT_EMAIL = "contact@seodilated.com";
 export const CONTACT_PHONE = "+44 7832 367128";
 export const OG_IMAGE_PATH = "/seodilated-cover.png";
@@ -82,7 +82,7 @@ export function pageMetadata({
 
 export const organizationJsonLd = {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
+  "@type": "Organization",
   "@id": `${SITE_URL}/#organization`,
   name: SITE_NAME,
   url: SITE_URL,

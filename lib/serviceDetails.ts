@@ -513,7 +513,7 @@ export const serviceDetails: ServiceDetail[] = [
     summary:
       "Business websites and landing pages built by our own team, with clean structure, mobile first layouts and the SEO foundations set up as part of the build. The same team stays on hand for changes after launch.",
     metaDescription:
-      "Web Development from SEODilated's team: business websites and landing pages built with SEO basics in place, and ongoing changes handled by the same team afterwards.",
+      "Web development from SEODilated: business websites and landing pages built with SEO in place, with ongoing changes handled by the same team afterwards.",
     intro: [
       "A website that looks good but cannot be found is only half a website. Because we are an SEO practice first, every site our team builds starts with the search basics already handled: clean structure, sensible page hierarchy and pages that load without a fight.",
       "We build business websites and landing pages for clients who want one team accountable for the result. And when you need changes later, you come back to the same team that built it, not to a stranger reading someone else's code.",
