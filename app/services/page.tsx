@@ -8,7 +8,7 @@ import { serviceDetails } from "@/lib/serviceDetails";
 export const metadata: Metadata = pageMetadata({
   title: "SEO Services: Guest Posts, Link Building, AEO & GEO",
   description:
-    "Guest posts, niche edits, press releases and managed link building from SEODilated. Vetted publishers, manual outreach, pay per placement, full live-link reporting.",
+    "Guest posts, niche edits, press releases and managed link building from SEODilated: vetted publishers, manual outreach and full live-link reporting.",
   path: "/services",
 });
 
