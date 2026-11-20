@@ -8,7 +8,7 @@ import { pageMetadata, webPageJsonLd, breadcrumbJsonLd } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "About Khuwalid Khalid, SEO Specialist",
   description:
-    "SEODilated is led by Khuwalid Khalid, an SEO specialist with 7 years of experience. Manual outreach, honest advice, and link building you can verify link by link.",
+    "About SEODilated and Khuwalid Khalid, SEO specialist with 7 years of experience in guest posting, link building and AI search for UK and US clients.",
   path: "/about",
 });
 
