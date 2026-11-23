@@ -178,6 +178,7 @@ export const blogPosts: BlogPost[] = [
     "category": "Link Building",
     "keyword": "what is a toxic backlink",
     "publishDate": "2026-11-16",
+    "updatedDate": "2026-11-23",
     "readingMinutes": 7,
     "intro": [
       "A toxic backlink is a link from another website that looks manipulative, spammy or so irrelevant that it could damage trust in your site. The word toxic is not a Google category, though. It is a label used by SEO tools to flag links they think deserve a closer look.",
@@ -230,7 +231,7 @@ export const blogPosts: BlogPost[] = [
         "heading": "What to do, step by step",
         "paragraphs": [
           "Export your links from Search Console and from one backlink tool, then work through them in groups rather than one by one. Group by domain, look at the anchor text, the type of page and how the link was likely obtained. Keep links from real sites with real readers, even if a tool scores them poorly. Flag links that are sitewide, paid looking, hacked, or part of an obvious network.",
-          "For the worst group, contact site owners and ask for removal where that is realistic. Keep a simple record of what you asked and when. If there is a manual action, or a clear scheme that cannot be undone by outreach, prepare a careful disavow file at domain level for the clear offenders and submit it through Google's tool. Then stop. Endless disavowing becomes its own superstition, and it does not replace building links your competitors would be pleased to have."
+          "For the worst group, contact site owners and ask for removal where that is realistic. Keep a simple record of what you asked and when. If there is a manual action, or a clear scheme that cannot be undone by outreach, prepare a careful disavow file at domain level for the clear offenders and submit it through Google's tool. Then stop. Endless disavowing becomes its own superstition, and it does not replace building links your competitors would be pleased to have. If you are also working out how many links a page actually needs before you build more, read our guide How Many Backlinks Do I Need to Rank first, so the clean up and the new building pull in the same direction."
         ]
       }
     ],
@@ -1351,6 +1352,790 @@ export const blogPosts: BlogPost[] = [
       {
         "label": "Google Search Central: How to make your links crawlable",
         "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      }
+    ],
+    "relatedService": {
+      "href": "/guest-posts",
+      "label": "See our guest post service"
+    }
+  },
+  {
+    "slug": "what-is-a-good-domain-rating",
+    "image": "/blog/what-is-a-good-domain-rating.png",
+    "title": "What Is a Good Domain Rating? How to Read DR Honestly",
+    "seoTitle": "What Is a Good Domain Rating? How to Read DR",
+    "metaDescription": "Domain Rating measures a site's backlink strength on a 0 to 100 scale. Learn what counts as a good score, what DR cannot tell you, and how to read it.",
+    "excerpt": "A good Domain Rating is one that is strong compared with the sites you actually compete against. This guide explains how to read DR honestly, without chasing a magic number.",
+    "category": "SEO",
+    "keyword": "what is a good domain rating",
+    "publishDate": "2026-11-27",
+    "readingMinutes": 6,
+    "intro": [
+      "A good Domain Rating is one that is strong compared with the sites you actually compete against, not a magic number on its own. Domain Rating, usually shortened to DR, is Ahrefs' score from 0 to 100 for the strength of a website's backlink profile. A site in the 50s or above has generally built a solid base of links. Most small sites sit far lower, and that is perfectly normal.",
+      "I have worked in SEO for seven years, and the honest answer I give clients is that DR is a useful shorthand, not a verdict. Google does not use Domain Rating as a ranking factor, and a high score never buys a place at the top. What matters is the quality and relevance of the links behind the number, and whether your pages deserve to rank for the searches you care about. This guide explains how to read DR sensibly and how to improve it without cutting corners."
+    ],
+    "keyTakeaways": [
+      "Domain Rating is Ahrefs' 0 to 100 score for backlink strength. It is not a Google ranking factor.",
+      "A good DR is relative. Compare your site with the pages ranking for your target searches.",
+      "Higher DR usually comes from links on strong, relevant sites, not from many weak or irrelevant links.",
+      "DR says nothing about content quality, topical relevance, or whether a page matches what the searcher wants.",
+      "Treat a sudden DR jump as a warning sign. Check the new links before celebrating."
+    ],
+    "sections": [
+      {
+        "heading": "What Domain Rating actually measures",
+        "paragraphs": [
+          "Domain Rating looks at the links pointing to a website and scores the overall strength of that profile from 0 to 100. Ahrefs bases it on how many unique websites link to you, and on the strength of their own profiles. A link from a strong site counts for more than one from a site with almost no links of its own. The scale is logarithmic, which means each step upward gets harder as the score rises. Moving from 10 to 20 is far easier than moving from 70 to 80.",
+          "It helps to remember what DR leaves out. It does not measure content quality, page relevance, or how well your site performs technically. Two sites can share the same DR yet behave very differently in search, because the score describes only one part of the picture. I use it to compare the link strength of competing sites, then I look at the actual pages and links before drawing a conclusion."
+        ]
+      },
+      {
+        "heading": "What counts as a good Domain Rating",
+        "paragraphs": [
+          "The honest answer is that it depends on your niche and your competition. A small local business may do well with a modest score, because the sites it competes with are also small. A national publisher in a competitive market needs a much stronger profile to keep up. Before judging your own number, list the sites on page one for your five most important searches and compare their DR with yours. That gap, not a fixed target, is what matters.",
+          "As a rough guide, these are the bands I see most often in client work. They describe typical sites, not targets to hit, and a lower score never means your site cannot rank."
+        ],
+        "bullets": [
+          "Below 20: new sites and small businesses just starting to earn links.",
+          "20 to 40: growing sites earning a steady flow of relevant links.",
+          "40 to 60: established sites that can compete in moderately competitive searches.",
+          "Above 60: strong, well known sites linked by a wide range of respected sources."
+        ]
+      },
+      {
+        "heading": "Why a high DR does not buy rankings",
+        "paragraphs": [
+          "Google ranks pages, not whole websites, and weighs far more than link strength. A page with a high DR behind it can still lose to a lower DR rival whose page answers the search better, loads faster, or matches the intent behind the query more closely. I see this often in client audits: a strong domain with thin service pages loses to a smaller site with a genuinely helpful guide.",
+          "DR also says nothing about whether links are relevant. A link from a respected site in your industry supports your authority. A link from an unrelated site carries less weight, even if it lifts your DR. That is why chasing the number leads people astray. The goal is links that make sense for your business, from sites your customers would recognise, not the highest score you can buy or trade for."
+        ]
+      },
+      {
+        "heading": "How to improve your Domain Rating honestly",
+        "paragraphs": [
+          "DR rises when other websites link to you, so the work is about earning those links. Start by publishing content with a clear purpose: a useful guide, a comparison, a free tool, or original research from your own experience. Then tell the right people it exists. Outreach to sites that have linked to similar content before works far better than sending one email to thousands of strangers.",
+          "Guest posting on relevant sites, digital PR around genuine news or data, and offering your page as a replacement for broken links elsewhere are all legitimate routes. Each one takes time, and results build gradually rather than overnight. Avoid any service that promises a fast DR increase, because that usually means links bought in bulk from sites built only to sell them."
+        ],
+        "bullets": [
+          "Publish one genuinely useful resource other sites would want to reference.",
+          "Pitch guest posts to relevant sites your customers read, not to any site that accepts them.",
+          "Build relationships with journalists and bloggers in your niche before you need a link.",
+          "Check new links regularly. Disavow only when there is a clear manual action or link scheme."
+        ]
+      },
+      {
+        "heading": "Common mistakes when reading DR",
+        "paragraphs": [
+          "The most common mistake is comparing your DR with sites in a different world. A local plumber does not need the DR of a national newspaper, and a new blog does not need the DR of a ten year old authority. The comparison only helps when the sites serve the same audience and chase the same searches. The second mistake is treating DR as a target instead of a byproduct. When the score becomes the goal, people buy links and trade placements that add nothing for their customers.",
+          "The third mistake is panicking over small changes. DR moves as Ahrefs updates its data and as linking sites gain or lose links. A drop of a few points is usually noise, not a penalty. Check the underlying links before reacting. If the links you lost were weak or irrelevant, the change means little. If you lost a strong, relevant link, earn a replacement instead of chasing the number back with quick purchases."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is Domain Rating a Google ranking factor?",
+        "a": "No. Domain Rating is a metric created by Ahrefs, and Google has no equivalent score that it uses in ranking. Google weighs the quality and relevance of links to a page, alongside content, intent and technical factors. DR can help you compare sites quickly, but Google does not measure or reward it directly."
+      },
+      {
+        "q": "What is a good DR for a new website?",
+        "a": "For a new website, any steady upward movement is a good sign, since a new site starts at zero. What matters more is where your links come from. A handful of links from relevant, respected sites in your niche beats dozens from unrelated directories and low quality blogs."
+      },
+      {
+        "q": "Can I raise my Domain Rating quickly?",
+        "a": "Not honestly. DR grows as you earn links from strong websites, which takes time. Services that promise a fast rise usually buy links in bulk from networks built to sell them, which risks a manual action under Google's spam policies and rarely helps rankings. Steady, relevant link building is slower, but it lasts."
+      },
+      {
+        "q": "Should I check DR before accepting a guest post?",
+        "a": "It is one useful check, but do not let it decide for you. Look at its real traffic, whether it publishes content your audience would read, and whether its posts link out to sensible sources. A modest DR site with a real audience is often a better placement than a high DR site that publishes anything for a fee."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Link spam",
+        "url": "https://support.google.com/webmasters/answer/9044175"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: How to make your links crawlable",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/seo",
+      "label": "See our SEO service"
+    }
+  },
+  {
+    "slug": "how-to-build-backlinks",
+    "image": "/blog/how-to-build-backlinks.png",
+    "title": "How to Build Backlinks in 2026: A Practical Guide for Small Sites",
+    "seoTitle": "How to Build Backlinks in 2026: Practical Guide",
+    "metaDescription": "Learn how to build backlinks for a small site in 2026: create pages worth linking to, earn guest posts and press mentions, and track what actually works.",
+    "excerpt": "To build backlinks in 2026, publish pages worth linking to, then earn links through outreach, guest posting and digital PR. This guide covers the practical steps in order.",
+    "category": "Link Building",
+    "keyword": "how to build backlinks",
+    "publishDate": "2026-11-28",
+    "readingMinutes": 7,
+    "intro": [
+      "To build backlinks in 2026, publish pages that are genuinely worth linking to, then earn links through outreach, guest posting and digital PR. That is the whole method in one sentence. The links that move a small site forward come from real websites that referenced your content because it helped their readers, not from directories, link farms or paid placements dressed up as editorial.",
+      "I have built links for seven years, and the approach that works has barely changed, even as search results have added AI answers. Small sites win by being specific, useful and persistent. This guide covers the steps in order: the pages to build first, how to find the right opportunities, the outreach that gets replies, and the checks that show whether the work is paying off."
+    ],
+    "keyTakeaways": [
+      "Build link worthy pages first. Outreach only works when there is something worth linking to.",
+      "Target websites that serve your audience and have linked to similar content before.",
+      "Personal outreach beats bulk email. Short, specific and honest messages get the replies.",
+      "Guest posting and digital PR work when the content is genuinely useful, not when it is written only for the link.",
+      "Track referring domains and rankings over months. Link building is slow, steady work."
+    ],
+    "sections": [
+      {
+        "heading": "Build pages worth linking to first",
+        "paragraphs": [
+          "Before sending a single outreach email, ask whether the page you want links to deserves one. The pages that attract links naturally are useful resources: a detailed guide, a comparison, a free template, a checklist, or a study based on your own data. A thin service page rarely earns links, because there is nothing in it for the linking site or its readers. Spend your first effort on one or two strong resources rather than ten average pages.",
+          "Make the page easy to link to as well. Give it a clear title, a direct answer near the top, and headings a writer can quote. Add a simple chart or example where it helps, and keep the page updated so it stays worth referencing. I often find one strong resource earns more links over a year than a dozen rushed posts, because writers return to the page they trust."
+        ]
+      },
+      {
+        "heading": "Find link opportunities that fit your niche",
+        "paragraphs": [
+          "Once you have a page worth linking to, look for websites that already link to similar content. Search for your topic and note which sites appear in the results and reference lists of the best articles. Those sites have shown they link out, and they care about the subject. You can also look at where your competitors get their links, then ask which of those sites would find your resource useful too.",
+          "Keep the list small and relevant. Twenty well matched prospects are worth more than two hundred random ones. For each site, note who writes about your topic, a recent article they published, and the page where your resource would fit. That detail is what turns a cold email into a useful suggestion."
+        ],
+        "bullets": [
+          "Search your topic and list the sites that link out to guides like yours.",
+          "Check competitor backlinks and shortlist the relevant sites, not the whole list.",
+          "Look for resource pages, roundups and guides that already link to several sources.",
+          "Skip sites that exist only to sell links or publish on every topic under the sun."
+        ]
+      },
+      {
+        "heading": "Write outreach that gets replies",
+        "paragraphs": [
+          "Good outreach is short, specific and honest. Introduce yourself in one line, say exactly which page of theirs you read, and explain in one sentence why your resource helps their readers. Then ask plainly whether they would consider linking to it. Most outreach I receive fails at the first step, because it is clearly a template sent to a thousand people and says nothing about my site.",
+          "Follow up once, a week or so later, with a brief reminder. After that, move on. Chasing the same person repeatedly burns the relationship and wastes time you could spend finding a better match. Keep a simple record of who you contacted and what they said, so you never email the same person twice about the same page. Over time you will learn which angles get replies in your niche, and your hit rate will improve."
+        ]
+      },
+      {
+        "heading": "Use guest posting and digital PR carefully",
+        "paragraphs": [
+          "Guest posting still works when the article is genuinely useful to the host site's readers. Choose sites your customers already read, pitch a topic that fits their audience, and write the best version of that article you can. The link should sit naturally inside content that earns its place. A guest post written only to place a link, on a site that accepts anything, helps nobody and can look like a link scheme to Google.",
+          "Digital PR follows the same rule. A survey, a small study, or a genuinely interesting opinion can earn coverage and links from journalists and bloggers, but only when the story is real. Do not invent data or exaggerate a finding to make it newsworthy. One honest piece of research picked up by three publications beats a dozen press releases nobody reads."
+        ],
+        "bullets": [
+          "Pitch guest posts only to sites your customers read and trust.",
+          "Write the article for the host site's readers, not for the link alone.",
+          "Base digital PR on real data or a real opinion you can stand behind.",
+          "Avoid any service that sells guest posts in bulk on unrelated sites."
+        ]
+      },
+      {
+        "heading": "Track results and keep building",
+        "paragraphs": [
+          "Link building rewards patience, so track the right numbers. Watch your referring domains, the pages that gain links, and your rankings for the searches that matter to your business. Do not judge a campaign after two weeks. Links take time to be discovered and counted, and rankings move slowly as your profile grows. I review progress monthly and compare it with the previous quarter, not last week.",
+          "When a tactic works, repeat it. When an angle gets no replies after a fair test, change the angle before blaming the whole approach. Keep your best resource pages updated, because a link to an outdated page is a wasted opportunity. Small sites do not need hundreds of links to compete. They need a steady flow of relevant ones, earned month after month, from websites that matter in their niche."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long does it take to build backlinks?",
+        "a": "Expect months, not days. A new resource usually needs a few weeks to be discovered and linked to, and rankings respond gradually as your profile grows. In client work I judge a link building campaign over a full quarter, looking at referring domains gained and movement for target searches, rather than expecting instant results."
+      },
+      {
+        "q": "How many backlinks does a small site need?",
+        "a": "There is no fixed number. It depends on your niche and on who already ranks for your target searches. Compare your referring domains with the sites on page one, then aim to close the gap steadily with relevant links. A small site can compete with a modest number of good links when its content matches search intent better than the competition."
+      },
+      {
+        "q": "Should I buy backlinks to get results faster?",
+        "a": "No. Buying links to manipulate rankings breaches Google's spam policies and can lead to a manual action that is painful to recover from. Paid placements that pass PageRank are link schemes, even when the seller calls them sponsored posts or editorial. Earn links through useful content and honest outreach instead. It is slower, but the results last."
+      },
+      {
+        "q": "What is the difference between building backlinks and getting backlinks?",
+        "a": "The two phrases describe the same goal from different angles. Getting backlinks is the outcome: other sites linking to your pages. Building backlinks is the deliberate work that leads there, which means publishing link worthy content, doing outreach, guest posting and digital PR. You cannot control who links to you, but you can control what you publish and the effort you put into outreach."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Link spam",
+        "url": "https://support.google.com/webmasters/answer/9044175"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ],
+    "relatedService": {
+      "href": "/link-building",
+      "label": "See our link building service"
+    }
+  },
+  {
+    "slug": "seo-audit-checklist",
+    "image": "/blog/seo-audit-checklist.png",
+    "title": "SEO Audit Checklist: The 2026 Technical Audit, Step by Step",
+    "seoTitle": "SEO Audit Checklist: 2026 Technical Audit Guide",
+    "metaDescription": "A 2026 SEO audit checklist: crawl, indexation, speed, content and links. Learn how to perform an SEO audit step by step and fix what matters first today.",
+    "excerpt": "A step-by-step SEO audit checklist covering crawlability, indexation, speed, content and links, so you can find what is holding your site back and fix it in the right order.",
+    "category": "SEO",
+    "keyword": "seo audit checklist",
+    "publishDate": "2026-11-29",
+    "readingMinutes": 7,
+    "intro": [
+      "An SEO audit checklist is a structured pass through your website that finds the issues holding back your search visibility, then ranks them so you fix the important ones first. In short, learning how to perform an SEO audit means checking crawlability, indexation, technical foundations, content quality and links, in that order, and writing down what you find before you change anything.",
+      "I have run this process for clients across many industries over the past seven years, and the pattern rarely changes: most sites lose traffic to a handful of basic problems, not one exotic bug. A slow template, pages Google cannot reach, thin content or a broken internal link structure will cost you more than any single missing keyword. This checklist walks through the audit I run myself, step by step, so you can do the same on your own site."
+    ],
+    "keyTakeaways": [
+      "Start with crawlability and indexation, because pages Google cannot reach cannot rank.",
+      "Fix technical foundations next: speed, mobile usability, security and clean site structure.",
+      "Audit content page by page, keeping only pages that serve a clear search intent.",
+      "Check your links, both internal and external, for broken, wasted or low-quality connections.",
+      "End with a prioritised fix list, ordered by likely impact, not by how easy each fix looks."
+    ],
+    "sections": [
+      {
+        "heading": "Set up before you touch anything",
+        "paragraphs": [
+          "A good audit starts with access and a baseline, not with fixes. Make sure you can open Google Search Console and your analytics, and run a crawl with a tool such as Screaming Frog or Sitebulb so you have a full list of URLs. Note your current traffic, your top landing pages and your main keywords, because you need that baseline to judge whether a later change helped or hurt.",
+          "Keep a simple spreadsheet for findings, with one row per issue, the affected URLs, the likely cause and the fix. This sounds slow, but it stops the classic audit mistake: changing ten things at once and never knowing which one moved the needle. A checklist is only useful if the findings are written down somewhere you can act on."
+        ]
+      },
+      {
+        "heading": "Check crawlability and indexation first",
+        "paragraphs": [
+          "Search engines can only rank pages they can crawl and index, so this is where every SEO technical audit checklist should begin. Open your robots.txt file and confirm you are not blocking important sections by accident, then check your XML sitemap to see that it lists live, indexable pages and nothing else. In Search Console, compare the number of indexed pages against the number you expect, and look at the pages reported as crawled but not indexed.",
+          "Common culprits here are staging URLs left live, parameter pages multiplying into thousands of near duplicates, and important pages buried so deep in the site structure that crawlers rarely reach them. Fix blocking rules first, clean the sitemap, then use internal links to bring orphaned or deep pages closer to the homepage. Re-check indexation a few days after each fix rather than assuming it worked."
+        ],
+        "bullets": [
+          "Compare indexed pages in Search Console with your real page count.",
+          "Check robots.txt for accidental blocks on key sections.",
+          "Remove dead, duplicate or staging URLs from your XML sitemap.",
+          "Find orphaned pages with no internal links and link them in."
+        ]
+      },
+      {
+        "heading": "Audit speed, mobile and site structure",
+        "paragraphs": [
+          "Once pages can be crawled, check whether they load well for real visitors. Test your main templates on both mobile and desktop, looking at load time and layout shifts as well as the Core Web Vitals report in Search Console. Compress oversized images, remove unused scripts, and check that your hosting responds quickly, because a slow site frustrates visitors long before it affects rankings.",
+          "Then check the structure. Every page should sit within a few clicks of the homepage, URLs should be short and readable, and your HTTPS setup should be consistent, with no mixed content warnings. Confirm your canonical tags point to the right version of each page, and that your navigation and breadcrumbs reflect the way customers actually browse your services."
+        ],
+        "bullets": [
+          "Test Core Web Vitals on your most visited templates.",
+          "Compress images and remove scripts the page does not need.",
+          "Check every page is reachable within a few clicks of the homepage.",
+          "Confirm HTTPS, canonical tags and redirects are consistent."
+        ]
+      },
+      {
+        "heading": "Review content and on-page basics",
+        "paragraphs": [
+          "Now look at the pages themselves. Each important page should target one clear topic, answer the search intent behind it, and say something a visitor cannot get from ten other sites. Read the titles and meta descriptions across your top pages and check they describe the page honestly. Thin pages, pages targeting the same keyword as each other, and pages copied from elsewhere all weaken the site, so decide for each one whether to improve it, merge it or remove it.",
+          "Check the basics on every key page: one clear H1, headings that follow a sensible order, images with descriptive alt text, and internal links to related pages where they genuinely help the reader. Also confirm your structured data is valid where you use it, because errors there can waste the effort you put into the visible content. Content work is the slowest part of an audit, but it is usually where the largest gains sit."
+        ]
+      },
+      {
+        "heading": "Assess links, then build your fix list",
+        "paragraphs": [
+          "Finally, look at links. Inside the site, check for broken internal links, pages that receive almost no internal links despite being important, and links pointing to redirected or removed pages. Externally, review who links to you, flagging anything that looks bought, irrelevant or spammy, and note which of your best pages have the fewest links, because those are often your easiest wins.",
+          "With the findings in hand, build your fix list and order it by impact: crawl blocks and indexation problems first, then speed and structure, then content, then links. Assign each fix an owner and a date, and re-crawl the site after each round of changes so you can confirm the issue is genuinely gone. An audit that ends in a tidy document nobody acts on is wasted effort, so the fix list is the real deliverable."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long does a full SEO audit take?",
+        "a": "For a small business site of a few dozen pages, a thorough audit usually takes a few working days, including the fix list. Larger sites with thousands of pages can take a couple of weeks, because the crawl, content review and link analysis all grow with the site. The time is worth spending: rushing an audit means guessing, and guessing means fixing the wrong things first."
+      },
+      {
+        "q": "How often should I run an SEO audit?",
+        "a": "A full audit once or twice a year works for most sites, with a shorter check after any redesign, migration or sharp traffic change. Between audits, watch Search Console weekly for new crawl errors, indexation drops or manual actions, so small problems are caught before they become large ones."
+      },
+      {
+        "q": "Can I do an SEO audit myself, or do I need an agency?",
+        "a": "You can run a useful audit yourself if you are comfortable with Search Console and a crawling tool, and this checklist covers the main steps. An agency adds value when the site is large, the problems are tangled, or you need someone to prioritise fixes and carry them out, but the audit itself is a learnable process, not a mystery."
+      },
+      {
+        "q": "What is the most common issue found in an SEO audit?",
+        "a": "In my experience, the most common issues are pages Google has not indexed, slow templates, and thin or duplicated content. None of these is dramatic on its own, which is why they survive for years, but together they quietly cap how well a site can perform. That is why the checklist starts with crawlability and works through the basics before touching anything advanced."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      },
+      {
+        "label": "Google Search Central: Core Web Vitals",
+        "url": "https://developers.google.com/search/docs/appearance/core-web-vitals"
+      },
+      {
+        "label": "Google Search: Search Console help",
+        "url": "https://support.google.com/webmasters/answer/9044175"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/seo",
+      "label": "See our SEO service"
+    }
+  },
+  {
+    "slug": "digital-pr-vs-link-building",
+    "image": "/blog/digital-pr-vs-link-building.png",
+    "title": "Digital PR vs Link Building: Which Earns Better Links?",
+    "seoTitle": "Digital PR vs Link Building: Which Earns Better Links?",
+    "metaDescription": "Digital PR vs link building: which earns better links? Compare costs, timelines, control and results, then choose the best approach that fits your goals.",
+    "excerpt": "Digital PR earns links through newsworthy stories, link building through outreach and placements. Compare costs, control, timelines and results to see which fits your business.",
+    "category": "Link Building",
+    "keyword": "digital pr vs link building",
+    "publishDate": "2026-11-30",
+    "readingMinutes": 7,
+    "intro": [
+      "Digital PR earns links by creating stories journalists want to cover, while link building earns links by placing content on relevant websites, usually through outreach or guest posts. Neither is better in every situation: digital PR tends to win on authority and brand exposure, link building tends to win on control, relevance and predictable cost, so the right choice depends on your budget, timeline and goals.",
+      "Over seven years in SEO I have used both approaches for clients, and most businesses benefit from a mix. A UK business launching a new product might get more from one strong data story in national press than from a dozen guest posts, while a niche ecommerce store often needs steady, relevant links that digital PR alone cannot supply. This guide compares both approaches on the points that actually decide results."
+    ],
+    "keyTakeaways": [
+      "Digital PR earns links through newsworthy stories and journalist coverage.",
+      "Link building earns links through outreach, guest posts and relevant placements.",
+      "Digital PR usually brings stronger authority and brand exposure, but costs more and is less predictable.",
+      "Link building gives more control over anchor text, placement and timing.",
+      "Most businesses get the best return from a mix, weighted to their budget and goals."
+    ],
+    "sections": [
+      {
+        "heading": "What digital PR actually is",
+        "paragraphs": [
+          "Digital PR is the practice of earning coverage in online publications by giving journalists something worth writing about. That usually means original research, a survey, a data analysis, a strong opinion or a timely hook tied to the news. A PR specialist pitches the story to journalists and editors, and when it lands, the coverage often includes a link back to your site, alongside brand mentions and referral traffic.",
+          "The work sits closer to journalism than to SEO. You need a story with a clear angle, data you can stand behind, and a pitch that respects the journalist's deadline and audience. In the UK, that often means targeting national newspapers, trade press and regional outlets, and understanding what each one considers newsworthy. A story that works for a business magazine may be ignored by a consumer tabloid, so targeting matters as much as the idea itself."
+        ]
+      },
+      {
+        "heading": "What link building actually is",
+        "paragraphs": [
+          "Link building covers the deliberate work of earning links from relevant websites, most often through outreach and guest posting. You identify sites your audience already reads, propose a useful article or resource, and place it with a link back to a page on your site. Done well, it builds a steady stream of relevant links to the pages that need them most: service pages, product pages and key guides.",
+          "The strength of link building is its precision. You choose the site, agree the topic, control the anchor text within sensible limits, and decide when the link goes live. That control is also its weakness: placements on sites nobody reads add little, and paying for links on low-quality sites can do real damage. The work only pays off when the sites are genuinely relevant and the content is genuinely useful."
+        ],
+        "bullets": [
+          "Guest posts on relevant blogs and industry publications.",
+          "Resource pages and link roundups that fit your content.",
+          "Broken link replacement on pages that already rank.",
+          "Expert commentary and quotes for journalists and bloggers."
+        ]
+      },
+      {
+        "heading": "Where digital PR wins",
+        "paragraphs": [
+          "Digital PR wins when authority and exposure matter more than volume. A single link from a major UK national newspaper or a respected trade publication can carry more weight than many smaller links, and often brings brand searches, social shares and referral traffic too. For businesses launching something new, entering a competitive market or trying to build a reputation quickly, that kind of coverage is hard to buy any other way.",
+          "It also creates assets that keep working. A good survey or dataset can be pitched again with a fresh angle, quoted in later articles, and used on your own site as a resource other people link to. The downside is unpredictability: even a strong story can be ignored if the news cycle is crowded, and you cannot control the anchor text or guarantee the link appears at all. Budgets need room for campaigns that underperform."
+        ]
+      },
+      {
+        "heading": "Where link building wins",
+        "paragraphs": [
+          "Link building wins on control and consistency. You know roughly how many links you will earn, which pages they will point to, and when they will go live, which makes planning and measurement easier. For a business that needs links to specific commercial pages, such as a service page that ranks on page two, that precision is hard to replace.",
+          "It also scales down well. A small business with a modest monthly budget can still earn a handful of relevant links each month, while digital PR usually needs a larger minimum spend to produce anything worth pitching. The risk is quality drift: chasing volume tempts people toward easy placements on weak sites, so a strict relevance and quality bar is the only thing that keeps link building effective over time."
+        ],
+        "bullets": [
+          "Links point to the exact pages that need authority.",
+          "Anchor text and placement are agreed in advance.",
+          "Results arrive on a predictable schedule you can report on.",
+          "Smaller budgets can still buy steady, relevant progress."
+        ]
+      },
+      {
+        "heading": "Which should you choose, and can you combine them?",
+        "paragraphs": [
+          "Choose digital PR when you have a genuine story, a budget that can absorb an occasional miss, and a goal that includes brand awareness as well as links. Choose link building when you need predictable links to specific pages, your budget is modest, or your market is so niche that journalists rarely cover it. A UK solicitor, specialist manufacturer or local ecommerce store will often get more from link building, while a consumer brand with survey data will often get more from digital PR.",
+          "In practice, combining the two works best for most businesses. Use digital PR a few times a year for the big authority wins and the brand exposure, and use link building month to month for steady, relevant links to the pages that convert. That way you never wait on a journalist's inbox for your only links, and never settle for small placements when a bigger story could lift the whole site."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is digital PR more expensive than link building?",
+        "a": "Usually, yes, because a digital PR campaign needs research, data work, creative assets and pitching time before a single link appears, and some campaigns earn little. Link building costs are easier to predict, since you pay per placement or per month of outreach. Compare cost per quality link over a year, not one campaign against one guest post."
+      },
+      {
+        "q": "Can digital PR guarantee links?",
+        "a": "No. Journalists choose what to cover, and even a strong story can be ignored, which is why no honest agency guarantees a set number of links from a PR campaign. What you can guarantee is quality research, a relevant pitch list and real follow-up effort. If someone promises a fixed number of national press links, treat that promise with suspicion."
+      },
+      {
+        "q": "Which approach is safer for SEO?",
+        "a": "Both are safe when done honestly and risky when done badly. Digital PR is safer in one sense, because links come from editorial decisions rather than payment, but link building is equally safe when placements are relevant, content is useful and links are earned rather than bought. The danger in both cases is the same: low-quality, irrelevant or paid links at scale."
+      },
+      {
+        "q": "How long does each approach take to show results?",
+        "a": "Link building usually shows results sooner, because placements go live on an agreed schedule and you can track them from day one. Digital PR takes longer to set up, a story can take weeks from idea to publication, but a strong piece of coverage can move rankings and brand searches noticeably once it lands. Judge either approach over three to six months, not three weeks."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: Links that Google can crawl",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ],
+    "relatedService": {
+      "href": "/link-building",
+      "label": "See our link building service"
+    }
+  },
+  {
+    "slug": "ecommerce-seo-tips",
+    "image": "/blog/ecommerce-seo-tips.png",
+    "title": "Ecommerce SEO Tips: 10 Fixes That Help Product Pages Rank",
+    "seoTitle": "Ecommerce SEO Tips: 10 Fixes for Product Pages",
+    "metaDescription": "Ten practical ecommerce SEO fixes for product pages, from titles and crawlable links to internal links and reviews, from seven years of hands-on client work.",
+    "excerpt": "Product pages rank when they are clear, crawlable and genuinely useful to the buyer. These ten fixes cover the work I check first on any store.",
+    "category": "Ecommerce SEO",
+    "keyword": "ecommerce seo tips",
+    "publishDate": "2026-12-01",
+    "readingMinutes": 7,
+    "intro": [
+      "Product pages rank when they are clear, crawlable and genuinely useful to the buyer. The ten fixes in this guide cover the work I check first on any store: product titles that name the item plainly, unique descriptions written for real customers, crawlable links from category pages, internal links that point to the products that matter, images that load fast with honest alt text, and review and stock information that stays accurate. None of these is a trick, and none works alone, but together they give Google a store it can understand and trust.",
+      "Over seven years of SEO work I have seen the same pattern again and again. A store owner spends on ads and new design while the product pages underneath carry thin copy, broken links and duplicate titles. The fixes below cost little and most can be done by the store team in a few weeks. Start with the pages that already earn sales or sit close to page one, then work through the rest in order of revenue."
+    ],
+    "keyTakeaways": [
+      "Product pages rank when titles, descriptions and links are written for real buyers, not copied from a supplier feed.",
+      "Every product worth selling needs a crawlable path from the homepage through category pages.",
+      "Internal links should point at the products and categories that earn revenue, not spread evenly everywhere.",
+      "Faceted navigation and duplicate URLs quietly waste crawl budget and split ranking signals.",
+      "Fast images, honest reviews and accurate stock details support both rankings and sales."
+    ],
+    "sections": [
+      {
+        "heading": "Write product titles and descriptions for buyers first",
+        "paragraphs": [
+          "A product title should name the item the way a customer would search for it, with the brand, model and one defining feature, and nothing more. Titles stuffed with extra keywords read badly and rarely help, because Google already understands the page from the title, headings and surrounding text. Keep the format consistent across the store so buyers can scan a category page quickly and compare products without guessing what each one is.",
+          "Descriptions need the same honesty. Write a short paragraph that explains what the product does, who it suits and what is included in the box, then add the specifications buyers actually check, such as size, material, compatibility and warranty. Copying the supplier description word for word leaves your page identical to dozens of other stores, which gives Google no reason to prefer yours. Unique copy takes time, so start with best sellers and work down the list."
+        ],
+        "bullets": [
+          "Name the brand, model and key feature in every title.",
+          "Write one unique paragraph per product, starting with best sellers.",
+          "List the specifications buyers check before they buy.",
+          "Remove supplier copy that appears unchanged on other stores."
+        ]
+      },
+      {
+        "heading": "Make every product page crawlable and reachable",
+        "paragraphs": [
+          "A product page can only rank if Google can find it, crawl it and index it. That sounds obvious, yet I regularly find stores where new products are linked only from a search results page or a JavaScript widget, which means crawlers may never reach them. Every product should sit no more than three clicks from the homepage, reached through normal category links that appear in the page HTML. Check the path yourself by clicking from the homepage, not by trusting the sitemap alone.",
+          "Search Console shows which product URLs are indexed and which are excluded, and that report is the first place I look on a new store. Common causes of missing pages include accidental noindex tags left from staging, products hidden behind login walls, and URLs that change every time a filter is applied. Fix the cause rather than resubmitting the same URL. Once the path is clean, most products appear in the index within days, though ranking takes longer."
+        ]
+      },
+      {
+        "heading": "Use internal links to spread authority to product pages",
+        "paragraphs": [
+          "Category pages and popular blog posts usually hold the most authority on a store, so the links from those pages decide which products Google treats as important. Link from a category page to the products that convert best, using anchor text that names the product rather than a generic phrase like click here. The same applies to buying guides and comparison posts, which should link to the products they discuss instead of only linking back to the homepage.",
+          "Keep the linking natural and limited. A category page with fifty identical links helps nobody, and a blog post that links every product name looks like a sales page rather than a guide. I aim for a small number of relevant links per page, placed where a reader would genuinely want them, and I revisit the links whenever a product is discontinued so the store never sends shoppers or crawlers to a dead page."
+        ],
+        "bullets": [
+          "Link best sellers from their category pages with descriptive anchor text.",
+          "Add product links to buying guides and comparison posts.",
+          "Remove links to discontinued products promptly.",
+          "Avoid generic anchor text such as click here."
+        ]
+      },
+      {
+        "heading": "Fix faceted navigation and duplicate pages",
+        "paragraphs": [
+          "Filters for size, colour, price and brand are useful for shoppers, but each combination can create a new URL that Google may crawl and index. A store with a few hundred products can end up with thousands of near identical pages, which dilutes ranking signals and wastes crawl budget on pages nobody searches for. Decide which filtered views deserve to exist, such as a popular brand or colour, and prevent the rest from being crawled or indexed.",
+          "Canonical tags help, but they are a hint rather than a command, so they work best alongside clean internal linking that points at the main version of each page. Keep one URL per product, avoid session parameters in links, and check that the same product does not appear under two different category paths with different URLs. When duplicates already exist, choose the strongest version, redirect the rest and update every internal link."
+        ]
+      },
+      {
+        "heading": "Speed, images and reviews that support the sale",
+        "paragraphs": [
+          "Product images sell the item, but large uncompressed files slow the page and frustrate shoppers on mobile connections. Compress images before upload, serve them at the size the page actually displays, and use a modern format where your platform supports it. Add honest alt text, which helps accessibility and gives search engines a clearer picture of the page. A page that loads quickly keeps shoppers on it, and that behaviour supports rankings over time.",
+          "Reviews and stock information deserve the same care. Display genuine customer reviews near the product, answer the common questions buyers ask, and keep stock status accurate so nobody reaches checkout only to find the item unavailable. Structured data for products can help search engines understand price, availability and review details, but it only works when the visible page shows the same facts. Add it once the page content is right, not as a substitute for it."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How long does ecommerce SEO take to show results?",
+        "a": "It depends on the store, but most product pages need several weeks after a fix before movement is visible, and competitive terms can take months. I track progress by watching indexed pages, impressions and clicks in Search Console rather than checking a single keyword every day."
+      },
+      {
+        "q": "Do I need a unique description for every product?",
+        "a": "Ideally yes, but few stores can rewrite thousands of pages at once. Start with the products that earn the most revenue and the pages closest to ranking, then work through the rest in batches. A short unique paragraph beats a copied supplier description on every page."
+      },
+      {
+        "q": "Should I add structured data to product pages?",
+        "a": "Yes, once the page content is accurate. Product structured data can help search engines understand price, availability and reviews, but it must match what shoppers actually see. Never add review or stock information that the page does not show."
+      },
+      {
+        "q": "What should I do with out of stock products?",
+        "a": "Keep the page live if the product will return, and say so clearly with an option to be notified. If it is gone for good, redirect the page to the closest replacement and update internal links. Deleting the page without a redirect loses the links and rankings it earned."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Spam policies for Google web search",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      },
+      {
+        "label": "Google Search Central: Core Web Vitals",
+        "url": "https://developers.google.com/search/docs/appearance/core-web-vitals"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/complete-ecommerce-management",
+      "label": "See our ecommerce service"
+    }
+  },
+  {
+    "slug": "keyword-research-checklist",
+    "image": "/blog/keyword-research-checklist.png",
+    "title": "Keyword Research Checklist: Find Terms Worth Targeting",
+    "seoTitle": "Keyword Research Checklist: Find Terms to Target",
+    "metaDescription": "A keyword research checklist that helps you find terms worth targeting, check search intent, judge difficulty honestly and build a list before you write.",
+    "excerpt": "Good keyword research answers one question: which search terms are worth your time. This checklist takes you from seed terms to a shortlist mapped to pages.",
+    "category": "SEO",
+    "keyword": "keyword research checklist",
+    "publishDate": "2026-12-02",
+    "readingMinutes": 7,
+    "intro": [
+      "Good keyword research answers one question: which search terms are worth your time. The checklist in this guide starts with seed terms taken from real customers, expands them with related searches and questions, checks the intent behind each term, and ends with a shortlist mapped to specific pages. Terms that match your service, match what the searcher wants and sit within reach of your site are the ones to target. Everything else goes on a list for later, or gets dropped.",
+      "I have run this process for clients across many niches over seven years, and the mistakes are always the same. People chase the biggest volume term in their niche, ignore what the searcher actually wants, and build a page that never stands a chance. The checklist below prevents that. It is deliberately slow at the start, because an hour spent choosing the right terms saves weeks of writing pages that target the wrong ones."
+    ],
+    "keyTakeaways": [
+      "Start with seed terms from real customer language, not from a tool alone.",
+      "Expand carefully and group related terms by topic before judging any of them.",
+      "Check search intent by reading the pages that already rank for each term.",
+      "Judge difficulty by the strength of the ranking pages, not by a single tool score.",
+      "Map every chosen term to one specific page and keep the rest for later."
+    ],
+    "sections": [
+      {
+        "heading": "Start with seed terms from real customers",
+        "paragraphs": [
+          "Seed terms are the starting words and phrases your customers actually use, and the best source is your own business. Read enquiry emails, support tickets and sales call notes, and write down the exact words customers use to describe their problem. A plumber hears blocked drain at midnight, while a tool might suggest drainage solutions, and the customer wording is usually closer to what people type into Google.",
+          "Add the terms from your service pages and your own knowledge of the niche, then keep the list short, around twenty to thirty seeds for a small site. A long seed list creates noise, while a short list keeps the research focused on terms connected to work you actually do. Every seed should relate to a service you offer or a problem you solve, because a term with no matching page is a term you cannot target properly."
+        ],
+        "bullets": [
+          "Collect exact phrases from enquiries, calls and support tickets.",
+          "Add the services and problems your business actually covers.",
+          "Keep the seed list to around twenty to thirty terms.",
+          "Drop any seed with no matching page or service."
+        ]
+      },
+      {
+        "heading": "Expand the list without drowning in volume",
+        "paragraphs": [
+          "Once you have seeds, expand them using autocomplete suggestions, related searches at the bottom of results pages, and the questions people ask in forums and comment sections. A keyword tool helps here, but treat it as a way to find ideas rather than a source of truth. Tools estimate volume from sampled data, so their numbers are approximate, and a term they label low volume can still bring valuable enquiries if it matches a buying intent.",
+          "Group the expanded terms by topic as you go, so terms about pricing sit together, terms about how to choose sit together, and terms about a specific service sit together. This grouping matters because it shows you which topics deserve a page and which terms are simply variations of the same question. Aim for a working list of a few hundred terms at most for a small site, then cut anything that does not connect to your services."
+        ]
+      },
+      {
+        "heading": "Check search intent before you commit",
+        "paragraphs": [
+          "Search intent is what the searcher wants to achieve, and it decides whether your page can rank at all. Search the term and read the top results: if they are guides, the searcher wants to learn; if they are product or service pages, the searcher wants to buy or hire. A service page will struggle against a results page full of guides, and a guide will struggle against a results page full of shops, so match your page type to the intent you see.",
+          "Look closely at the format too. Short answers, lists, comparisons and local results each signal a different expectation, and your page should meet the one in front of you. If the intent is unclear or mixed, note the term and move on rather than forcing a page into the wrong shape. I would rather drop a term than publish a page that fights the results page it needs to join."
+        ],
+        "bullets": [
+          "Search each term and read the top five results.",
+          "Note whether results are guides, shops or service pages.",
+          "Match your page type to the intent you see.",
+          "Drop terms where the intent is unclear or mismatched."
+        ]
+      },
+      {
+        "heading": "Judge difficulty honestly",
+        "paragraphs": [
+          "Difficulty is not a number in a tool, it is a judgement about the pages you must beat. Open the top results and ask whether they are strong: established sites with deep content, many quality links and clear expertise. A new or small site can outrank weak pages, thin directory listings and outdated posts, but it will rarely outrank a detailed guide from a trusted brand on the first attempt. Be honest about where your site stands today.",
+          "Use the tool difficulty score only as a rough filter, then confirm it by reading the results yourself. I sort terms into three groups: terms I can target now, terms to target after building more content and links, and terms to leave alone for now. This keeps the plan realistic and stops the team writing pages that never had a chance. Review the groups every few months, because a term that was too hard can become reachable as your site grows."
+        ]
+      },
+      {
+        "heading": "Build a shortlist and map terms to pages",
+        "paragraphs": [
+          "A shortlist is a small set of terms you will actually target, usually one primary term per page plus a handful of close variations that the same page can cover. Choose terms that combine a clear service match, the right intent and a difficulty your site can handle, and write the mapping down in a simple sheet: term, page, intent, and the reason you chose it. This document becomes the plan for writing, and it stops two pages competing for the same term.",
+          "Keep the rest of the research rather than deleting it. Terms that are too hard today may fit in six months, and terms with the wrong intent may fit a different page type later. Revisit the list each quarter, check whether the results pages have changed, and promote terms when your site is stronger. Research is not a one off task, it is a record that grows with the business."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "How many keywords should one page target?",
+        "a": "One primary term, supported by a handful of close variations that the same page answers naturally. Trying to target ten unrelated terms on one page weakens the focus and confuses both readers and search engines. If two terms need different answers, they need different pages."
+      },
+      {
+        "q": "Can I do keyword research without paid tools?",
+        "a": "Yes. Autocomplete, related searches, the questions in forums and your own enquiry emails provide plenty of starting material. Paid tools speed up volume estimates and competitor checks, but they are not required, and their numbers are estimates either way."
+      },
+      {
+        "q": "How often should I redo keyword research?",
+        "a": "Review your list each quarter and redo the full process when you add a service, enter a new market or notice traffic falling. Search results change as competitors publish and Google updates how it answers, so a term that fitted last year may need a different page today."
+      },
+      {
+        "q": "Should I target low volume keywords?",
+        "a": "Often yes. A term with modest volume but clear buying intent can bring better enquiries than a broad term with vague intent. Judge a term by the quality of the traffic it is likely to bring, not by the volume number alone."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Central: Creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: How Google Search works",
+        "url": "https://developers.google.com/search/docs/fundamentals/how-search-works"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      },
+      {
+        "label": "Google Search Central: How to make your links crawlable",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      }
+    ],
+    "relatedService": {
+      "href": "/services/seo",
+      "label": "See our SEO service"
+    }
+  },
+  {
+    "slug": "what-is-a-guest-post",
+    "image": "/blog/what-is-a-guest-post.png",
+    "title": "What Is a Guest Post? A Beginner's Guide to Guest Posting",
+    "seoTitle": "What Is a Guest Post? Beginner's Guide to Guest Posting",
+    "metaDescription": "Learn what a guest post is, how guest posting works, and how to do it safely. A beginner's guide from an SEO specialist with 7 years of hands-on experience.",
+    "excerpt": "A guest post is an article you write for another website in your niche. This beginner's guide explains how guest posting works, what editors look for, and how to do it safely.",
+    "category": "Guest Posting",
+    "keyword": "what is a guest post",
+    "publishDate": "2026-12-03",
+    "readingMinutes": 7,
+    "intro": [
+      "A guest post is an article you write and publish on someone else's website, usually in your niche, with your name on it as the author. The host site gets fresh, useful content for its readers, and you get exposure to a new audience, a chance to show your expertise, and often a link back to your own website. That simple exchange is the whole idea, and it has been part of SEO and content marketing for years.",
+      "I have spent seven years working in SEO, and guest posting is one of the first tactics most beginners ask me about. It still works when it is done honestly, on real sites, with content that genuinely helps the reader. It stops working, and can cause real harm, when it becomes a shortcut for buying links at scale. This guide explains what a guest post is, how the process works, and how to approach it in a way that respects both the host site and Google's rules."
+    ],
+    "keyTakeaways": [
+      "A guest post is an article you write for another website in your niche, published under your name.",
+      "Good guest posts help the host site's readers first, and any link back is a secondary benefit.",
+      "Pitch a specific idea that fits the site, then write original content that matches its style and standards.",
+      "Links from guest posts should follow Google's spam policies, and links meant to pass ranking credit should be qualified.",
+      "Large scale guest posting built mainly to gain links is against Google's policies, so keep your focus on real value."
+    ],
+    "sections": [
+      {
+        "heading": "What a guest post actually is",
+        "paragraphs": [
+          "At its simplest, a guest post is content written by someone who does not normally write for that website. You are the guest. The site owner, or editor, agrees to publish your article because it is useful to their audience and fits the topics they already cover. Your name appears as the author, often with a short bio and sometimes a link to your website or your social profiles.",
+          "For the host site, it is a way to publish fresh expert content without writing everything in house. For you, it is a way to reach new readers, show that you know your subject, and build relationships with editors in your niche. The link, when one is included, is only part of the value."
+        ]
+      },
+      {
+        "heading": "How guest posting works in practice",
+        "paragraphs": [
+          "The process usually starts with finding a site that accepts guest contributions and covers topics close to your own work. Read several of its recent articles first, so you understand its tone, its audience and what it has already covered. Then send a short pitch, normally by email, suggesting one or two specific article ideas and explaining briefly why each one would interest their readers.",
+          "If the editor likes your idea, they will confirm the topic, the expected length and any guidelines on links and formatting. You then write the article, send it back for review, and revise it if asked. That is normal. Once it is published, share it, reply to comments and thank the editor. A good first experience often leads to a second invitation."
+        ]
+      },
+      {
+        "heading": "What makes a guest post worth publishing",
+        "paragraphs": [
+          "Editors accept guest posts that make their site better, not posts that read like adverts. The strongest articles answer a real question their readers ask, or share practical experience that is hard to find elsewhere. Before you write, ask what the reader will be able to do differently after reading it. If you cannot answer that, the idea needs more work.",
+          "Original detail is what separates a useful guest post from filler. Draw on your own work: a problem you solved, a process you use, a mistake you learned from, or a comparison you have actually tested. Be specific where you can, use examples, and keep the language simple. Readers trust writers who sound like they have done the work, not writers who repeat general advice they found somewhere else."
+        ],
+        "bullets": [
+          "Answer one clear question the site's readers are already asking.",
+          "Use real examples from your own work, not generic advice.",
+          "Match the site's tone, structure and formatting guidelines.",
+          "Keep self-promotion light: the value should speak for itself."
+        ]
+      },
+      {
+        "heading": "Guest posting and links: what Google expects",
+        "paragraphs": [
+          "Links are often the reason people start guest posting, so this part deserves honesty. Google's spam policies treat links intended to manipulate rankings as spam, including large scale article campaigns built mainly to pass ranking credit. A guest post written purely to place a keyword rich link, published across many sites with little regard for quality, falls squarely into that category.",
+          "The safe approach is to treat the link as secondary and to qualify links where appropriate. If a link exists mainly to pass ranking credit, it should carry a rel attribute such as sponsored or nofollow, following Google's guidance. Focus instead on earning links naturally by writing content that editors and readers genuinely value. Over time, that approach builds the kind of profile that holds up, while link schemes built at scale tend to unravel."
+        ]
+      },
+      {
+        "heading": "How to start guest posting as a beginner",
+        "paragraphs": [
+          "Start small, with sites that are realistic for a first pitch. A smaller niche blog with an engaged audience is often a better first step than a large publication with a long queue. Read its guidelines page if it has one, and follow it exactly. Editors notice when a writer has actually read the guidelines, and they notice just as quickly when one has not.",
+          "Write your best work for the first few posts, even if the site is small. Those published articles become your portfolio, and your next pitch is much stronger when you can point to real examples. Keep a simple record of where you pitched, what you proposed and what happened, so you can follow up politely and learn which ideas editors respond to. Guest posting is a slow skill, and it improves with every honest attempt."
+        ],
+        "bullets": [
+          "Pitch one specific idea, not a vague offer to write anything.",
+          "Read the site's guidelines before you send anything.",
+          "Follow up once, politely, then move on if there is no reply.",
+          "Keep a record of every pitch and published post."
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Is guest posting still worth doing in 2026?",
+        "a": "Yes, when it is done for the right reasons. A guest post on a real site in your niche can put your work in front of new readers, build your reputation and open doors to further opportunities. What no longer works is treating guest posting as a shortcut for links at scale, because Google's spam policies are clear on that point."
+      },
+      {
+        "q": "Do guest posts help with SEO?",
+        "a": "They can help, but indirectly and over time. A well written post on a respected site can bring referral traffic, build your name in your niche and sometimes earn natural links from readers who found your work useful. A link placed only to pass ranking credit, on the other hand, should be qualified, and it will not carry the same weight."
+      },
+      {
+        "q": "How do I find websites that accept guest posts?",
+        "a": "Start with sites you already read in your niche, and check whether they publish guest authors or have a write for us page. Search for your topic plus phrases like write for us or guest post guidelines, then check each site carefully before pitching. Look for real recent articles and genuine readers. A site that publishes anything, for anyone, is usually not worth your time."
+      },
+      {
+        "q": "What should I avoid when guest posting?",
+        "a": "Avoid sites that exist mainly to sell links, accept almost any article, or publish low quality content across unrelated topics. Avoid reusing the same article on many sites, stuffing keywords into anchor text, and hiding paid links. If an offer sounds too easy, with guaranteed placement on dozens of sites for a flat fee, treat it with caution and check it against Google's spam policies first."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Google Search Essentials: spam policies",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies"
+      },
+      {
+        "label": "Google Search Central: creating helpful, reliable, people-first content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      },
+      {
+        "label": "Google Search Central: links that Google can crawl",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+      },
+      {
+        "label": "Google Search Central: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
       }
     ],
     "relatedService": {
