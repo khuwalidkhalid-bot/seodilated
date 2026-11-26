@@ -6,7 +6,7 @@ export default function CertBadges() {
     <div className="cert-row" aria-label="Certifications">
       <div className="cert-badge">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/semrush.svg" alt="Semrush" className="cert-logo" />
+        <img src="/semrush.svg" alt="Semrush" className="cert-logo" width={24} height={24} />
         <div className="cert-text">
           <span className="cert-name">Semrush Certified</span>
           <span className="cert-sub">
