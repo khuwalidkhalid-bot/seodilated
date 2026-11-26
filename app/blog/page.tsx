@@ -24,10 +24,10 @@ function PostCard({ post }: { post: BlogPost }) {
     <div className="card">
       <img
         src={post.image}
-        alt={post.title}
+        alt={post.imageAlt}
         className="blog-card-img"
-        width={2048}
-        height={1152}
+        width={1200}
+        height={675}
         loading="lazy"
       />
       <span className="eyebrow">{post.category}</span>
