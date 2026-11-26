@@ -12,7 +12,7 @@ import {
   webSiteJsonLd,
 } from "@/lib/seo";
 
-const DEFAULT_TITLE = "Digital Agency: SEO, Web Development & Ecommerce | SEODilated";
+const DEFAULT_TITLE = "SEO & Link Building Agency | Guest Posts | SEODilated";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
