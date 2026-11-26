@@ -34,6 +34,8 @@ export async function generateMetadata({
     description: post.metaDescription,
     path: `/blog/${slug}`,
     image: post.image,
+    imageWidth: 1200,
+    imageHeight: 675,
   });
 }
 
@@ -102,10 +104,11 @@ export default async function BlogPostPage({
         <div className="container">
           <img
             src={post.image}
-            alt={post.title}
+            alt={post.imageAlt}
             className="blog-hero-img"
-            width={2048}
-            height={1152}
+            width={1200}
+            height={675}
+            fetchPriority="high"
           />
         </div>
       </section>
@@ -250,10 +253,10 @@ export default async function BlogPostPage({
                 <div className="card" key={p.slug}>
                   <img
                     src={p.image}
-                    alt={p.title}
+                    alt={p.imageAlt}
                     className="blog-card-img"
-                    width={2048}
-                    height={1152}
+                    width={1200}
+                    height={675}
                     loading="lazy"
                   />
                   <span className="eyebrow">{p.category}</span>
