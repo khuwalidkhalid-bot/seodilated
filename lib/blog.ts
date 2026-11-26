@@ -31,6 +31,7 @@ export interface BlogSource {
 export interface BlogPost {
   slug: string;
   image: string;
+  imageAlt: string;
   title: string;
   seoTitle: string;
   metaDescription: string;
@@ -61,7 +62,8 @@ export function todayLondon(): string {
 export const blogPosts: BlogPost[] = [
   {
     "slug": "how-to-appear-in-chatgpt-answers",
-    "image": "/blog/how-to-appear-in-chatgpt-answers.png",
+    "image": "/blog/ai-answer-brand-citations.webp",
+    "imageAlt": "AI chat answer panel citing a brand as a source, representing AI search visibility",
     "title": "How to Appear in ChatGPT Answers: A Practical Guide for Businesses",
     "seoTitle": "How to Appear in ChatGPT Answers: Practical Guide",
     "metaDescription": "Learn how to appear in ChatGPT answers with crawlable pages, clear facts, consistent business details, trusted mentions and simple monthly checks over time.",
@@ -170,7 +172,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "what-is-a-toxic-backlink",
-    "image": "/blog/what-is-a-toxic-backlink.png",
+    "image": "/blog/toxic-backlink-profile-analysis.webp",
+    "imageAlt": "Backlink profile analysis dashboard highlighting suspicious referring domains next to healthy ones",
     "title": "What Is a Toxic Backlink? How to Spot One and When to Worry",
     "seoTitle": "What Is a Toxic Backlink? Signs, Risks and Fixes",
     "metaDescription": "A toxic backlink is a low quality or manipulative link that could harm trust. Learn the real warning signs, what Google ignores, and when disavow is justified.",
@@ -274,7 +277,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "guest-posts-vs-niche-edits",
-    "image": "/blog/guest-posts-vs-niche-edits.png",
+    "image": "/blog/guest-post-vs-niche-edit-comparison.webp",
+    "imageAlt": "Comparison of writing a new guest post article and inserting a link into an existing published article",
     "title": "Guest Posts vs Niche Edits: Which Link Should You Buy First?",
     "seoTitle": "Guest Posts vs Niche Edits: Which Should You Buy First?",
     "metaDescription": "Guest posts vs niche edits compared by a working link builder: control, speed, cost and risk, plus a simple rule for which one your site should buy first.",
@@ -386,7 +390,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "how-many-backlinks-do-i-need-to-rank",
-    "image": "/blog/how-many-backlinks-do-i-need-to-rank.png",
+    "image": "/blog/backlinks-needed-to-rank-chart.webp",
+    "imageAlt": "Rising steps of backlinks lifting a page towards the top ranking position",
     "title": "How Many Backlinks Do You Need to Rank? An Honest Answer",
     "seoTitle": "How Many Backlinks Do I Need to Rank?",
     "metaDescription": "There is no fixed number of backlinks that guarantees a ranking. Learn how to judge the real target from competing pages, link quality and search intent.",
@@ -488,7 +493,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "dofollow-vs-nofollow-links",
-    "image": "/blog/dofollow-vs-nofollow-links.png",
+    "image": "/blog/dofollow-vs-nofollow-link-comparison.webp",
+    "imageAlt": "Comparison of a dofollow link passing ranking signal and a nofollow link where the signal is blocked",
     "title": "Dofollow vs Nofollow Links: What the Difference Actually Means for Your Rankings",
     "seoTitle": "Dofollow vs Nofollow Links: What Actually Matters",
     "metaDescription": "Dofollow vs nofollow links explained in plain English: what each one tells Google, how they affect rankings, and when to use sponsored and ugc tags safely.",
@@ -596,7 +602,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "link-building-strategies-for-ecommerce",
-    "image": "/blog/link-building-strategies-for-ecommerce.png",
+    "image": "/blog/ecommerce-link-building-strategies.webp",
+    "imageAlt": "Online store connected to publisher websites with an upward organic traffic chart",
     "title": "Link Building Strategies for Ecommerce Stores That Actually Fit a Real Budget",
     "seoTitle": "Link Building Strategies for Ecommerce on a Real Budget",
     "metaDescription": "Link building strategies for ecommerce that fit a real budget: supplier links, niche edits, guest posts and product-led content, sequenced in the right order.",
@@ -706,7 +713,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "how-much-does-link-building-cost",
-    "image": "/blog/how-much-does-link-building-cost.png",
+    "image": "/blog/link-building-cost-tiers.webp",
+    "imageAlt": "Three ascending tiers with link icons and coin stacks representing link building costs",
     "title": "How Much Does Link Building Cost? What You Actually Pay For",
     "seoTitle": "How Much Does Link Building Cost? Pricing Explained",
     "metaDescription": "Link building cost depends on site quality, niche, content and outreach time. Learn what drives the price, how pricing models work and how to compare quotes.",
@@ -809,7 +817,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "what-is-aeo-vs-seo",
-    "image": "/blog/what-is-aeo-vs-seo.png",
+    "image": "/blog/aeo-vs-seo-comparison.webp",
+    "imageAlt": "Side by side comparison of traditional search results and an AI generated answer panel",
     "title": "What Is Answer Engine Optimisation (AEO) vs SEO? The Real Difference",
     "seoTitle": "What Is AEO vs SEO? The Real Difference Explained",
     "metaDescription": "AEO and SEO share the same foundations but serve different results. Learn how answer engine optimisation differs from SEO, what overlaps, and where to focus.",
@@ -916,7 +925,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "link-building-services-for-ecommerce-website",
-    "image": "/blog/link-building-services-for-ecommerce-website.png",
+    "image": "/blog/choosing-ecommerce-link-building-service.webp",
+    "imageAlt": "Agency dashboard with service options being selected for an ecommerce store",
     "title": "Link Building Services for an Ecommerce Website: How to Choose the Right One",
     "seoTitle": "Choosing a Link Building Service for Ecommerce",
     "metaDescription": "Choosing a link building service for an ecommerce website? Learn the checks that matter: site quality, content standards, reporting and replacement cover.",
@@ -1029,7 +1039,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "what-are-niche-edits",
-    "image": "/blog/what-are-niche-edits.png",
+    "image": "/blog/niche-edit-link-insertion.webp",
+    "imageAlt": "Published article with a contextual hyperlink being inserted into an existing paragraph",
     "title": "What Are Niche Edits? How Link Insertions Work in Practice",
     "seoTitle": "What Are Niche Edits? Link Insertions Explained",
     "metaDescription": "A niche edit places your link inside an article already published and ranking. Learn how link insertions work, what makes a good one, and the risks to avoid.",
@@ -1136,7 +1147,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "link-building-for-ecommerce",
-    "image": "/blog/link-building-for-ecommerce.png",
+    "image": "/blog/ecommerce-link-building-steps.webp",
+    "imageAlt": "Step by step path from an online shop to traffic growth, connected by backlinks",
     "title": "Link Building for Ecommerce: A Step-by-Step Plan for a New Store",
     "seoTitle": "Link Building for Ecommerce: Step-by-Step Plan",
     "metaDescription": "Link building for ecommerce works best as a sequence: free supplier links first, then niche edits, guest posts and content worth citing. Here is the plan.",
@@ -1241,7 +1253,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "guest-post-outreach-email-template",
-    "image": "/blog/guest-post-outreach-email-template.png",
+    "image": "/blog/guest-post-outreach-email-workflow.webp",
+    "imageAlt": "Guest post outreach email workflow showing a pitch sent to a publisher and an approved reply",
     "title": "Guest Post Outreach Email Template: One That Gets Replies",
     "seoTitle": "Guest Post Outreach Email Template That Gets Replies",
     "metaDescription": "A guest post outreach email that gets replies is short, specific and written for one editor. Copy the template and learn the mistakes that kill replies.",
@@ -1361,7 +1374,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "what-is-a-good-domain-rating",
-    "image": "/blog/what-is-a-good-domain-rating.png",
+    "image": "/blog/domain-rating-gauge.webp",
+    "imageAlt": "Gauge dial pointing into the strong zone, representing a good Domain Rating score",
     "title": "What Is a Good Domain Rating? How to Read DR Honestly",
     "seoTitle": "What Is a Good Domain Rating? How to Read DR",
     "metaDescription": "Domain Rating measures a site's backlink strength on a 0 to 100 scale. Learn what counts as a good score, what DR cannot tell you, and how to read it.",
@@ -1473,7 +1487,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "how-to-build-backlinks",
-    "image": "/blog/how-to-build-backlinks.png",
+    "image": "/blog/how-to-build-backlinks-steps.webp",
+    "imageAlt": "Chain link blocks being stacked into rising steps, representing how to build backlinks",
     "title": "How to Build Backlinks in 2026: A Practical Guide for Small Sites",
     "seoTitle": "How to Build Backlinks in 2026: Practical Guide",
     "metaDescription": "Learn how to build backlinks for a small site in 2026: create pages worth linking to, earn guest posts and press mentions, and track what actually works.",
@@ -1585,7 +1600,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "seo-audit-checklist",
-    "image": "/blog/seo-audit-checklist.png",
+    "image": "/blog/seo-audit-checklist-review.webp",
+    "imageAlt": "Checklist clipboard with a magnifying glass reviewing a website during an SEO audit",
     "title": "SEO Audit Checklist: The 2026 Technical Audit, Step by Step",
     "seoTitle": "SEO Audit Checklist: 2026 Technical Audit Guide",
     "metaDescription": "A 2026 SEO audit checklist: crawl, indexation, speed, content and links. Learn how to perform an SEO audit step by step and fix what matters first today.",
@@ -1697,7 +1713,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "digital-pr-vs-link-building",
-    "image": "/blog/digital-pr-vs-link-building.png",
+    "image": "/blog/digital-pr-vs-link-building.webp",
+    "imageAlt": "Comparison of digital PR media coverage and direct link building between websites",
     "title": "Digital PR vs Link Building: Which Earns Better Links?",
     "seoTitle": "Digital PR vs Link Building: Which Earns Better Links?",
     "metaDescription": "Digital PR vs link building: which earns better links? Compare costs, timelines, control and results, then choose the best approach that fits your goals.",
@@ -1809,7 +1826,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "ecommerce-seo-tips",
-    "image": "/blog/ecommerce-seo-tips.png",
+    "image": "/blog/ecommerce-product-page-seo-fixes.webp",
+    "imageAlt": "Product page with optimisation fixes marked on its image, title and rating areas",
     "title": "Ecommerce SEO Tips: 10 Fixes That Help Product Pages Rank",
     "seoTitle": "Ecommerce SEO Tips: 10 Fixes for Product Pages",
     "metaDescription": "Ten practical ecommerce SEO fixes for product pages, from titles and crawlable links to internal links and reviews, from seven years of hands-on client work.",
@@ -1921,7 +1939,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "keyword-research-checklist",
-    "image": "/blog/keyword-research-checklist.png",
+    "image": "/blog/keyword-research-checklist.webp",
+    "imageAlt": "Magnifying glass over keyword rows with search volume bars and the best keywords checked",
     "title": "Keyword Research Checklist: Find Terms Worth Targeting",
     "seoTitle": "Keyword Research Checklist: Find Terms to Target",
     "metaDescription": "A keyword research checklist that helps you find terms worth targeting, check search intent, judge difficulty honestly and build a list before you write.",
@@ -2033,7 +2052,8 @@ export const blogPosts: BlogPost[] = [
   },
   {
     "slug": "what-is-a-guest-post",
-    "image": "/blog/what-is-a-guest-post.png",
+    "image": "/blog/what-is-a-guest-post-explained.webp",
+    "imageAlt": "Author writing an article that is then published on another website as a guest post",
     "title": "What Is a Guest Post? A Beginner's Guide to Guest Posting",
     "seoTitle": "What Is a Guest Post? Beginner's Guide to Guest Posting",
     "metaDescription": "Learn what a guest post is, how guest posting works, and how to do it safely. A beginner's guide from an SEO specialist with 7 years of hands-on experience.",

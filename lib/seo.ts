@@ -40,16 +40,20 @@ export function pageMetadata({
   description,
   path,
   image,
+  imageWidth,
+  imageHeight,
 }: {
   title: string;
   description: string;
   path: string;
   image?: string;
+  imageWidth?: number;
+  imageHeight?: number;
 }): Metadata {
   const url = `${SITE_URL}${path}`;
   const fullTitle = `${title} | ${SITE_NAME}`;
   const ogImage = image
-    ? { url: image, width: 2048, height: 1152, alt: title }
+    ? { url: image, width: imageWidth ?? 2048, height: imageHeight ?? 1152, alt: title }
     : {
         url: OG_IMAGE_PATH,
         width: 1944,
